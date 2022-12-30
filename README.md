@@ -8,7 +8,6 @@ The initial reason to start this project was to gather knowledge around the Mort
 Source code should be located at '../midwaysource/\<game\>'
 
 ## TODO:
-- Spend some time analyzing code and figure out what tools exist in each repo
 - Figure out which tools to use for Unix->DOS tools
 - Create a DOSBOX dev env
 - Try to run MK2 Sound build in DOSBox
@@ -63,3 +62,10 @@ Includes LOADW, MAKE, AOTB, BW, SAMPLER, W32SOLE
 Includes LOAD2 (not sure what this is for yet)
 
 GFX: Includes the VDASTUFF graphics tooling (VDA2FRM, ZIP2BIN) alongside documentation on how to use
+
+# Tooling
+Section which details what we know about different tools
+
+PLBUILD: Reads \<game\>.def to understand where to read sound files from (REGDIR), and then builds sound files into output ROMs (which are also defined in the def file). Unclear if PLBUILD itself runs HENRY to take the sound files from being SND to CMP, or if PLBUILD only deals with CMP files.
+
+HENRY: Converts uncompressed waveform .SND files into compressed .CMP files

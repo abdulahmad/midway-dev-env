@@ -74,7 +74,8 @@ Reads \<game\>.def to understand where to read sound files from (REGDIR), and th
 Converts uncompressed waveform .SND files into compressed .CMP files
 
 ## SREC
-Seems like it's involved in building graphics ROMs
+Seems like it's involved in building program/graphics ROMs
 
 # Open Questions
 - What generates .lrn files? Seems like game roms are built off of .lrn files
+-- In NBA Hangtime, MAKEROMS generates the lrn file. Seems to detail the sequence in the ROM files, and then srec takes that to actually build the ROM files. And then the ROMs have to be joined/interlaced after that.

@@ -28,26 +28,38 @@ Have been told this game is fully buildable.
 ## Total Carnage
 
 # T Unit (1993)
+The T Unit introduced DCS. All the games from here on out use the DCS sound system.
 
 ## NBA Jam
 
+
 ## Mortal Kombat 2
-Seems like the tools to build the graphics ROMs are missing, but these tools seem to be available (alongside documentation) in the NBA Hangtime code.
+Program: Makefile is missing but seems like this could be inferred from other games which do have the Program Makefile
+
+GFX: Seems like the tools to build the graphics ROMs are missing, but these tools seem to be available (alongside documentation) in the NBA Hangtime code.
+
+SND: Full sound toolset seems to be here. Need to create the DOSBOX dev env to test to see if this will build. Includes LOADRAM, PLBUILD, QCOMM, HENRY.
 
 ## NBA Jam TE
 
 # X Unit (1994)
 
 ## Revolution X
-Seems to have the TMS34010 asm tools as well as a version of MAKE.
+Seems to have the TMS34010 asm tools as well as a version of MAKE. Also includes BIGSREC, SREC, TV20
+
+GFX: Includes BGTOOL, LOAD20, NEWWIMP, UNILIST, WLIB, WTARG
 
 # Wolf Unit (1995)
 
 ## WWF Wrestlemania
 
 ## Mortal Kombat 3
+SND: At least some SND data seems to be here. Includes SOX
 
 ## 2 on 2 Open Ice Challenge
+Includes LOADW, MAKE, AOTB, BW, SAMPLER, W32SOLE
 
 ## NBA Hangtime
-Includes the VDASTUFF graphics tooling alongside documentation on how to use
+Includes LOAD2 (not sure what this is for yet)
+
+GFX: Includes the VDASTUFF graphics tooling (VDA2FRM, ZIP2BIN) alongside documentation on how to use

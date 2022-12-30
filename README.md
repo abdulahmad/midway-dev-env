@@ -1,6 +1,9 @@
 # midway-dev-env
 An attempt to recreate a dev environment for TMS34010 based Midway Arcade Games (Z, T, X, Wolf Unit) in an effort to build the source for games based on this hardware. This project does not include any source code of the Midway games. Do not ask where to get them either.
 
+The initial reason to start this project was to gather knowledge around the Mortal Kombat games in particular, but doing a wider analysis of all of the TMS34010 games as well as the DCS based games on the audio end, will help understand how the Mortal Kombat games works. But at the same time, if you're more interested in the non-MK games, contributing here and understanding those games better is more than welcome.
+
+
 ## Requirement:
 Source code should be located at '../midwaysource/\<game\>'
 

@@ -67,11 +67,14 @@ GFX: Includes the VDASTUFF graphics tooling (VDA2FRM, ZIP2BIN) alongside documen
 # Tooling
 Section which details what we know about different tools
 
-PLBUILD: Reads \<game\>.def to understand where to read sound files from (REGDIR), and then builds sound files into output ROMs (which are also defined in the def file). Unclear if PLBUILD itself runs HENRY to take the sound files from being SND to CMP, or if PLBUILD only deals with CMP files.
+## PLBUILD
+Reads \<game\>.def to understand where to read sound files from (REGDIR), and then builds sound files into output ROMs (which are also defined in the def file). Unclear if PLBUILD itself runs HENRY to take the sound files from being SND to CMP, or if PLBUILD only deals with CMP files.
 
-HENRY: Converts uncompressed waveform .SND files into compressed .CMP files
+## HENRY
+Converts uncompressed waveform .SND files into compressed .CMP files
 
-SREC: Seems like it's involved in building graphics ROMs
+## SREC
+Seems like it's involved in building graphics ROMs
 
 # Open Questions
-- What generates .lrn files? Seems like game roms are build off of .lrn files
+- What generates .lrn files? Seems like game roms are built off of .lrn files

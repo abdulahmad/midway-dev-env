@@ -1,0 +1,78 @@
+	.DATA
+BABKANO:
+	.word   27,44,0,0
+	.long   0825cac4H
+	.word   05080H
+	.long   BABY1_P
+BABWITCH:
+	.word   36,60,0,0
+	.long   0825dbd8H
+	.word   05080H
+	.long   BABY2_P
+BABTUSKEN:
+	.word   29,46,0,0
+	.long   0825f6c2H
+	.word   05080H
+	.long   BABY3_P
+BABSONYA:
+	.word   35,54,0,0
+	.long   082609adH
+	.word   05580H
+	.long   BABY4_P
+BABLAO:
+	.word   39,48,0,0
+	.long   08261f99H
+	.word   05080H
+	.long   BABY5_P
+BABJAX:
+	.word   31,48,0,0
+	.long   082634c4H
+	.word   05180H
+	.long   BABY6_P
+BABKANG:
+	.word   32,51,0,0
+	.long   0826466bH
+	.word   05180H
+	.long   BABY7_P
+BABZERO:
+	.word   27,44,0,0
+	.long   08265a69H
+	.word   05080H
+	.long   BABY8_P
+BABKETCH:
+	.word   28,48,0,0
+	.long   08266aa6H
+	.word   05080H
+	.long   BABY9_P
+BABTSUNG:
+	.word   27,48,0,0
+	.long   08267f1dH
+	.word   05080H
+	.long   BABY11_P
+BABGORO:
+	.word   32,52,0,0
+	.long   08269155H
+	.word   05180H
+	.long   BABY12_P
+BABSWAT:
+	.word   33,51,0,0
+	.long   0826a529H
+	.word   05180H
+	.long   BABY13_P
+BABINDIAN:
+	.word   34,51,0,0
+	.long   0826b8a0H
+	.word   05180H
+	.long   BABY10P
+BABMUST:
+	.word   28,48,0,0
+	.long   08266aa6H
+	.word   05080H
+	.long   BABY9B_P
+BABSMOKE:
+	.word   28,48,0,0
+	.long   08266aa6H
+	.word   05080H
+	.long   BABY9C_P
+	.TEXT
+

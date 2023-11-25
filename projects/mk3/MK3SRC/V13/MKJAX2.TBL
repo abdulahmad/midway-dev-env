@@ -1,0 +1,147 @@
+	.DATA
+JXSCARED1A:
+	.word   83,133,35,-20
+	.long   064d4f37H
+	.word   06a80H
+JXSLICER1A:
+	.word   23,134,20,-20
+	.long   064db791H
+	.word   06080H
+JXSLICER1B:
+	.word   33,131,-3,-20
+	.long   064de561H
+	.word   06580H
+JXSLICER2A:
+	.word   30,135,26,-19
+	.long   064e14b7H
+	.word   06180H
+JXSLICER2B:
+	.word   32,132,-4,-19
+	.long   064e461fH
+	.word   06580H
+JXSLICER3A:
+	.word   16,37,42,-16
+	.long   064e729bH
+	.word   06080H
+JXSLICER3B:
+	.word   20,33,-28,-19
+	.long   064e7c6fH
+	.word   05080H
+JXSLICER4A:
+	.word   23,55,49,2
+	.long   064e83f8H
+	.word   05480H
+JXSLICER4B:
+	.word   32,49,-28,-3
+	.long   064e90e1H
+	.word   05580H
+JXSLICER5A:
+	.word   28,66,54,13
+	.long   064e9c0fH
+	.word   05580H
+JXSLICER5B:
+	.word   36,56,-28,4
+	.long   064eab17H
+	.word   05580H
+JXSLICER6A:
+	.word   27,162,23,8
+	.long   064eb7c7H
+	.word   06480H
+JXSLICER6B:
+	.word   41,158,-4,7
+	.long   064ef679H
+	.word   06580H
+JXSLICER7A:
+	.word   24,133,21,-21
+	.long   064f34edH
+	.word   06080H
+JXSLICER7B:
+	.word   77,151,-3,0
+	.long   064f5ee9H
+	.word   06a80H
+JXSLICER8A:
+	.word   26,132,22,-22
+	.long   064fe28bH
+	.word   06480H
+JXSLICER8B:
+	.word   80,140,-4,-11
+	.long   06500dbdH
+	.word   06980H
+JXSLICER9A:
+	.word   30,131,25,-23
+	.long   06507799H
+	.word   06580H
+JXSLICER9B:
+	.word   86,139,-5,-12
+	.long   0650a67dH
+	.word   06e80H
+JXSLICER10A:
+	.word   34,162,26,8
+	.long   06510451H
+	.word   06580H
+JXSLICER10B:
+	.word   66,159,-8,8
+	.long   06515131H
+	.word   06880H
+JXSLICER11A:
+	.word   35,126,26,-28
+	.long   0651a825H
+	.word   06580H
+JXSLICER11B:
+	.word   78,152,-9,1
+	.long   0651dc2dH
+	.word   06d80H
+JXSLICER12A:
+	.word   37,124,26,-30
+	.long   06524645H
+	.word   06580H
+JXSLICER12B:
+	.word   70,27,-11,-44
+	.long   06527cb9H
+	.word   05a80H
+JXSLICER12C:
+	.word   25,62,-11,-89
+	.long   06529b37H
+	.word   05080H
+JXSLICER13A:
+	.word   38,123,27,-31
+	.long   0652abcdH
+	.word   06580H
+JXSLICER13B:
+	.word   83,40,-11,-43
+	.long   0652e335H
+	.word   06280H
+JXSLICER13C:
+	.word   25,61,-11,-90
+	.long   06531a5dH
+	.word   05080H
+JXSLICER14A:
+	.word   77,155,60,1
+	.long   06532ac3H
+	.word   06a80H
+JXSLICER14B:
+	.word   19,57,-17,-94
+	.long   0653a675H
+	.word   05080H
+JAXBIGBOOT:
+	.word   108,248,0,0
+	.long   0653b4e0H
+	.word   05000H
+JAXGROWSTARTA:
+	.word   25,139,16,-17
+	.long   0655c000H
+	.word   06000H
+JAXGROWSTARTB:
+	.word   28,135,-9,-18
+	.long   06561172H
+	.word   06000H
+JAXGROWFINA:
+	.word   35,192,26,35
+	.long   06566a0aH
+	.word   06000H
+JAXGROWFINB:
+	.word   40,186,-9,33
+	.long   0657078aH
+	.word   06000H
+	.TEXT
+

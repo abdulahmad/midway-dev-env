@@ -1,0 +1,112 @@
+GAME = mk3
+GAMEDIR = mk3
+PLBUILD = plbuild -q -p -z -u -t
+DEPS = ${GAME}a.pls ${GAME}b.pls ${GAME}.evd ${GAME}.def
+EPROM = ${PLBUILD} -e
+MASK = ${PLBUILD} -m
+
+ROMS = 
+
+build:		dev load1
+
+me:		dev
+
+load:		
+		loadram -q 0=U2.ROM
+		loadram -q 1=U3.ROM
+		loadram -q 2=U4.ROM
+		loadram -q 3=U5.ROM
+#		loadram -q 4=U6.ROM
+#		loadram -q 5=U7.ROM
+#		loadram -q 6=U8.ROM
+#		loadram -q 7=U9.ROM
+		qcomm -d -i
+
+load1:
+		loadram -q 0=U2.ROM
+		qcomm -d -i
+
+load2:
+		loadram -q 0=U2.ROM
+		loadram -q 1=U3.ROM
+		qcomm -d -i
+
+load3:
+		loadram -q 0=U2.ROM
+		loadram -q 1=U3.ROM
+		loadram -q 2=U4.ROM
+		qcomm -d -i
+
+dev:		${DEPS} 
+		cat mk3a.pls mk3b.pls > mk3.pls
+		cp plugin6.bin opsys.bin
+		${EPROM} ${GAME} 
+		touch dev
+		head -16 ${GAME}.lst
+
+roms:		${DEPS} 
+		cat mk3a.pls mk3b.pls > mk3.pls
+		cp videot6.bin opsys.bin
+		${EPROM} -u ${GAME} 
+		head -16 ${GAME}.lst
+
+dmask:		${DEPS}
+		echo "no"
+#		${MASK} -d ${GAME}
+#		cp plugin6.bin opsys.bin
+#		head -16 ${GAME}.lst > ${GAME}.rom
+#		cat ${GAME}.rom
+#		make load
+
+mask:		${DEPS}
+		echo "no"
+#		${MASK} ${GAME}
+#		cp plugin6.bin opsys.bin
+#		head -16 ${GAME}.lst > ${GAME}.rom
+#		cat ${GAME}.rom
+#		make load
+
+touch:
+		touch ${GAME}a.pls
+		touch ${GAME}b.pls
+
+backup:
+		xcopy ${GAME}.* f:\${GAMEDIR}
+		xcopy makefile  f:\${GAMEDIR}
+		xcopy u*.rom  f:\${GAMEDIR}
+
+edit:
+		b ${GAME}b.pls
+
+editlist:
+		b ${GAME}.lst
+
+msklist:
+		grep HENRY ${GAME}.lst | grep '\[' > ${GAME}.reg
+		cut -c1-9 ${GAME}.reg > ${GAME}.m1
+
+cmplist:
+		grep -w play ${GAME}.pls > ${GAME}.t1
+		cut -f2 -d\' ${GAME}.t1 > ${GAME}.t2
+		sort ${GAME}.t2 | uniq > ${GAME}.cmp
+		rm ${GAME}.t1 ${GAME}.t2
+		
+buh:
+		grep -w HENRY ${GAME}.lst | grep \-vb > ${GAME}.t1
+		cut -c1-9 ${GAME}.t1 > ${GAME}.t2
+		sort ${GAME}.t2 | uniq > ${GAME}.buh
+		rm ${GAME}.t1 ${GAME}.t2
+		
+usage:
+		grep HENRY ${GAME}.lst | grep '\[' > ${GAME}.reg
+		cut -c22-35 ${GAME}.reg > ${GAME}.t1
+		add ${GAME}.t1
+		
+time:
+		grep HENRY ${GAME}.lst | grep '\[' > ${GAME}.reg
+		cut -c48-54 ${GAME}.reg > ${GAME}.t1
+		add ${GAME}.t1
+		
+
+
+

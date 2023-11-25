@@ -1,0 +1,260 @@
+	.DATA
+SHDEATH1A:
+	.word   15,20,7,-23
+	.long   05f3b3abH
+	.word   03080H
+	.long   SHAEND_P
+SHDEATH2A:
+	.word   8,3,60,-60
+	.long   05f3b6b8H
+	.word   03000H
+SHDEATH2B:
+	.word   17,38,8,-5
+	.long   05f3b700H
+	.word   03080H
+SHDEATH2C:
+	.word   3,4,18,-124
+	.long   05f3bd73H
+	.word   03000H
+SHDEATH3A:
+	.word   31,8,65,-56
+	.long   05f3bd97H
+	.word   03580H
+SHDEATH3B:
+	.word   5,7,20,-121
+	.long   05f3beebH
+	.word   03000H
+SHDEATH3C:
+	.word   19,73,8,30
+	.long   05f3bf54H
+	.word   03080H
+SHDEATH3D:
+	.word   24,19,-25,-43
+	.long   05f3cc0dH
+	.word   03580H
+SHDEATH4A:
+	.word   11,71,4,87
+	.long   05f3cef7H
+	.word   03000H
+SHDEATH4B:
+	.word   78,79,9,16
+	.long   05f3d81eH
+	.word   03980H
+SHDEATH4C:
+	.word   15,55,19,-73
+	.long   05f3faeeH
+	.word   03080H
+SHDEATH5A:
+	.word   47,25,74,-44
+	.long   05f40318H
+	.word   03480H
+SHDEATH5B:
+	.word   16,88,8,82
+	.long   05f40d25H
+	.word   03080H
+SHDEATH5C:
+	.word   99,99,-74,75
+	.long   05f41d86H
+	.word   03f80H
+SHDEATH6A:
+	.word   52,28,73,-40
+	.long   05f43079H
+	.word   03680H
+SHDEATH6B:
+	.word   51,53,16,-12
+	.long   05f43d3bH
+	.word   03680H
+SHDEATH6C:
+	.word   37,58,19,-71
+	.long   05f44f96H
+	.word   03a80H
+SHDEATH6D:
+	.word   17,90,8,78
+	.long   05f45a3cH
+	.word   03000H
+SHDEATH6E:
+	.word   143,145,-35,79
+	.long   05f46c2aH
+	.word   03f80H
+SHDEATH7A:
+	.word   51,55,19,-12
+	.long   05f493efH
+	.word   03580H
+SHDEATH7B:
+	.word   42,48,-32,-17
+	.long   05f4a76eH
+	.word   03280H
+SHDEATH7C:
+	.word   39,61,19,-67
+	.long   05f4b599H
+	.word   03680H
+SHDEATH7D:
+	.word   191,61,210,-4
+	.long   05f4bff4H
+	.word   03f80H
+SHDEATH7E:
+	.word   17,93,8,81
+	.long   05f4ed05H
+	.word   03000H
+SHDEATH7F:
+	.word   102,103,-74,79
+	.long   05f4ff8cH
+	.word   03f80H
+SHDEATH8A:
+	.word   45,64,35,-6
+	.long   05f513aaH
+	.word   03180H
+SHDEATH8B:
+	.word   40,59,34,-70
+	.long   05f52ae6H
+	.word   03680H
+SHDEATH8C:
+	.word   23,49,-10,-31
+	.long   05f53642H
+	.word   03480H
+SHDEATH8D:
+	.word   42,51,-33,-16
+	.long   05f540d6H
+	.word   03280H
+SHDEATH8E:
+	.word   16,24,-7,-93
+	.long   05f55030H
+	.word   03080H
+SHDEATH8F:
+	.word   100,109,-75,84
+	.long   05f553d5H
+	.word   03f80H
+SHDEATH8G:
+	.word   172,86,201,-89
+	.long   05f56bb9H
+	.word   03f80H
+SHDEATH8H:
+	.word   168,51,203,-14
+	.long   05f58921H
+	.word   03f80H
+SHDEATH9A:
+	.word   66,63,36,-9
+	.long   05f5a499H
+	.word   03580H
+SHDEATH9B:
+	.word   44,46,-30,-21
+	.long   05f5c22dH
+	.word   03280H
+SHDEATH9C:
+	.word   67,57,38,-72
+	.long   05f5d15fH
+	.word   03980H
+SHDEATH9D:
+	.word   165,44,201,-22
+	.long   05f5ead0H
+	.word   03f80H
+SHDEATH9E:
+	.word   163,86,201,-91
+	.long   05f60334H
+	.word   03f80H
+SHDEATH9F:
+	.word   91,91,-28,-109
+	.long   05f62252H
+	.word   02f80H
+SHDEATH9G:
+	.word   100,101,-71,73
+	.long   05f62cfcH
+	.word   03f80H
+SHDEATH9H:
+	.word   17,93,9,84
+	.long   05f4ed05H
+	.word   03000H
+SHABEAM1A:
+	.word   122,128,-56,85
+	.long   05f64068H
+	.word   03f80H
+SHABEAM1B:
+	.word   123,127,-55,84
+	.long   05f658a8H
+	.word   03f80H
+SHABEAM2A:
+	.word   17,95,9,78
+	.long   05f66e4fH
+	.word   03000H
+SHABEAM3A:
+	.word   137,5,-75,-56
+	.long   05f6813cH
+	.word   03000H
+SHABEAM3B:
+	.word   137,3,-73,-57
+	.long   05f68943H
+	.word   03000H
+SHABEAM4A:
+	.word   190,100,207,-79
+	.long   05f68e14H
+	.word   03f80H
+SHABEAM4B:
+	.word   191,98,206,-80
+	.long   05f6c1f4H
+	.word   03f80H
+SHABEAM5A:
+	.word   122,128,148,92
+	.long   05f64068H
+	.word   03f80H
+SHABEAM5B:
+	.word   123,127,147,90
+	.long   05f6f1ceH
+	.word   03f80H
+SHABEAM6A:
+	.word   122,128,-25,-104
+	.long   05f64068H
+	.word   03f80H
+SHABEAM6B:
+	.word   123,127,-25,-104
+	.long   05f6f1ceH
+	.word   03f80H
+SHABEAM7A:
+	.word   127,36,206,-19
+	.long   05f70775H
+	.word   03f80H
+SHABEAM7B:
+	.word   127,34,206,-20
+	.long   05f71609H
+	.word   03f80H
+SHACYCLE1A:
+	.word   81,153,79,-17
+	.long   05f72133H
+	.word   03280H
+SHACYCLE1B:
+	.word   72,152,-2,-17
+	.long   05f75517H
+	.word   03980H
+SHACYCLE2A:
+	.word   82,153,79,-17
+	.long   05f78a0dH
+	.word   03280H
+SHACYCLE2B:
+	.word   71,152,-3,-17
+	.long   05f7bfe3H
+	.word   03880H
+SHACYCLE3A:
+	.word   83,153,79,-17
+	.long   05f7f452H
+	.word   03680H
+SHACYCLE3B:
+	.word   70,152,-4,-17
+	.long   05f82b27H
+	.word   03880H
+SHACYCLE4A:
+	.word   82,153,79,-17
+	.long   05f85de6H
+	.word   03280H
+SHACYCLE4B:
+	.word   71,152,-3,-17
+	.long   05f894e2H
+	.word   03980H
+SHACYCLE5A:
+	.word   81,153,79,-17
+	.long   05f8c870H
+	.word   03280H
+SHACYCLE5B:
+	.word   73,152,-2,-17
+	.long   05f8fcf6H
+	.word   03980H
+	.TEXT
+

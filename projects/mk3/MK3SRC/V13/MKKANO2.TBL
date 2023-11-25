@@ -1,0 +1,84 @@
+	.DATA
+LASEREYE1A:
+	.word   5,5,-21,-11
+	.long   064013e5H
+	.word   04000H
+	.long   LASEREY_P
+LASEREYE2A:
+	.word   10,10,-19,-9
+	.long   06401449H
+	.word   04000H
+LASEREYE3A:
+	.word   15,15,-17,-7
+	.long   064015d9H
+	.word   04000H
+LASEREYE4A:
+	.word   20,20,-14,-4
+	.long   0640195dH
+	.word   04080H
+LASEREYE5A:
+	.word   25,25,-12,-2
+	.long   06401f6dH
+	.word   04080H
+LASEREYE6A:
+	.word   20,20,-26,-9
+	.long   06402889H
+	.word   04080H
+LASEREYE7A:
+	.word   16,15,-39,-19
+	.long   06402e89H
+	.word   04080H
+LASEREYE8A:
+	.word   37,10,-41,-21
+	.long   06403231H
+	.word   04480H
+LASEREYE9A:
+	.word   76,5,-44,-24
+	.long   06403571H
+	.word   04c80H
+LASEREYE10A:
+	.word   123,10,-41,-21
+	.long   06403989H
+	.word   04c80H
+LASEREYE11A:
+	.word   143,5,-44,-24
+	.long   064040c1H
+	.word   04c80H
+LASEREYE12A:
+	.word   144,7,-43,-23
+	.long   0640488dH
+	.word   04c80H
+LASEREYE13A:
+	.word   143,5,-44,-24
+	.long   064040c1H
+	.word   04c80H
+LASEREYE14A:
+	.word   144,7,-43,-23
+	.long   0640517dH
+	.word   04c80H
+LASEREYE15A:
+	.word   143,5,-44,-24
+	.long   06405a6dH
+	.word   04c80H
+LASEREYE16A:
+	.word   146,10,-41,-21
+	.long   06406239H
+	.word   04c80H
+LASEREYE17A:
+	.word   143,5,-44,-24
+	.long   06406d01H
+	.word   04c80H
+LASEREYE18A:
+	.word   143,5,-44,-24
+	.long   064074cdH
+	.word   04c80H
+LASEREYE19A:
+	.word   15,1,-172,-26
+	.long   06407c99H
+	.word   04000H
+KNSCARED2A:
+	.word   40,139,16,-2
+	.long   06407cd5H
+	.word   06580H
+	.TEXT
+

@@ -1,0 +1,38 @@
+	.DATA
+T_DFORDEN:
+	.word   89,105,0,0
+	.long   05f02c26H
+	.word   05680H
+	.long   MKTEAM_P
+T_MICHIC:
+	.word   103,112,0,0
+	.long   05f0a01bH
+	.word   05680H
+	.long   MKTEAM_P
+T_JOHNV:
+	.word   99,76,0,0
+	.long   05f1358bH
+	.word   05a80H
+	.long   MKTEAM_P
+T_BERAN:
+	.word   108,113,0,0
+	.long   05f183dbH
+	.word   05a80H
+	.long   MKTEAM_P
+T_ED:
+	.word   110,113,0,0
+	.long   05f211fbH
+	.word   05980H
+	.long   MKTEAM_P
+T_GOSKIE:
+	.word   103,112,0,0
+	.long   05f2a705H
+	.word   05980H
+	.long   MKTEAM_P
+T_TOBIAS:
+	.word   97,106,0,0
+	.long   05f33833H
+	.word   05680H
+	.long   MKTEAM_P
+	.TEXT
+

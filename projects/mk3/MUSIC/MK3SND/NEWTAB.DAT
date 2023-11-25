@@ -1,0 +1,334 @@
+
+			Alternate Sound Table
+			---------------------
+
+	This is not complete but groups alot of useful sounds together
+	(i.e. smacks, whooshes, stabs, etc.).  The end of sndtab.dat
+	has most of the latest stuff (Fatalities, Animalities, etc.)
+
+- Hits, Blocks, Falls, Slams:
+
+  100  $0064  1     18.0    20.6  big hit #1
+  105  $0069  1     16.7    19.2  big hit #2
+  120  $0078  1     22.2    25.4  body hit #1
+  125  $007d  1     21.3    24.5  body hit #2
+  130  $0082  1     17.2    19.7  face hit #1
+  135  $0087  1     18.8    21.6  face hit #2
+  140  $008c  1     25.1    28.8  Biggie Hit #3
+  180  $00b4  1     26.0    29.8  Body hit #3
+  240  $00f0  1     45.2    51.8  Old big hit #1
+  245  $00f5  1     45.2    51.8  Old big hit #2
+  270  $010e  1     38.1    43.7  New Big Hit #1
+  275  $0113  1     37.7    43.2  New Big Hit #2 (weapon)
+  280  $0118  1     33.1    37.9  New Big Hit #3
+  285  $011d  1     36.4    41.8  New Big Hit #4
+  290  $0122  1     41.9    48.0  New Big Hit #5 (weapon)
+
+
+  110  $006e  1     33.1    37.9  Block a Major hit
+  115  $0073  1     15.1    17.3  block #1
+
+  185  $00b9  1     32.2    37.0  fall #1
+  190  $00be  1     22.6    25.9  fall #2
+  195  $00c3  1     40.2    46.1  fall #3
+  200  $00c8  1     35.2    40.3  fall #4
+  395  $018b  1     23.9    27.4  Metal Punch #1
+  400  $0190  1     26.8    30.7  Metal Punch #2
+
+  255  $00ff  1     32.2    37.0  Medium Body Slam
+  260  $0104  1     51.1    58.6  Big Body Slam
+  265  $0109  1     46.0    52.8  Big Slam
+
+e 10390 $2896  1     33.5    38.4  Shao Kahn Light Puncture #1
+
+- Nasty Crunches, Stabs, Smashes:
+
+  210  $00d2  1     32.2    37.0  Crunch #1
+  215  $00d7  1     33.1    37.9  Crunch #2
+e 10065 $2751  1     41.9    48.0  Bloody Crunch #1
+e 10105 $2779  1     56.5    64.8  Body Smashed/Crushed
+e 10140 $279c  1     61.1    70.1  Kano Spine Rip
+
+  220  $00dc  1     25.1    28.8  Stab #1
+  225  $00e1  1     25.5    29.3  Biggie Stab #1
+  230  $00e6  1     46.0    52.8  Biggie Stab #2
+  235  $00eb  1     30.1    34.6  Biggie Stab #3
+  350  $015e  1     26.8    30.7  New Stab #1
+  355  $0163  1     24.3    27.8  New Stab #2 (Kano knife)
+  360  $0168  1     29.7    34.1  New Stab #3
+e 10070 $2756  1     23.0    26.4  Bloody Stab
+
+  1045 $0415  1     18.0    20.6  Splish #1
+  1050 $041a  1     14.6    16.8  Splish #2
+  1055 $041f  1     39.3    45.1  Splish #3
+
+  375  $0177  1     37.7    43.2  Crash through floors
+
+- Whooshes:
+
+  145  $0091  1     26.0    29.8  big whoosh #1
+  150  $0096  1     18.8    21.6  big whoosh #2
+  155  $009b  1     20.9    24.0  big whoosh #3
+  160  $00a0  1     17.6    20.2  big whoosh #4
+  165  $00a5  1     16.7    19.2  whoosh #1
+  170  $00aa  1     23.4    26.9  whoosh #2
+  175  $00af  1     20.5    23.5  whoosh #3
+  365  $016d  1     28.9    33.1  Round House Whoosh
+  370  $0172  1     27.6    31.7  big jump whoosh
+  405  $0195  1     11.7    13.4  Hi Cabal Whoosh
+  410  $019a  1     17.6    20.2  Low Cabal Whoosh
+  555  $022b  1     69.1    79.2  Girlie Hairy Throw
+e 10145 $27a1  1     87.9   100.8  Whirlwind/Tornado sound (1x)
+e 10150 $27a6  1    263.7   302.4  Whirlwind/Tornado sound (3x)
+  10370 $2882  1     26.8    30.7  Cabal takes off mask
+
+- Electricity:
+
+  660  $0294  1     29.3    33.6  Robot Spark #1
+  665  $0299  1     28.5    32.6  Robot Spark #2
+  670  $029e  1     40.6    46.6  Robot Spark #3
+
+  7025 $1b71  1     46.9    53.8  New Robot Spark #1
+
+  7035 $1b7b  1     42.7    49.0  New Robot Spark #3
+
+  7055 $1b8f  1     25.1    28.8  New Robot Spark #7
+  7060 $1b94  1     47.7    54.7  New Robot Spark #8
+  7065 $1b99  1     23.0    26.4  New Robot Spark #9
+
+e 10090 $276a  1     76.2    87.4  Kano laser shoot
+e 10095 $276f  1     37.7    43.2  Kano laser shock loop
+e 10100 $2774  1    113.0   129.6  Kano laser shock loop (3x)
+
+e 10190 $27ce  1     36.4    41.8  Night Wolf Lite Start
+e 10195 $27d3  1     72.4    83.0  Night Wolf Lite Loop
+e 10200 $27d8  1     46.9    53.8  Night Wolf Lite End
+e 10205 $27dd  1    228.1   261.6  Night Wolf Lite Example (2x)
+
+- Explosions:
+
+  320  $0140  1    102.5   117.6  Explode thru street #1
+  325  $0145  1     99.6   114.2  Explode thru street #2
+  500  $01f4  1     78.3    89.8  Jax Cannon
+  615  $0267  1     46.0    52.8  Jax, Robo Rocket Hit
+  760  $02f8  1     46.9    53.8  Robot explodes
+e 10180 $27c4  1    108.4   124.3  Catsup Big Self-Destruct Explosion
+e 10300 $283c  1     66.1    75.8  Sub-Zero Fatality Smash
+e 10315 $284b  1     74.9    85.9  Night Wolf Lightning Strike
+e 10320 $2850  1     74.9    85.9  Night Wolf Lightning Build-Up
+
+- Projectiles, Weapons, hits:
+
+  500  $01f4  1     78.3    89.8  Jax Cannon
+  505  $01f9  1     82.5    94.6  Indian Arrow trajectory
+  510  $01fe  1     52.7    60.5  Kano ax
+  515  $0203  1     70.3    80.6  Kano spinning knife
+  520  $0208  1     61.5    70.6  Kano ball trajectory
+  525  $020d  1     40.6    46.6  Sub-Zero Ice Turd
+  530  $0212  1     50.2    57.6  Sonya Fly
+  535  $0217  1     72.0    82.6  Sub-Zero Ice Up
+  540  $021c  1     50.6    58.1  Sub-Zero Ice Down
+  545  $0221  1    159.9   183.4  Burning Tomahawk
+  550  $0226  1     41.9    48.0  Bow & Arrow Appear
+  555  $022b  1     69.1    79.2  Girlie Hairy Throw
+  560  $0230  1     59.9    68.6  Sonya Force Wave
+  565  $0235  1     23.0    26.4  Robo Arm Out
+  570  $023a  1     16.7    19.2  Robo Arm In
+  575  $023f  1     38.9    44.6  Robo Throw
+  580  $0244  1     28.5    32.6  Arrow Hit
+  585  $0249  1     25.1    28.8  Arrow Blocked
+  590  $024e  1     20.9    24.0  Kano Knife Blocked
+  595  $0253  1     74.9    85.9  Robo Fast Rocket
+  600  $0258  1    254.1   291.4  Robo Curvy Rocket (example)
+  605  $025d  1     49.0    56.2  Sonya Force Wave Hit
+  610  $0262  1     28.5    32.6  Sonya Force Wave Blocked
+  615  $0267  1     46.0    52.8  Jax, Robo Rocket Hit
+  620  $026c  1     28.5    32.6  Jax, Robo Rocket Blocked
+  625  $0271  1    196.7   225.6  Muchacha Scream Trap Loop (3x)
+  630  $0276  1     98.4   112.8  Muchacha Scream Trap Loop (1x)
+  635  $027b  1     57.8    66.2  Robo Net Throw
+  640  $0280  1     38.5    44.2  Frosty Ice Hit
+  645  $0285  1     16.7    19.2  Frosty Ice Blocked
+  650  $028a  1     33.1    37.9  Robo Curvy Rocket Part #1
+  655  $028f  1     36.8    42.2  Robo Curvy Rocket Loop
+  660  $0294  1     29.3    33.6  Robot Spark #1
+  665  $0299  1     28.5    32.6  Robot Spark #2
+  670  $029e  1     40.6    46.6  Robot Spark #3
+  675  $02a3  1     45.2    51.8  Robot Warning Target (4x)
+  680  $02a8  1     74.9    85.9  Kung Lao saw throw
+  685  $02ad  1     72.8    83.5  Kung Lao Saw Hit (2x)
+  690  $02b2  1     33.5    38.4  Kung Lao Saw Blocked
+  695  $02b7  1     25.5    29.3  Robot chest click
+  700  $02bc  1     63.6    73.0  Jax blur punch
+  705  $02c1  1     35.2    40.3  Jax knee break
+  710  $02c6  1     44.4    50.9  Sal projectile reflector
+  715  $02cb  1     40.6    46.6  Sal Shadow Shoulder
+  720  $02d0  1     45.2    51.8  Sonya bicycle kick whoosh
+  725  $02d5  1     69.1    79.2  Muchacha fireball
+  730  $02da  1     32.6    37.4  Muchacha fireball hit
+  735  $02df  1     25.1    28.8  Muchacha fireball blocked
+  740  $02e4  1     32.2    37.0  Kung Lao flying kick
+  745  $02e9  1     20.9    24.0  Robo metal ball clank #1
+  750  $02ee  1     20.5    23.5  Robo metal ball clank #2
+  755  $02f3  1     89.6   102.7  Robo metal ball explode
+  760  $02f8  1     46.9    53.8  Robot explodes
+  765  $02fd  1     27.2    31.2  Robot implodes
+  770  $0302  1     61.5    70.6  Robot teleport whoosh
+  775  $0307  1     50.6    58.1  Muchacha fly #1 (rise)
+
+  785  $0311  1     36.4    41.8  Robo net blocked
+  790  $0316  1     19.3    22.1  Jax Charge Ground Punch
+  795  $031b  1     72.4    83.0  Jax Hit Ground
+  800  $0320  1     75.8    86.9  Burning Tomahawk (1x)
+  805  $0325  1     33.5    38.4  Kano Metal HeadButt
+  810  $032a  1     62.4    71.5  Sub-Zero: frozen by his image
+  815  $032f  1     46.0    52.8  Liu Kang fireball hit
+  820  $0334  1     82.9    95.0  Cabal projectile
+  825  $0339  1     53.6    61.4  Liu Kang Fireball
+e 830  $033e  1     67.4    77.3  Shang Tsung Ground Fireball
+  835  $0343  1     46.0    52.8  Sub-Zero Slide Trip
+e 840  $0348  1     61.1    70.1  Kano - Sal flaming ax hit
+  845  $034d  1     29.3    33.6  Liu Kang Fireball blocked
+e 850  $0352  1     56.1    64.3  Shang Tsung green orb sound
+e 855  $0357  1     43.1    49.4  Shang Tsung morph sound
+e 860  $035c  1     44.4    50.9  Stryker grenade throw
+e 865  $0361  1     43.1    49.4  Stryker lunge sound
+e 870  $0366  1     23.0    26.4  Stryker hit with baton
+e 875  $036b  1     28.0    32.2  Stryker throw with baton
+e 880  $0370  1     59.0    67.7  Cabal Rushing Attack
+e 885  $0375  1     40.6    46.6  Sheeva Teleport Sound
+e 890  $037a  1     55.7    63.8  Sheeva Fireball
+e 895  $037f  1     87.9   100.8  Cabal spinning victim (loop it) (1x)
+
+e 10225 $27f1  1     34.7    39.8  Scorpion (Smoke) teleport
+e 10230 $27f6  1     95.4   109.4  Scorpion (Smoke) spear
+
+e 10375 $2887  1     59.4    68.2  Shang Tsung Throw Fire Skulls
+
+
+- Other Player Sounds:
+
+  330  $014a  1     11.3    13.0  Footstep #1
+  335  $014f  1     13.4    15.4  Footstep #2
+  340  $0154  1     12.6    14.4  Footstep #3
+  345  $0159  1      7.5     8.6  Footstep #4
+  390  $0186  1     10.9    12.5  player's feet landing
+
+- Miscellaneous Game Play and Environmental Sounds:
+
+  295  $0127  1     18.8    21.6  Rock #1
+  300  $012c  1     13.4    15.4  Rock #2
+  305  $0131  1     30.6    35.0  Rocks #1
+  310  $0136  1     18.4    21.1  Rocks #2
+  315  $013b  1     21.8    25.0  Rocks #3
+  1000 $03e8  1    217.7   249.6  howling wind loop
+  1005 $03ed  1     54.4    62.4  MK3: subway approaching
+  1010 $03f2  1    117.6   134.9  MK3: subway steady state
+  1015 $03f7  1     62.8    72.0  MK3: subway going away
+  1030 $0406  1     53.6    61.4  Old Danger sound
+  1035 $040b  1     74.9    85.9  MK3: Big door slides shut
+  1040 $0410  1     79.5    91.2  MK3: Big door closes
+  1045 $0415  1     18.0    20.6  Splish #1
+  1050 $041a  1     14.6    16.8  Splish #2
+  1055 $041f  1     39.3    45.1  Splish #3
+  1060 $0424  1     11.7    13.4  Time-Down Tick
+  1065 $0429  1    136.9   157.0  MK3: Church Bell
+  1070 $042e  1     87.5   100.3  Crowd "oooh"
+e 1085 $043d  1     11.3    13.0  Cursor player #1
+e 1090 $0442  1     11.3    13.0  Cursor player #2
+  1095 $0447  1     50.6    58.1  Fighter Picked #1
+  1100 $044c  1     48.1    55.2  Fighter Picked #2
+  1105 $0451  1     61.9    71.0  Mortal Sans Whoosh
+
+e 1115 $045b  1    117.2   134.4  Mercy Hit
+e 1120 $0460  1     58.6    67.2  One Player Ladder Whoosh
+e 1125 $0465  1     79.1    90.7  Game Start Gong
+e 1130 $046a  1      2.5     2.9  Emblem Click
+  1135 $046f  1      6.7     7.7  Player 2 Buys In
+e 1140 $0474  1      6.3     7.2  Combo Message Hit
+  1145 $0479  1      5.4     6.2  One Player Map Select
+e 1150 $047e  1    126.8   145.4  Flawless/Fatality Drone
+
+e 10110 $277e  1     29.3    33.6  Skeleton falls to ground
+e 10235 $27fb  1    160.3   183.8  Baby #1
+
+- Friendship:
+
+e 10350 $286e  1     61.1    70.1  Friendship: Really loud horn blow
+e 10355 $2873  1     49.0    56.2  Friendship: Stryker crossing guard whistle
+e 10360 $2878  1     10.5    12.0  Friendship: Short whistle
+e 10345 $2869  1     31.8    36.5  Slide Whistle (strength meter/snowman)
+e 10335 $285f  1     87.9   100.8  Sheeva Plate Spinning (1x)
+e 10215 $27e7  1     82.5    94.6  Doggie Whine
+e 10210 $27e2  1     21.8    25.0  Doggie Yip
+
+- Animality:
+
+e 10380 $288c  1     47.7    54.7  Acid sizzle Part 1
+  10385 $2891  1     46.0    52.8  Acid sizzle Part 2
+e 20005 $4e25  1     42.7    49.0  Animality Wasp Loop
+e 20010 $4e2a  1     39.3    45.1  Animality Wasp Sting
+e 20015 $4e2f  1     83.3    95.5  Animality Hiss (Spider/Snake/Scorpion)
+e 20020 $4e34  1     78.3    89.8  Generic Big Animality Roar
+e 20025 $4e39  1     47.3    54.2  Wolf Maul Growl
+e 20030 $4e3e  1     67.0    76.8  Animality Bird/Bat
+
+- Fatality:
+
+e 10025 $2729  1     12.6    14.4  Catsup self-destruct beep #1
+
+e 10040 $2738  1     72.8    83.5  Catsup self-destruct fx #1
+
+e 10055 $2747  1     33.1    37.9  Catsup self-destruct laugh
+  10060 $274c  1     29.3    33.6  Mustard/Kung Lao slice sound
+e 10065 $2751  1     41.9    48.0  Bloody Crunch #1
+e 10070 $2756  1     23.0    26.4  Bloody Stab
+e 10090 $276a  1     76.2    87.4  Kano laser shoot
+e 10095 $276f  1     37.7    43.2  Kano laser shock loop
+e 10100 $2774  1    113.0   129.6  Kano laser shock loop (3x)
+e 10105 $2779  1     56.5    64.8  Body Smashed/Crushed
+e 10110 $277e  1     29.3    33.6  Skeleton falls to ground
+e 10115 $2783  1     19.7    22.6  Cabal fatal bubble #1
+e 10120 $2788  1     22.6    25.9  Cabal fatal bubble #2
+e 10125 $278d  1     23.4    26.9  Cabal fatal bubble #3
+e 10130 $2792  1     26.4    30.2  Sub-Zero fatality freeze body
+e 10135 $2797  1     59.4    68.2  Crusher machine sound
+e 10140 $279c  1     61.1    70.1  Kano Spine Rip
+e 10145 $27a1  1     87.9   100.8  Whirlwind/Tornado sound (1x)
+e 10150 $27a6  1    263.7   302.4  Whirlwind/Tornado sound (3x)
+e 10155 $27ab  1     56.5    64.8  Morph into flame
+e 10160 $27b0  1     28.0    32.2  Flame comes down from abaove
+e 10165 $27b5  1    144.8   166.1  Engulfed by flames
+e 10170 $27ba  1     36.4    41.8  Liu Kang motion blur/skin rip
+e 10175 $27bf  1     36.8    42.2  Turn into stone
+e 10180 $27c4  1    108.4   124.3  Catsup Big Self-Destruct Explosion
+e 10185 $27c9  1     35.6    40.8  Head inflate
+e 10190 $27ce  1     36.4    41.8  Night Wolf Lite Start
+e 10195 $27d3  1     72.4    83.0  Night Wolf Lite Loop
+e 10200 $27d8  1     46.9    53.8  Night Wolf Lite End
+e 10205 $27dd  1    228.1   261.6  Night Wolf Lite Example (2x)
+e 10220 $27ec  1     59.4    68.2  Swords from Ground
+
+e 10245 $2805  1     69.9    80.2  Final Death Quake Loop
+e 10250 $280a  1    228.1   261.6  Shao Kahn Death Scream
+e 10255 $280f  1    209.7   240.5  Final Death Quake Loop Crescendo (3x)
+e 10260 $2814  1     20.9    24.0  Jax arm morph
+e 10265 $2819  1     41.9    48.0  Stryker bomb fuse start
+e 10270 $281e  1     55.2    63.4  Stryker bomb fuse loop (2x)
+e 10275 $2823  1     40.2    46.1  Pit Fatality Machine Loop (2x)
+e 10280 $2828  1     21.8    25.0  Sindel Skin Rip Scream Start
+e 10285 $282d  1     80.4    92.2  Sindel Skin Rip Scream Loop (8x)
+e 10290 $2832  1     30.1    34.6  Sindel Skin Rip Scream End
+e 10295 $2837  1    131.8   151.2  Sindel Skin Rip Example (8x loop)
+e 10300 $283c  1     66.1    75.8  Sub-Zero Fatality Smash
+e 10305 $2841  1    172.9   198.2  S T/Sonya Energy Cloud Loop
+e 10310 $2846  1     34.3    39.4  S T/Sonya Energy Cloud Loop End
+e 10315 $284b  1     74.9    85.9  Night Wolf Lightning Strike
+e 10320 $2850  1     74.9    85.9  Night Wolf Lightning Build-Up
+e 10325 $2855  1     98.4   112.8  Sonya orb trajectory
+e 10330 $285a  1    565.9   649.0  Pit Fatality Machine Fade-Up and Out
+e 10340 $2864  1     32.2    37.0  Sonya blows orb
+e 10365 $287d  1     77.4    88.8  Cabal Ugly Face Scream
+  10370 $2882  1     26.8    30.7  Cabal takes off mask
+
+

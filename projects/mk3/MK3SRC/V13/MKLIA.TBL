@@ -1,0 +1,48 @@
+	.DATA
+LIASTANCE1A:
+	.word   24,125,16,-13
+	.long   01fe3b96H
+	.word   06080H
+	.long   LPRP_P
+LIASTANCE1B:
+	.word   31,126,-8,-11
+	.long   01fe6600H
+	.word   06580H
+LIASTANCE2A:
+	.word   25,123,16,-15
+	.long   01fe906cH
+	.word   06580H
+LIASTANCE2B:
+	.word   30,125,-9,-12
+	.long   01feb766H
+	.word   06480H
+LIASTANCE3A:
+	.word   28,122,16,-16
+	.long   01fee170H
+	.word   06580H
+LIASTANCE3B:
+	.word   27,125,-12,-12
+	.long   01ff0778H
+	.word   06080H
+LIASTANCE4A:
+	.word   27,122,16,-16
+	.long   01ff2ff0H
+	.word   06580H
+LIASTANCE4B:
+	.word   28,125,-11,-12
+	.long   01ff5658H
+	.word   06480H
+LIASTANCE5A:
+	.word   24,121,16,-17
+	.long   01ff80aaH
+	.word   06480H
+LIASTANCE5B:
+	.word   32,126,-8,-11
+	.long   01ffa4eeH
+	.word   06580H
+LIASTANCE6A:
+	.word   25,124,18,-14
+	.long   01ffd362H
+	.word   06180H
+	.TEXT
+

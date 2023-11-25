@@ -1,0 +1,239 @@
+	.DATA
+SKELSUK3A:
+	.word   47,55,29,0
+	.long   08426eceH
+	.word   06980H
+	.long   SKELSUK2
+SKELSUK3B:
+	.word   36,49,-2,-44
+	.long   08428d18H
+	.word   06680H
+SKELSUK3C:
+	.word   70,32,33,-130
+	.long   08429bccH
+	.word   06880H
+SKELSUK4A:
+	.word   21,16,5,-80
+	.long   0842c4c2H
+	.word   06080H
+SKELSUK4B:
+	.word   39,57,29,-2
+	.long   0842caa0H
+	.word   06580H
+SKELSUK4C:
+	.word   29,74,-10,-6
+	.long   0842eac2H
+	.word   06580H
+SKELSUK4D:
+	.word   79,51,35,-110
+	.long   0843031aH
+	.word   06680H
+SKELSUK5A:
+	.word   41,157,36,-3
+	.long   08434e98H
+	.word   06680H
+SKELSUK5B:
+	.word   37,160,-5,-4
+	.long   0843ad9eH
+	.word   06580H
+SKELSUK6A:
+	.word   32,156,31,-5
+	.long   084408c6H
+	.word   06180H
+SKELSUK6B:
+	.word   39,156,-1,-5
+	.long   08445d56H
+	.word   06580H
+SKELSUK7A:
+	.word   33,155,32,-5
+	.long   0844ca16H
+	.word   06180H
+SKELSUK7B:
+	.word   36,155,-1,-5
+	.long   08452774H
+	.word   06480H
+SKELSUK8A:
+	.word   33,157,31,-5
+	.long   08458f7cH
+	.word   06580H
+SKELSUK8B:
+	.word   34,156,-2,-5
+	.long   0845ec36H
+	.word   06580H
+SKELSUK9A:
+	.word   31,151,28,-6
+	.long   08464f66H
+	.word   06180H
+SKELSUK9B:
+	.word   31,155,-3,-6
+	.long   0846a7a0H
+	.word   06480H
+SKELSUK10A:
+	.word   27,158,25,4
+	.long   08470012H
+	.word   06080H
+SKELSUK10B:
+	.word   30,165,-2,4
+	.long   084749f0H
+	.word   06080H
+SKELSUK12A:
+	.word   34,30,20,27
+	.long   08479fb2H
+	.word   06080H
+SKELSUK13A:
+	.word   44,30,21,28
+	.long   0847b3f2H
+	.word   06080H
+SKELSUK14A:
+	.word   38,31,18,26
+	.long   0847ceb6H
+	.word   06080H
+SKELSUK15A:
+	.word   35,29,18,23
+	.long   0847e754H
+	.word   06080H
+SKELSUK16A:
+	.word   42,33,-34,40
+	.long   0847fc4cH
+	.word   06580H
+SKELSUK17A:
+	.word   57,35,-13,30
+	.long   084814f4H
+	.word   06a80H
+SKELSUK18A:
+	.word   28,31,-6,15
+	.long   0848266eH
+	.word   06080H
+SKELSUK19A:
+	.word   15,29,-8,6
+	.long   084832faH
+	.word   06080H
+SKELFALL1A:
+	.word   25,133,21,-11
+	.long   08483bdaH
+	.word   05180H
+	.long   SKELSUK2
+SKELFALL1B:
+	.word   22,139,-4,-11
+	.long   0848666dH
+	.word   05480H
+SKELFALL2A:
+	.word   24,116,21,-54
+	.long   08488e60H
+	.word   06180H
+SKELFALL2B:
+	.word   28,120,-3,-52
+	.long   0848ba2cH
+	.word   06480H
+SKELFALL3A:
+	.word   19,95,16,-75
+	.long   0848ece4H
+	.word   05180H
+SKELFALL3B:
+	.word   29,102,-3,-71
+	.long   08490855H
+	.word   05480H
+SKELFALL4A:
+	.word   19,63,15,-108
+	.long   08492c0aH
+	.word   06080H
+SKELFALL4B:
+	.word   27,77,-4,-97
+	.long   08493f60H
+	.word   05080H
+SKELFALL5A:
+	.word   63,40,28,-134
+	.long   0849574eH
+	.word   06580H
+SKELFALL6A:
+	.word   82,32,37,-142
+	.long   08497d42H
+	.word   06980H
+SKELFALL7A:
+	.word   95,30,43,-150
+	.long   0849a7e2H
+	.word   06980H
+SKELFALL8A:
+	.word   95,33,43,-147
+	.long   0849e0eeH
+	.word   06a80H
+SKELFALL9A:
+	.word   95,35,43,-145
+	.long   084a1f40H
+	.word   06580H
+SKELFALL10A:
+	.word   95,30,43,-150
+	.long   084a6042H
+	.word   06a80H
+TSSCARED3A:
+	.word   47,134,12,5
+	.long   084a92beH
+	.word   06580H
+TSSLAMSPIKE5A:
+	.word   50,122,41,-8
+	.long   084ae512H
+	.word   06180H
+TSSLAMSPIKE5B:
+	.word   27,114,-9,-17
+	.long   084b2b6cH
+	.word   06580H
+TSSLAMSPIKE6A:
+	.word   48,126,38,-4
+	.long   084b517cH
+	.word   06280H
+TSSLAMSPIKE6B:
+	.word   27,125,-10,-6
+	.long   084b932eH
+	.word   06480H
+TSSLAMSPIKE7A:
+	.word   50,128,37,-2
+	.long   084bbd3eH
+	.word   06680H
+TSSLAMSPIKE7B:
+	.word   24,129,-13,-2
+	.long   084bf58eH
+	.word   06080H
+TSSLAMSPIKE8A:
+	.word   45,140,31,10
+	.long   084c2294H
+	.word   06680H
+TSSLAMSPIKE8B:
+	.word   24,134,-14,3
+	.long   084c5784H
+	.word   06080H
+TSSLAMSPIKE9A:
+	.word   36,149,21,19
+	.long   084c8a10H
+	.word   06580H
+TSSLAMSPIKE9B:
+	.word   25,147,-15,16
+	.long   084cb9a8H
+	.word   06080H
+TSSLAMSPIKE10A:
+	.word   34,127,20,-3
+	.long   084cefa8H
+	.word   06580H
+TSSLAMSPIKE10B:
+	.word   23,143,-14,12
+	.long   084d1b9cH
+	.word   06080H
+TSSLAMSPIKE12A:
+	.word   36,114,24,-16
+	.long   084d506eH
+	.word   06580H
+TSSLAMSPIKE12B:
+	.word   63,139,-12,9
+	.long   084d73baH
+	.word   06a80H
+EJBSPIKE:
+	.word   18,139,0,0
+	.long   084dc330H
+	.word   04080H
+	.long   SPIKE_P
+SPIKE9:
+	.word   123,44,0,0
+	.long   084dddc4H
+	.word   04000H
+	.long   SPIKE_P
+	.TEXT
+

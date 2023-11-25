@@ -1,0 +1,92 @@
+	.DATA
+SMALLCOIN1:
+	.word   18,16,8,-1
+	.long   06d926a8H
+	.word   05080H
+	.long   SMCOIN_P
+MKCOIN_01:
+	.word   44,39,0,0
+	.long   06d92bf1H
+	.word   06080H
+	.long   MKCOIN_P
+SMALLCOIN2:
+	.word   19,16,8,-1
+	.long   06d94d5dH
+	.word   05080H
+SMALLCOIN3:
+	.word   16,16,7,-1
+	.long   06d952ceH
+	.word   05080H
+SMALLCOIN4:
+	.word   12,16,5,-1
+	.long   06d957a9H
+	.word   05000H
+SMALLCOIN5:
+	.word   7,16,2,-1
+	.long   06d95b69H
+	.word   05000H
+SMALLCOIN6:
+	.word   5,16,1,-1
+	.long   06d95d99H
+	.word   05000H
+SMALLCOIN7:
+	.word   11,16,4,-1
+	.long   06d95f29H
+	.word   05000H
+SMALLCOIN8:
+	.word   15,16,6,-1
+	.long   06d96299H
+	.word   05000H
+SMALLCOIN9:
+	.word   18,16,8,-1
+	.long   06d96749H
+	.word   05080H
+MKCOIN_02:
+	.word   42,39,0,0
+	.long   06d96c83H
+	.word   06080H
+MKCOIN_03:
+	.word   38,39,-1,0
+	.long   06d98cb7H
+	.word   06080H
+MKCOIN_04:
+	.word   29,39,-5,0
+	.long   06d9a9c1H
+	.word   06080H
+MKCOIN_05:
+	.word   17,39,-12,0
+	.long   06d9c0d1H
+	.word   06080H
+MKCOIN_06:
+	.word   13,39,-16,0
+	.long   06d9cf65H
+	.word   06080H
+MKCOIN_07:
+	.word   26,39,-11,0
+	.long   06d9db2fH
+	.word   06080H
+MKCOIN_08:
+	.word   37,39,-5,0
+	.long   06d9f02fH
+	.word   06080H
+MKCOIN_09:
+	.word   42,39,-2,0
+	.long   06da0c91H
+	.word   06080H
+TXT_NOVICE:
+	.word   46,9,0,0
+	.long   06da2cadH
+	.word   04000H
+	.long   boonpal
+TXT_WARRIOR:
+	.word   57,9,0,0
+	.long   06da3325H
+	.word   04000H
+	.long   boonpal
+TXT_MASTER:
+	.word   51,9,0,0
+	.long   06da3b29H
+	.word   04000H
+	.long   boonpal
+	.TEXT
+

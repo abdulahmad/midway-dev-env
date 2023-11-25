@@ -1,0 +1,126 @@
+	.DATA
+HDSHANG:
+	.word   48,59,0,0
+	.long   05a7011bH
+	.word   07000H
+	.long   HDSHAG_P
+HDSUBZERO:
+	.word   48,59,0,0
+	.long   05a74e8bH
+	.word   07000H
+	.long   HDSUBZ_P
+HDSWAT:
+	.word   48,59,0,0
+	.long   05a79bfbH
+	.word   07000H
+	.long   HDSWAT_P
+HDBRIDE:
+	.word   48,59,0,0
+	.long   05a7e96bH
+	.word   07000H
+	.long   HDBRDE_P
+HDJAX:
+	.word   48,59,0,0
+	.long   05a836dbH
+	.word   07000H
+	.long   HDJAX_P
+HDLAO:
+	.word   48,59,0,0
+	.long   05a8844bH
+	.word   07000H
+	.long   HDLAO_P
+HDSONYA:
+	.word   48,59,0,0
+	.long   05a8d1bbH
+	.word   07000H
+	.long   HDSOYN_P
+HDKANO:
+	.word   48,59,0,0
+	.long   05a91f2bH
+	.word   07000H
+	.long   HDKANO_P
+HDMUSTARD:
+	.word   48,59,0,0
+	.long   05a96c9bH
+	.word   07000H
+	.long   HDMUST_P
+HDLIUKANG:
+	.word   48,59,0,0
+	.long   05a9ba0bH
+	.word   07000H
+	.long   HDKANG_P
+HDSHEGORO:
+	.word   48,59,0,0
+	.long   05aa077bH
+	.word   07000H
+	.long   HDGORO_P
+HDINDIAN:
+	.word   48,59,0,0
+	.long   05aa54ebH
+	.word   07000H
+	.long   HDINDY_P
+HDKETCHUP:
+	.word   48,59,0,0
+	.long   05aaa25bH
+	.word   07000H
+	.long   HDKETC_P
+HDTUSKAN:
+	.word   48,59,0,0
+	.long   05aaefcbH
+	.word   07000H
+	.long   HDSAND_P
+HDMOTARO:
+	.word   48,59,0,0
+	.long   05ab3d3bH
+	.word   07000H
+	.long   HDMOTA_P
+HDSHAO:
+	.word   48,59,0,0
+	.long   05ab8aabH
+	.word   07000H
+	.long   HDSHAO_P
+QUESTION:
+	.word   48,59,0,0
+	.long   05abd81bH
+	.word   06000H
+	.long   REDQ_P
+BOX_01:
+	.word   48,59,0,0
+	.long   05ac1a7bH
+	.word   00H
+	.long   bOX_p
+BOX_02:
+	.word   48,59,0,0
+	.long   05ac72fbH
+	.word   00H
+BOX_03:
+	.word   48,59,0,0
+	.long   05accb7bH
+	.word   00H
+BOX_04:
+	.word   48,59,0,0
+	.long   05ad23fbH
+	.word   00H
+BOX_05:
+	.word   48,59,0,0
+	.long   05ad7c7bH
+	.word   00H
+BOX_06:
+	.word   48,59,0,0
+	.long   05add4fbH
+	.word   00H
+BOX_07:
+	.word   48,59,0,0
+	.long   05ae2d7bH
+	.word   00H
+BOX_08:
+	.word   48,59,0,0
+	.long   05ae85fbH
+	.word   00H
+BOX_09:
+	.word   48,59,0,0
+	.long   05aede7bH
+	.word   00H
+	.long   bOX_p
+	.TEXT
+

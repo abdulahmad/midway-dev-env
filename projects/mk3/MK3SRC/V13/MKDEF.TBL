@@ -1,0 +1,63 @@
+	.DATA
+LANDER1:
+	.word   9,8,0,0
+	.long   06db2372H
+	.word   03000H
+	.long   DEFENDER
+LANDER2:
+	.word   9,8,0,0
+	.long   06db244aH
+	.word   03000H
+	.long   DEFENDER
+LANDER3:
+	.word   9,7,0,0
+	.long   06db2522H
+	.word   01000H
+	.long   DEFENDER
+BAITER1:
+	.word   11,4,0,0
+	.long   06db2561H
+	.word   03000H
+	.long   DEFENDER
+BAITER2:
+	.word   11,4,0,0
+	.long   06db25e5H
+	.word   03000H
+	.long   DEFENDER
+BAITER3:
+	.word   11,4,0,0
+	.long   06db2669H
+	.word   03000H
+	.long   DEFENDER
+BAITER4:
+	.word   11,4,0,0
+	.long   06db26edH
+	.word   03000H
+	.long   DEFENDER
+BAITER5:
+	.word   11,4,0,0
+	.long   06db2771H
+	.word   03000H
+	.long   DEFENDER
+BAITER6:
+	.word   11,4,0,0
+	.long   06db27f5H
+	.word   03000H
+	.long   DEFENDER
+PACMAN:
+	.word   8,11,0,0
+	.long   06db2879H
+	.word   04000H
+	.long   boonpal
+grunt_1:
+	.word   9,12,0,0
+	.long   06db29d9H
+	.word   04000H
+	.long   robo_p
+ostrich1:
+	.word   16,20,0,0
+	.long   06db2b89H
+	.word   04080H
+	.long   OSTR_P
+	.TEXT
+

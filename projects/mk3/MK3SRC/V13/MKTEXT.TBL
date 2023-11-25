@@ -1,0 +1,623 @@
+	.DATA
+MK2FONTgrt:
+	.word   9,16,0,0
+	.long   06da4255H
+	.word   01000H
+MK2FONTequ:
+	.word   9,6,0,-5
+	.long   06da42e5H
+	.word   01000H
+FONT7excla:
+	.word   3,8,0,0
+	.long   06da431bH
+	.word   01000H
+FONT7quote:
+	.word   6,4,0,0
+	.long   06da4333H
+	.word   01000H
+FONT7pound:
+	.word   10,8,0,0
+	.long   06da434bH
+	.word   01000H
+FONT7doll:
+	.word   6,9,0,1
+	.long   06da439bH
+	.word   01000H
+FONT7percen:
+	.word   11,8,0,0
+	.long   06da43d1H
+	.word   01000H
+FONT7and:
+	.word   7,8,0,0
+	.long   06da4429H
+	.word   01000H
+FONT7apost:
+	.word   3,4,0,0
+	.long   06da4461H
+	.word   01000H
+FONT7parenl:
+	.word   3,10,0,0
+	.long   06da446dH
+	.word   01000H
+FONT7parenr:
+	.word   3,10,0,0
+	.long   06da448bH
+	.word   01000H
+FONT7ast:
+	.word   7,8,1,-1
+	.long   06da44a9H
+	.word   01000H
+FONT7plus:
+	.word   6,6,0,-2
+	.long   06da44e1H
+	.word   01000H
+FONT7comma:
+	.word   3,4,-1,-6
+	.long   06da4505H
+	.word   01000H
+FONT7dash:
+	.word   5,2,-1,-4
+	.long   06da4511H
+	.word   01000H
+FONT7period:
+	.word   3,2,0,-6
+	.long   06da451bH
+	.word   01000H
+FONT7forsp:
+	.word   5,8,0,0
+	.long   06da4521H
+	.word   01000H
+FONT70:
+	.word   6,8,0,0
+	.long   06da4549H
+	.word   01000H
+FONT71:
+	.word   4,8,0,0
+	.long   06da4579H
+	.word   01000H
+FONT72:
+	.word   6,8,0,0
+	.long   06da4599H
+	.word   01000H
+FONT73:
+	.word   6,8,0,0
+	.long   06da45c9H
+	.word   01000H
+FONT74:
+	.word   6,8,0,0
+	.long   06da45f9H
+	.word   01000H
+FONT75:
+	.word   6,8,0,0
+	.long   06da4629H
+	.word   01000H
+FONT76:
+	.word   6,8,0,0
+	.long   06da4659H
+	.word   01000H
+FONT77:
+	.word   6,8,0,0
+	.long   06da4689H
+	.word   01000H
+FONT78:
+	.word   6,8,0,0
+	.long   06da46b9H
+	.word   01000H
+FONT79:
+	.word   6,8,0,0
+	.long   06da46e9H
+	.word   01000H
+FONT7colon:
+	.word   3,6,0,0
+	.long   06da4719H
+	.word   01000H
+FONT7semicol:
+	.word   3,8,0,0
+	.long   06da472bH
+	.word   01000H
+FONT7less:
+	.word   4,7,0,0
+	.long   06da4743H
+	.word   01000H
+FONT7equal:
+	.word   5,5,0,-3
+	.long   06da475fH
+	.word   01000H
+FONT7more:
+	.word   4,7,0,0
+	.long   06da4778H
+	.word   01000H
+FONT7quest:
+	.word   6,8,0,0
+	.long   06da4794H
+	.word   01000H
+FONT7line:
+	.word   6,2,0,-6
+	.long   06da47c4H
+	.word   01000H
+FONT7A:
+	.word   6,8,0,0
+	.long   06da47d0H
+	.word   01000H
+FONT7B:
+	.word   6,8,0,0
+	.long   06da4800H
+	.word   01000H
+FONT7C:
+	.word   6,8,0,0
+	.long   06da4830H
+	.word   01000H
+FONT7D:
+	.word   6,8,0,0
+	.long   06da4860H
+	.word   01000H
+FONT7E:
+	.word   6,8,0,0
+	.long   06da4890H
+	.word   01000H
+FONT7F:
+	.word   6,8,0,0
+	.long   06da48c0H
+	.word   01000H
+FONT7G:
+	.word   6,8,0,0
+	.long   06da48f0H
+	.word   01000H
+FONT7H:
+	.word   6,8,0,0
+	.long   06da4920H
+	.word   01000H
+FONT7I:
+	.word   3,8,0,0
+	.long   06da4950H
+	.word   01000H
+FONT7J:
+	.word   6,8,0,0
+	.long   06da4968H
+	.word   01000H
+FONT7K:
+	.word   6,8,0,0
+	.long   06da4998H
+	.word   01000H
+FONT7L:
+	.word   5,8,0,0
+	.long   06da49c8H
+	.word   01000H
+FONT7M:
+	.word   10,8,0,0
+	.long   06da49f0H
+	.word   01000H
+FONT7N:
+	.word   7,8,0,0
+	.long   06da4a40H
+	.word   01000H
+FONT7O:
+	.word   7,8,0,0
+	.long   06da4a78H
+	.word   01000H
+FONT7P:
+	.word   6,8,0,0
+	.long   06da4ab0H
+	.word   01000H
+FONT7Q:
+	.word   7,10,0,0
+	.long   06da4ae0H
+	.word   01000H
+FONT7R:
+	.word   6,8,0,0
+	.long   06da4b26H
+	.word   01000H
+FONT7S:
+	.word   6,8,0,0
+	.long   06da4b56H
+	.word   01000H
+FONT7T:
+	.word   6,8,0,0
+	.long   06da4b86H
+	.word   01000H
+FONT7U:
+	.word   6,8,0,0
+	.long   06da4bb6H
+	.word   01000H
+FONT7V:
+	.word   7,8,0,0
+	.long   06da4be6H
+	.word   01000H
+FONT7W:
+	.word   11,8,0,0
+	.long   06da4c1eH
+	.word   01000H
+FONT7X:
+	.word   7,8,0,0
+	.long   06da4c76H
+	.word   01000H
+FONT7Y:
+	.word   6,8,0,0
+	.long   06da4caeH
+	.word   01000H
+FONT7Z:
+	.word   6,8,0,0
+	.long   06da4cdeH
+	.word   01000H
+BIGFONT_0:
+	.word   16,15,0,0
+	.long   06da4d0eH
+	.word   04080H
+	.long   WHITE_p
+BIGFONT_1:
+	.word   10,15,0,0
+	.long   06da5096H
+	.word   04000H
+	.long   WHITE_p
+BIGFONT_2:
+	.word   15,15,0,0
+	.long   06da52eeH
+	.word   04080H
+	.long   WHITE_p
+BIGFONT_3:
+	.word   14,15,0,0
+	.long   06da55d6H
+	.word   04080H
+	.long   WHITE_p
+BIGFONT_4:
+	.word   14,15,0,0
+	.long   06da58c2H
+	.word   04080H
+	.long   WHITE_p
+BIGFONT_5:
+	.word   13,15,0,0
+	.long   06da5bd2H
+	.word   04080H
+	.long   WHITE_p
+BIGFONT_6:
+	.word   13,16,0,1
+	.long   06da5eb2H
+	.word   04000H
+	.long   WHITE_p
+BIGFONT_7:
+	.word   15,15,0,0
+	.long   06da61f2H
+	.word   04080H
+	.long   WHITE_p
+BIGFONT_8:
+	.word   15,17,0,1
+	.long   06da64d6H
+	.word   04080H
+	.long   WHITE_p
+BIGFONT_9:
+	.word   14,16,0,1
+	.long   06da6856H
+	.word   04080H
+	.long   WHITE_p
+BIGFONT_A:
+	.word   17,17,0,0
+	.long   06da6baeH
+	.word   04080H
+BIGFONT_B:
+	.word   17,15,0,0
+	.long   06da6f96H
+	.word   04080H
+BIGFONT_C:
+	.word   13,15,0,0
+	.long   06da730eH
+	.word   04080H
+BIGFONT_D:
+	.word   16,15,1,0
+	.long   06da75eaH
+	.word   04080H
+BIGFONT_E:
+	.word   16,15,0,0
+	.long   06da7962H
+	.word   04080H
+BIGFONT_F:
+	.word   15,18,0,0
+	.long   06da7c7eH
+	.word   04080H
+BIGFONT_G:
+	.word   15,15,0,0
+	.long   06da7ffeH
+	.word   04080H
+BIGFONT_H:
+	.word   19,17,0,0
+	.long   06da836eH
+	.word   04080H
+BIGFONT_I:
+	.word   11,15,0,0
+	.long   06da878aH
+	.word   04000H
+BIGFONT_J:
+	.word   14,19,0,0
+	.long   06da8a1eH
+	.word   04080H
+BIGFONT_K:
+	.word   18,15,0,0
+	.long   06da8daeH
+	.word   04080H
+BIGFONT_L:
+	.word   12,15,2,0
+	.long   06da910eH
+	.word   04000H
+BIGFONT_M:
+	.word   20,15,0,0
+	.long   06da93deH
+	.word   04080H
+BIGFONT_N:
+	.word   18,15,1,0
+	.long   06da97faH
+	.word   04080H
+BIGFONT_O:
+	.word   16,15,0,0
+	.long   06da9b9eH
+	.word   04080H
+BIGFONT_P:
+	.word   16,15,0,0
+	.long   06da9f26H
+	.word   04080H
+BIGFONT_Q:
+	.word   15,16,0,0
+	.long   06daa24aH
+	.word   04080H
+BIGFONT_R:
+	.word   17,17,0,0
+	.long   06daa5feH
+	.word   04080H
+BIGFONT_S:
+	.word   13,15,0,0
+	.long   06daa9e2H
+	.word   04080H
+BIGFONT_T:
+	.word   14,15,-2,0
+	.long   06daacc6H
+	.word   04080H
+BIGFONT_U:
+	.word   17,15,0,0
+	.long   06daafceH
+	.word   04080H
+BIGFONT_V:
+	.word   15,15,0,0
+	.long   06dab352H
+	.word   04080H
+BIGFONT_W:
+;	.word   22,15,2,0
+	.word   22,15,-1,0
+	.long   06dab66aH
+	.word   04080H
+BIGFONT_X:
+	.word   19,15,1,0
+	.long   06dabaeaH
+	.word   04080H
+BIGFONT_Y:
+	.word   15,17,0,0
+	.long   06dabe26H
+	.word   04080H
+BIGFONT_Z:
+	.word   17,15,1,0
+	.long   06dac18aH
+	.word   04080H
+BIGFONT_PER:
+	.word   6,5,-1,-10
+	.long   06dac486H
+	.word   04000H
+BIGFONT_COL:
+	.word   8,12,0,-2
+	.long   06dac4feH
+	.word   04000H
+BIGFONT_COM:
+	.word   7,6,0,-10
+	.long   06dac67eH
+	.word   04000H
+BIGFONT_EXC:
+	.word   10,15,0,0
+	.long   06dac726H
+	.word   04000H
+BIGFONT_MIN:
+	.word   9,5,0,-7
+	.long   06dac97eH
+	.word   04000H
+BIGFONT_PERC:
+	.word   19,15,0,0
+	.long   06daca32H
+	.word   04080H
+BIGFONT_PR1:
+	.word   14,19,0,0
+	.long   06dacddaH
+	.word   04080H
+BIGFONT_PR2:
+	.word   14,19,0,0
+	.long   06dad16aH
+	.word   04080H
+BIGFONT_QUE:
+	.word   13,15,0,0
+	.long   06dad4faH
+	.word   04080H
+BIGFONT_SLA:
+	.word   17,19,0,0
+	.long   06dad7d2H
+	.word   04080H
+SMALLFONT_A:
+	.word   11,12,0,0
+	.long   06dadb62H
+	.word   04000H
+SMALLFONT_B:
+	.word   11,10,0,0
+	.long   06dadd72H
+	.word   04000H
+SMALLFONT_C:
+	.word   8,10,0,0
+	.long   06dadf2aH
+	.word   04000H
+SMALLFONT_D:
+	.word   11,10,0,0
+	.long   06dae06aH
+	.word   04000H
+SMALLFONT_E:
+	.word   10,10,0,0
+	.long   06dae222H
+	.word   04000H
+SMALLFONT_F:
+	.word   10,12,0,0
+	.long   06dae3b2H
+	.word   04000H
+SMALLFONT_G:
+	.word   10,10,0,0
+	.long   06dae592H
+	.word   04000H
+SMALLFONT_H:
+	.word   12,12,0,0
+	.long   06dae722H
+	.word   04080H
+SMALLFONT_I:
+	.word   7,10,0,0
+	.long   06dae962H
+	.word   04000H
+SMALLFONT_J:
+	.word   9,13,0,0
+	.long   06daea7aH
+	.word   04000H
+SMALLFONT_K:
+	.word   12,10,0,0
+	.long   06daec4eH
+	.word   04080H
+SMALLFONT_L:
+	.word   8,10,0,0
+	.long   06daee2eH
+	.word   04000H
+SMALLFONT_M:
+	.word   13,10,0,0
+	.long   06daef6eH
+	.word   04080H
+SMALLFONT_N:
+	.word   12,10,0,0
+	.long   06daf166H
+	.word   04080H
+SMALLFONT_O:
+	.word   10,10,0,0
+	.long   06daf346H
+	.word   04000H
+SMALLFONT_P:
+	.word   11,10,0,0
+	.long   06daf4d6H
+	.word   04000H
+SMALLFONT_Q:
+	.word   11,11,0,1
+	.long   06daf68eH
+	.word   04000H
+SMALLFONT_R:
+	.word   12,12,0,0
+	.long   06daf872H
+	.word   04080H
+SMALLFONT_S:
+	.word   9,10,0,0
+	.long   06dafab2H
+	.word   04000H
+SMALLFONT_T:
+	.word   9,10,0,0
+	.long   06dafc1aH
+	.word   04000H
+SMALLFONT_U:
+	.word   10,10,0,0
+	.long   06dafd82H
+	.word   04000H
+SMALLFONT_V:
+	.word   10,10,0,0
+	.long   06daff12H
+	.word   04000H
+SMALLFONT_W:
+;	.word   14,10,0,0
+	.word   14,10,-1,0
+	.long   06db00a2H
+	.word   04080H
+SMALLFONT_X:
+	.word   13,10,0,0
+	.long   06db02c6H
+	.word   04080H
+SMALLFONT_Y:
+	.word   10,12,0,0
+	.long   06db04a6H
+	.word   04000H
+SMALLFONT_Z:
+	.word   11,10,0,0
+	.long   06db0686H
+	.word   04000H
+SMALLFONT_0:
+	.word   10,10,0,0
+	.long   06db083eH
+	.word   04000H
+SMALLFONT_1:
+	.word   7,10,0,0
+	.long   06db09ceH
+	.word   04000H
+SMALLFONT_2:
+	.word   10,10,0,0
+	.long   06db0ae6H
+	.word   04000H
+SMALLFONT_3:
+	.word   10,10,0,0
+	.long   06db0c76H
+	.word   04000H
+SMALLFONT_4:
+	.word   9,10,0,0
+	.long   06db0e06H
+	.word   04000H
+SMALLFONT_5:
+	.word   9,10,0,0
+	.long   06db0f6eH
+	.word   04000H
+SMALLFONT_6:
+	.word   10,11,0,1
+	.long   06db10d6H
+	.word   04000H
+SMALLFONT_7:
+	.word   10,10,0,0
+	.long   06db128eH
+	.word   04000H
+SMALLFONT_8:
+	.word   10,12,0,1
+	.long   06db141eH
+	.word   04000H
+SMALLFONT_9:
+	.word   9,11,0,1
+	.long   06db15feH
+	.word   04000H
+SMALLFONT_PER:
+	.word   4,3,-1,-7
+	.long   06db178aH
+	.word   04000H
+SMALLFONT_COL:
+	.word   6,8,0,-1
+	.long   06db17baH
+	.word   04000H
+SMALLFONT_COM:
+	.word   5,5,0,-6
+	.long   06db187aH
+	.word   04000H
+SMALLFONT_EXC:
+	.word   7,11,0,0
+	.long   06db18deH
+	.word   04000H
+SMALLFONT_MIN:
+	.word   6,3,0,-4
+	.long   06db1a12H
+	.word   04000H
+SMALLFONT_PERC:
+	.word   13,11,0,0
+	.long   06db1a5aH
+	.word   04080H
+SMALLFONT_PR1:
+	.word   9,12,0,0
+	.long   06db1c76H
+	.word   04000H
+SMALLFONT_PR2:
+	.word   9,12,0,0
+	.long   06db1e26H
+	.word   04000H
+SMALLFONT_QUE:
+	.word   8,11,0,0
+	.long   06db1fd6H
+	.word   04000H
+SMALLFONT_SLA:
+	.word   11,13,0,2
+	.long   06db2136H
+	.word   04000H
+	.TEXT
+

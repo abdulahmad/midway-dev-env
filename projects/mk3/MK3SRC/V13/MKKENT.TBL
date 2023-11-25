@@ -1,0 +1,83 @@
+	.DATA
+expld1:
+	.word   12,11,0,0
+	.long   08ff3695H
+	.word   03000H
+	.long   expldp3
+expld2:
+	.word   16,21,0,0
+	.long   08ff3821H
+	.word   03080H
+	.long   expldp3
+expld3:
+	.word   16,21,0,0
+	.long   08ff3bc9H
+	.word   04080H
+	.long   expldp3
+expld4:
+	.word   16,21,0,0
+	.long   08ff40c1H
+	.word   03000H
+	.long   expldp3
+expld5:
+	.word   16,20,0,0
+	.long   08ff44b1H
+	.word   04080H
+	.long   expldp3
+expld6:
+	.word   10,10,0,0
+	.long   08ff49a1H
+	.word   03000H
+	.long   expldp3
+expld7:
+	.word   11,11,0,0
+	.long   08ff4acdH
+	.word   03000H
+	.long   expldp3
+expld8:
+	.word   11,11,0,0
+	.long   08ff4c38H
+	.word   03000H
+	.long   expldp3
+ship1:
+	.word   14,21,0,0
+	.long   08ff4da3H
+	.word   04080H
+	.long   shipp1
+ship2:
+	.word   14,21,0,0
+	.long   08ff523bH
+	.word   04000H
+	.long   shipp1
+ship3:
+	.word   15,15,0,0
+	.long   08ff56d3H
+	.word   04000H
+	.long   shipp1
+ship4:
+	.word   15,15,0,0
+	.long   08ff5a57H
+	.word   04000H
+	.long   shipp1
+enemy1:
+	.word   11,11,0,0
+	.long   08ff5ddbH
+	.word   04000H
+	.long   enemyp
+enemy3:
+	.word   11,11,0,0
+	.long   08ff5fbfH
+	.word   04000H
+	.long   enemyp
+enemy5:
+	.word   11,11,0,0
+	.long   08ff61a3H
+	.word   04000H
+	.long   enemyp
+enemy9:
+	.word   11,11,0,0
+	.long   08ff6387H
+	.word   04000H
+	.long   enemyp
+	.TEXT
+

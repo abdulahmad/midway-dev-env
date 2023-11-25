@@ -1,0 +1,721 @@
+Mortal Kombat III (c) 1994 Williams - DWF (03/24/95 03:31:31) page 1
+
+
+ROM Table
+
+ROM Name      Checksum  Size     Space Remaining
+------------  --------  -------  ---------------
+U2.ROM        $9300     1024 kB  2 kB (0%)
+U3.ROM        $7400     1024 kB  MASKED
+U4.ROM        $B600     1024 kB  MASKED
+U5.ROM        $6A00     1024 kB  MASKED
+
+
+Sound Call Table
+
+  Dec  Hex   Trk  Video  Pinball  Description
+  ---- ----- --- ------- -------  -----------
+  0    $0000  0      0.4     0.5  kill sound on all tracks
+
+  5    $0005  0        -       -  MK3: music: Train Tune (1st round)
+  6    $0006  0        -       -  MK3: Train Tune (2nd & 3rd rounds)
+  7    $0007  0        -       -  MK3: Train Tune Finish It
+  8    $0008  0        -       -  MK3: Train Tune End It
+  9    $0009  0        -       -  MK3: Cool Tune (1st round)
+  10   $000a  0        -       -  MK3: Cool Tune (2nd & 3rd rounds)
+  11   $000b  0        -       -  MK3: Cool Tune Finish It
+  12   $000c  0    141.1   161.8  MK3: Cool Tune End It
+  13   $000d  0        -       -  MK3: Slow Penthouse Tune (1st round)
+  14   $000e  0        -       -  MK3: Slow Penthouse Tune (2nd & 3rd rounds)
+  15   $000f  0        -       -  MK3: Slow Penthouse Tune Finish It
+  16   $0010  0    138.5   158.9  MK3: Slow Penthouse Tune End It
+  17   $0011  0        -       -  MK3: Church Tune (1st round)
+  18   $0012  0        -       -  MK3: Church Tune (2nd & 3rd rounds)
+  19   $0013  0        -       -  MK3: Church Tune Finish It
+  20   $0014  0    117.2   134.4  MK3: Church Tune End It
+  21   $0015  0        -       -  MK3: Old Tune (1st round)
+  22   $0016  0        -       -  MK3: Old Tune (2nd & 3rd rounds)
+  23   $0017  0        -       -  MK3: Old Tune Finish It
+  24   $0018  0     96.3   110.4  MK3: Old Tune End It
+  25   $0019  0        -       -  MK3: Lower Wacker (1st round)
+  26   $001a  0        -       -  MK3: Lower Wacker (2nd & 3rd round)
+  27   $001b  0        -       -  MK3: Lower Wacker Finish
+  28   $001c  0     99.2   113.8  MK3: Lower Wacker End
+  29   $001d  0        -       -  MK3: The Pit (1st round)
+  30   $001e  0        -       -  MK3: The Pit (2nd & 3rd rounds)
+  31   $001f  0        -       -  MK3: Pit Finish
+  32   $0020  0     92.9   106.6  MK3: Pit End
+  33   $0021  0        -       -  MK3: The Tongue (1st round)
+  34   $0022  0        -       -  MK3: The Tongue (2nd & 3rd rounds)
+  35   $0023  0        -       -  MK3: Tongue Finish
+  36   $0024  0    154.9   177.6  MK3: Tongue End
+  37   $0025  0        -       -  MK3: Drum Frenzy
+  38   $0026  0        -       -  MK3: Drum Frenzy Finish
+  39   $0027  0    104.6   120.0  MK3: Drum Frenzy End
+  40   $0028  0        -       -  MK3: Through subway ceiling
+  41   $0029  0        -       -  MK3: Bust through to Gargoyle Roof
+
+  45   $002d  0        -       -  MK3: Grave Yard (round 1)
+  46   $002e  0        -       -  MK3: Grave Yard (round 2 & 3)
+  47   $002f  0        -       -  MK3: Grave Yard Finish
+ 
+Mortal Kombat III (c) 1994 Williams - DWF (03/24/95 03:31:31) page 2
+
+
+Sound Call Table (continued)
+
+  Dec  Hex   Trk  Video  Pinball  Description
+  ---- ----- --- ------- -------  -----------
+  48   $0030  0    166.2   190.6  MK3: Grave Yard End
+
+  50   $0032  0        -       -  MK3: MK III Game Start -- Select Screen
+
+  52   $0034  0        -       -  MK3: MK III Game Start Whole Sequence
+  53   $0035  0    166.2   190.6  MK3: Mortal Sans
+  54   $0036  0    179.6   205.9  MK3: Fatality #1
+  55   $0037  0    167.0   191.5  MK3: Fatality #2
+  56   $0038  0        -       -  MK3: Buy-in
+
+  58   $003a  0        -       -  MK3: Animality #1 (during morph)
+  59   $003b  0     71.6    82.1  MK3: Animality #2 (after death)
+e 60   $003c  0        -       -  MK3: One Player Path
+e 61   $003d  0     92.1   105.6  MK3: End One Player Path
+e 62   $003e  0        -       -  MK3: Slow Attract Mode w/drone
+e 63   $003f  0        -       -  MK3: Slow Attract Mode - no drone
+e 64   $0040  0        -       -  MK3: Fast Attract Mode - one way
+e 65   $0041  0        -       -  MK3: Fast Attract Mode - another way
+e 66   $0042  0    155.3   178.1  MK3: fRieNdsHip #1
+e 67   $0043  0    177.5   203.5  MK3: Babality
+e 68   $0044  0    144.0   165.1  MK3: Fast Attract Mode Ending
+e 69   $0045  0    590.2   676.8  MK3: You Win
+
+  80   $0050  1    102.5   117.6  Street Explode [1 2]
+
+  100  $0064  1     18.0    20.6  big hit #1
+  105  $0069  1     16.7    19.2  big hit #2
+  110  $006e  1     33.1    37.9  Block a Major hit
+  115  $0073  1     15.1    17.3  block #1
+  120  $0078  1     22.2    25.4  body hit #1
+  125  $007d  1     21.3    24.5  body hit #2
+  130  $0082  1     17.2    19.7  face hit #1
+  135  $0087  1     18.8    21.6  face hit #2
+  140  $008c  1     25.1    28.8  Biggie Hit #3
+  145  $0091  1     26.0    29.8  big whoosh #1
+  150  $0096  1     18.8    21.6  big whoosh #2
+  155  $009b  1     20.9    24.0  big whoosh #3
+  160  $00a0  1     17.6    20.2  big whoosh #4
+  165  $00a5  1     16.7    19.2  whoosh #1
+  170  $00aa  1     23.4    26.9  whoosh #2
+  175  $00af  1     20.5    23.5  whoosh #3
+  180  $00b4  1     26.0    29.8  Body hit #3
+  185  $00b9  1     32.2    37.0  fall #1
+  190  $00be  1     22.6    25.9  fall #2
+  195  $00c3  1     40.2    46.1  fall #3
+  200  $00c8  1     35.2    40.3  fall #4
+
+  210  $00d2  1     32.2    37.0  Crunch #1
+  215  $00d7  1     33.1    37.9  Crunch #2
+  220  $00dc  1     25.1    28.8  Stab #1
+  225  $00e1  1     25.5    29.3  Biggie Stab #1
+  230  $00e6  1     46.0    52.8  Biggie Stab #2
+ 
+Mortal Kombat III (c) 1994 Williams - DWF (03/24/95 03:31:31) page 3
+
+
+Sound Call Table (continued)
+
+  Dec  Hex   Trk  Video  Pinball  Description
+  ---- ----- --- ------- -------  -----------
+  235  $00eb  1     30.1    34.6  Biggie Stab #3
+  240  $00f0  1     45.2    51.8  Old big hit #1
+  245  $00f5  1     45.2    51.8  Old big hit #2
+
+  255  $00ff  1     32.2    37.0  Medium Body Slam
+  260  $0104  1     51.1    58.6  Big Body Slam
+  265  $0109  1     46.0    52.8  Big Slam
+  270  $010e  1     38.1    43.7  New Big Hit #1
+  275  $0113  1     37.7    43.2  New Big Hit #2 (weapon)
+  280  $0118  1     33.1    37.9  New Big Hit #3
+  285  $011d  1     36.4    41.8  New Big Hit #4
+  290  $0122  1     41.9    48.0  New Big Hit #5 (weapon)
+  295  $0127  1     18.8    21.6  Rock #1
+  300  $012c  1     13.4    15.4  Rock #2
+  305  $0131  1     30.6    35.0  Rocks #1
+  310  $0136  1     18.4    21.1  Rocks #2
+  315  $013b  1     21.8    25.0  Rocks #3
+  320  $0140  1    102.5   117.6  Explode thru street #1
+  325  $0145  1     99.6   114.2  Explode thru street #2
+  330  $014a  1     11.3    13.0  Footstep #1
+  335  $014f  1     13.4    15.4  Footstep #2
+  340  $0154  1     12.6    14.4  Footstep #3
+  345  $0159  1      7.5     8.6  Footstep #4
+  350  $015e  1     26.8    30.7  New Stab #1
+  355  $0163  1     24.3    27.8  New Stab #2 (Kano knife)
+  360  $0168  1     29.7    34.1  New Stab #3
+  365  $016d  1     28.9    33.1  Round House Whoosh
+  370  $0172  1     27.6    31.7  big jump whoosh
+  375  $0177  1     37.7    43.2  Crash through floors
+
+  385  $0181  1     63.6    73.0  Fatality: Robot press out
+  390  $0186  1     10.9    12.5  player's feet landing
+  395  $018b  1     23.9    27.4  Metal Punch #1
+  400  $0190  1     26.8    30.7  Metal Punch #2
+  405  $0195  1     11.7    13.4  Hi Cabal Whoosh
+  410  $019a  1     17.6    20.2  Low Cabal Whoosh
+
+  500  $01f4  1     78.3    89.8  Jax Cannon
+  505  $01f9  1     82.5    94.6  Indian Arrow trajectory
+  510  $01fe  1     52.7    60.5  Kano ax
+  515  $0203  1     70.3    80.6  Kano spinning knife
+  520  $0208  1     61.5    70.6  Kano ball trajectory
+  525  $020d  1     40.6    46.6  Sub-Zero Ice Turd
+  530  $0212  1     50.2    57.6  Sonya Fly
+  535  $0217  1     72.0    82.6  Sub-Zero Ice Up
+  540  $021c  1     50.6    58.1  Sub-Zero Ice Down
+  545  $0221  1    159.9   183.4  Burning Tomahawk
+  550  $0226  1     41.9    48.0  Bow & Arrow Appear
+  555  $022b  1     69.1    79.2  Girlie Hairy Throw
+  560  $0230  1     59.9    68.6  Sonya Force Wave
+  565  $0235  1     23.0    26.4  Robo Arm Out
+  570  $023a  1     16.7    19.2  Robo Arm In
+ 
+Mortal Kombat III (c) 1994 Williams - DWF (03/24/95 03:31:31) page 4
+
+
+Sound Call Table (continued)
+
+  Dec  Hex   Trk  Video  Pinball  Description
+  ---- ----- --- ------- -------  -----------
+  575  $023f  1     38.9    44.6  Robo Throw
+  580  $0244  1     28.5    32.6  Arrow Hit
+  585  $0249  1     25.1    28.8  Arrow Blocked
+  590  $024e  1     20.9    24.0  Kano Knife Blocked
+  595  $0253  1     74.9    85.9  Robo Fast Rocket
+  600  $0258  1    254.1   291.4  Robo Curvy Rocket (example)
+  605  $025d  1     49.0    56.2  Sonya Force Wave Hit
+  610  $0262  1     28.5    32.6  Sonya Force Wave Blocked
+  615  $0267  1     46.0    52.8  Jax, Robo Rocket Hit
+  620  $026c  1     28.5    32.6  Jax, Robo Rocket Blocked
+  625  $0271  1    196.7   225.6  Muchacha Scream Trap Loop (3x)
+  630  $0276  1     98.4   112.8  Muchacha Scream Trap Loop (1x)
+  635  $027b  1     57.8    66.2  Robo Net Throw
+  640  $0280  1     38.5    44.2  Frosty Ice Hit
+  645  $0285  1     16.7    19.2  Frosty Ice Blocked
+  650  $028a  1     33.1    37.9  Robo Curvy Rocket Part #1
+  655  $028f  1     36.8    42.2  Robo Curvy Rocket Loop
+  660  $0294  1     29.3    33.6  Robot Spark #1
+  665  $0299  1     28.5    32.6  Robot Spark #2
+  670  $029e  1     40.6    46.6  Robot Spark #3
+  675  $02a3  1     45.2    51.8  Robot Warning Target (4x)
+  680  $02a8  1     74.9    85.9  Kung Lao saw throw
+  685  $02ad  1     72.8    83.5  Kung Lao Saw Hit (2x)
+  690  $02b2  1     33.5    38.4  Kung Lao Saw Blocked
+  695  $02b7  1     25.5    29.3  Robot chest click
+  700  $02bc  1     63.6    73.0  Jax blur punch
+  705  $02c1  1     35.2    40.3  Jax knee break
+  710  $02c6  1     44.4    50.9  Sal projectile reflector
+  715  $02cb  1     40.6    46.6  Sal Shadow Shoulder
+  720  $02d0  1     45.2    51.8  Sonya bicycle kick whoosh
+  725  $02d5  1     69.1    79.2  Muchacha fireball
+  730  $02da  1     32.6    37.4  Muchacha fireball hit
+  735  $02df  1     25.1    28.8  Muchacha fireball blocked
+  740  $02e4  1     32.2    37.0  Kung Lao flying kick
+  745  $02e9  1     20.9    24.0  Robo metal ball clank #1
+  750  $02ee  1     20.5    23.5  Robo metal ball clank #2
+  755  $02f3  1     89.6   102.7  Robo metal ball explode
+  760  $02f8  1     46.9    53.8  Robot explodes
+  765  $02fd  1     27.2    31.2  Robot implodes
+  770  $0302  1     61.5    70.6  Robot teleport whoosh
+  775  $0307  1     50.6    58.1  Muchacha fly #1 (rise)
+
+  785  $0311  1     36.4    41.8  Robo net blocked
+  790  $0316  1     19.3    22.1  Jax Charge Ground Punch
+  795  $031b  1     72.4    83.0  Jax Hit Ground
+  800  $0320  1     75.8    86.9  Burning Tomahawk (1x)
+  805  $0325  1     33.5    38.4  Kano Metal HeadButt
+  810  $032a  1     62.4    71.5  Sub-Zero: frozen by his image
+  815  $032f  1     46.0    52.8  Liu Kang fireball hit
+  820  $0334  1     82.9    95.0  Cabal projectile
+  825  $0339  1     53.6    61.4  Liu Kang Fireball
+e 830  $033e  1     67.4    77.3  Shang Tsung Ground Fireball
+ 
+Mortal Kombat III (c) 1994 Williams - DWF (03/24/95 03:31:31) page 5
+
+
+Sound Call Table (continued)
+
+  Dec  Hex   Trk  Video  Pinball  Description
+  ---- ----- --- ------- -------  -----------
+  835  $0343  1     46.0    52.8  Sub-Zero Slide Trip
+e 840  $0348  1     47.3    54.2  Kano - Sal flaming ax hit
+  845  $034d  1     29.3    33.6  Liu Kang Fireball blocked
+e 850  $0352  1     56.1    64.3  Shang Tsung green orb sound
+e 855  $0357  1     43.1    49.4  Shang Tsung morph sound
+e 860  $035c  1     44.4    50.9  Stryker grenade throw
+e 865  $0361  1     43.1    49.4  Stryker lunge sound
+e 870  $0366  1     23.0    26.4  Stryker hit with baton
+e 875  $036b  1     28.0    32.2  Stryker throw with baton
+e 880  $0370  1     59.0    67.7  Cabal Rushing Attack
+e 885  $0375  1     40.6    46.6  Sheeva Teleport Sound
+e 890  $037a  1     55.7    63.8  Sheeva Fireball
+e 895  $037f  1     87.9   100.8  Cabal spinning victim (loop it) (1x)
+
+  993  $03e1  0      0.0     0.0  SYSTEM          Kill sound on track 0
+  994  $03e2  1      0.0     0.0  SYSTEM          Kill sound on track 1
+  995  $03e3  2      0.0     0.0  SYSTEM          Kill sound on track 2
+  996  $03e4  3      0.0     0.0  SYSTEM          Kill sound on track 3
+  997  $03e5  4      0.0     0.0  SYSTEM          Kill sound on track 4
+  998  $03e6  5      0.0     0.0  SYSTEM          Kill sound on track 5
+  999  $03e7  0      2.1     2.4  SYSTEM      send version # as a signal
+  1000 $03e8  1    217.7   249.6  howling wind loop
+  1005 $03ed  1     54.4    62.4  MK3: subway approaching
+  1010 $03f2  1    117.6   134.9  MK3: subway steady state
+  1015 $03f7  1     62.8    72.0  MK3: subway going away
+
+  1030 $0406  1     53.6    61.4  Old Danger sound
+  1035 $040b  1     74.9    85.9  MK3: Big door slides shut
+  1040 $0410  1     79.5    91.2  MK3: Big door closes
+  1045 $0415  1     18.0    20.6  Splish #1
+  1050 $041a  1     14.6    16.8  Splish #2
+  1055 $041f  1     39.3    45.1  Splish #3
+  1060 $0424  1     11.7    13.4  Time-Down Tick
+  1065 $0429  1    136.9   157.0  MK3: Church Bell
+  1070 $042e  1     87.5   100.3  Crowd "oooh"
+
+e 1085 $043d  1     11.3    13.0  Cursor player #1
+e 1090 $0442  1     11.3    13.0  Cursor player #2
+  1095 $0447  1     50.6    58.1  Fighter Picked #1
+  1100 $044c  1     48.1    55.2  Fighter Picked #2
+  1105 $0451  1     61.9    71.0  Mortal Sans Whoosh
+
+e 1115 $045b  1    117.2   134.4  Mercy Hit
+e 1120 $0460  1     58.6    67.2  One Player Ladder Whoosh
+e 1125 $0465  1     70.7    81.1  Game Start Sound
+e 1130 $046a  1      2.5     2.9  Emblem Click
+  1135 $046f  1      6.7     7.7  Player 2 Buys In
+e 1140 $0474  1      6.3     7.2  Combo Message Hit
+  1145 $0479  1      5.4     6.2  One Player Map Select
+e 1150 $047e  1    126.8   145.4  Flawless/Fatality Drone
+
+e 1500 $05dc  1     20.9    24.0  AM: Sheeva attack #1
+ 
+Mortal Kombat III (c) 1994 Williams - DWF (03/24/95 03:31:31) page 6
+
+
+Sound Call Table (continued)
+
+  Dec  Hex   Trk  Video  Pinball  Description
+  ---- ----- --- ------- -------  -----------
+e 1505 $05e1  1     22.2    25.4  AM: Sheeva attack #2
+e 1510 $05e6  1     40.6    46.6  AM: Sheeva flying kick attack
+e 1515 $05eb  1     22.6    25.9  AM: Sheeva grab
+e 1520 $05f0  1     53.2    61.0  AM: Sheeva throw
+e 1525 $05f5  1     73.2    84.0  AM: Sheeva running attack
+e 1530 $05fa  1     20.1    23.0  AM: Sheeva jump
+e 1535 $05ff  1     25.5    29.3  AM: Sheeva face hit #1
+e 1540 $0604  1     33.5    38.4  AM: Sheeva face hit #2
+e 1545 $0609  1     16.3    18.7  AM: Sheeva body hit #1
+e 1550 $060e  1     17.2    19.7  AM: Sheeva body hit #2
+e 1555 $0613  1     21.8    25.0  AM: Sheeva tripped
+e 1560 $0618  1     42.3    48.5  AM: Sheeva medium wasted
+e 1565 $061d  1     74.9    85.9  AM: Sheeva wasted #1
+e 1570 $0622  1     72.8    83.5  AM: Sheeva wasted #2
+e 1575 $0627  1    190.4   218.4  AM: Sheeva death
+
+  2000 $07d0  1     28.9    33.1  PB: Attack #1
+  2005 $07d5  1     22.6    25.9  PB: Attack #2
+  2010 $07da  1     50.6    58.1  PB: Flying Kick Attack
+  2015 $07df  1     20.1    23.0  PB: Grab
+  2020 $07e4  1     60.7    69.6  PB: Throw
+  2025 $07e9  1    107.2   122.9  PB: Running Attack
+  2030 $07ee  1     21.8    25.0  PB: Jump
+  2035 $07f3  1     34.3    39.4  PB: Face Hit #1
+  2040 $07f8  1     33.1    37.9  PB: Face Hit #2
+  2045 $07fd  1     31.0    35.5  PB: Body Hit #1
+  2050 $0802  1     25.1    28.8  PB: Body Hit #2
+  2055 $0807  1     21.8    25.0  PB: Tripped
+  2060 $080c  1     44.8    51.4  PB: Medium Wasted
+  2065 $0811  1     58.2    66.7  PB: Wasted #1
+  2070 $0816  1     63.2    72.5  PB: Wasted #2
+  2075 $081b  1    203.4   233.3  PB: Death
+
+  2200 $0898  1     74.5    85.4  PB: bicycle kick
+  2205 $089d  1     86.2    98.9  PB: That was fun
+  2210 $08a2  1     49.4    56.6  PB: Medium Wasted #2
+  2215 $08a7  1     25.1    28.8  PB: Special Owww #1
+  2220 $08ac  1     38.5    44.2  PB: Special Owww #2
+  2225 $08b1  1    130.2   149.3  PB: Upper Cut
+  2230 $08b6  1    117.2   134.4  PB: oh maw
+
+  3000 $0bb8  1     18.4    21.1  VP: attack #1
+  3005 $0bbd  1     19.3    22.1  VP: attack #2
+  3010 $0bc2  1     43.1    49.4  VP: flying attack
+  3015 $0bc7  1     17.6    20.2  VP: grab
+  3020 $0bcc  1     52.3    60.0  VP: throw
+  3025 $0bd1  1     70.7    81.1  VP: running attack
+  3030 $0bd6  1     19.7    22.6  VP: jump
+  3035 $0bdb  1     28.9    33.1  VP: face hit #1
+  3040 $0be0  1     31.8    36.5  VP: face hit #2
+  3045 $0be5  1     28.5    32.6  VP: body hit #1
+  3050 $0bea  1     22.2    25.4  VP: body hit #2
+ 
+Mortal Kombat III (c) 1994 Williams - DWF (03/24/95 03:31:31) page 7
+
+
+Sound Call Table (continued)
+
+  Dec  Hex   Trk  Video  Pinball  Description
+  ---- ----- --- ------- -------  -----------
+  3055 $0bef  1     30.6    35.0  VP: tripped
+  3060 $0bf4  1     38.9    44.6  VP: medium wasted
+  3065 $0bf9  1     46.9    53.8  VP: wasted #1
+  3070 $0bfe  1     59.0    67.7  VP: wasted #2
+  3075 $0c03  1    269.6   309.1  VP: death
+
+e 3200 $0c80  1    151.9   174.2  VP: shook
+e 3205 $0c85  1     26.0    29.8  VP: special owww #1
+  3210 $0c8a  1    140.2   160.8  VP: stretched
+
+  4000 $0fa0  1     24.3    27.8  DF: attack #1
+  4005 $0fa5  1     19.7    22.6  DF: attack #2
+  4010 $0faa  1     36.0    41.3  DF: flying attack
+  4015 $0faf  1     17.2    19.7  DF: grab
+  4020 $0fb4  1     44.8    51.4  DF: throw
+  4025 $0fb9  1     89.6   102.7  DF: running attack
+  4030 $0fbe  1     12.6    14.4  DF: jump
+  4035 $0fc3  1     26.4    30.2  DF: face hit #1
+  4040 $0fc8  1     30.6    35.0  DF: face hit #2
+  4045 $0fcd  1     21.8    25.0  DF: body hit #1
+  4050 $0fd2  1     20.9    24.0  DF: body hit #2
+  4055 $0fd7  1     29.3    33.6  DF: tripped
+  4060 $0fdc  1     44.4    50.9  DF: medium wasted
+  4065 $0fe1  1     57.3    65.8  DF: wasted #1
+  4070 $0fe6  1     54.0    61.9  DF: wasted #2
+  4075 $0feb  1    121.8   139.7  DF: death
+
+  4200 $1068  1     39.3    45.1  DF: yeah
+  4205 $106d  1     28.5    32.6  DF: special body hit #3
+e 4210 $1072  1     23.4    26.9  DF: buh
+e 4215 $1077  1     47.7    54.7  DF: crispy
+
+e 4240 $1090  1     43.1    49.4  DF: Frosty
+  4245 $1095  1     38.1    43.7  DF: Toasty
+
+e 4255 $109f  1     40.6    46.6  DF: oh maw
+
+e 4270 $10ae  1     56.1    64.3  DF: Kung Lao wicked throw
+
+  5000 $1388  1     18.4    21.1  EB low: attack #1
+  5005 $138d  1     18.8    21.6  EB low: attack #2
+  5010 $1392  1     29.3    33.6  EB low: flying attack
+  5015 $1397  1     19.7    22.6  EB low: grab
+  5020 $139c  1     46.5    53.3  EB low: throw
+  5025 $13a1  1     71.2    81.6  EB low: running attack
+  5030 $13a6  1     14.2    16.3  EB low: jump
+  5035 $13ab  1     17.6    20.2  EB low: face hit #1
+  5040 $13b0  1     27.6    31.7  EB low: face hit #2
+  5045 $13b5  1     24.7    28.3  EB low: body #1
+  5050 $13ba  1     21.3    24.5  EB low: body #2
+  5055 $13bf  1     18.8    21.6  EB low: tripped
+  5060 $13c4  1     39.8    45.6  EB low: medium wasted
+ 
+Mortal Kombat III (c) 1994 Williams - DWF (03/24/95 03:31:31) page 8
+
+
+Sound Call Table (continued)
+
+  Dec  Hex   Trk  Video  Pinball  Description
+  ---- ----- --- ------- -------  -----------
+  5065 $13c9  1     61.9    71.0  EB low: wasted #1
+  5070 $13ce  1     57.8    66.2  EB low: wasted #2
+  5075 $13d3  1    193.8   222.2  EB low: death
+
+e 5200 $1450  1     22.6    25.9  EB: special oww #1
+e 5205 $1455  1     95.9   109.9  EB: shook
+e 5210 $145a  1     35.6    40.8  EB: special throw
+
+e 5220 $1464  1     35.6    40.8  EB: Jax - gotcha
+
+e 5500 $157c  1     16.7    19.2  Liu Kang: Attack #1
+e 5505 $1581  1     23.4    26.9  Liu Kang: Attack #2
+e 5510 $1586  1     33.9    38.9  Liu Kang: Flying kick attack
+e 5515 $158b  1     11.7    13.4  Liu Kang: grab
+e 5520 $1590  1     40.6    46.6  Liu Kang: throw
+e 5525 $1595  1     80.8    92.6  Liu Kang: running attack
+e 5530 $159a  1     20.1    23.0  Liu Kang: jump
+e 5535 $159f  1     28.5    32.6  Liu Kang: face hit #1
+e 5540 $15a4  1     19.7    22.6  Liu Kang: face hit #2
+e 5545 $15a9  1     17.2    19.7  Liu Kang: body hit #1
+e 5550 $15ae  1     28.0    32.2  Liu Kang: body hit #2
+e 5555 $15b3  1     26.8    30.7  Liu Kang: tripped
+e 5560 $15b8  1     46.0    52.8  Liu Kang: medium wasted
+e 5565 $15bd  1    126.4   145.0  Liu Kang: wasted #1
+e 5570 $15c2  1    105.9   121.4  Liu Kang: wasted #2
+e 5575 $15c7  1    229.0   262.6  Liu Kang: death
+e 5580 $15cc  1     84.1    96.5  Liu Kang: bicycle kick
+e 5585 $15d1  1     18.0    20.6  Liu Kang: body hit #3
+
+e 5595 $15db  1     93.3   107.0  Liu Kang: mega flying kick attack
+
+  6000 $1770  1     15.9    18.2  JH: attack #1
+  6005 $1775  1     20.1    23.0  JH: attack #2
+  6010 $177a  1     43.1    49.4  JH: flying attack
+  6015 $177f  1     18.4    21.1  JH: grab
+  6020 $1784  1     41.9    48.0  JH: throw
+  6025 $1789  1     71.2    81.6  JH: running attack
+  6030 $178e  1     15.5    17.8  JH: jump
+  6035 $1793  1     30.6    35.0  JH: face hit #1
+  6040 $1798  1     27.2    31.2  JH: face hit #2
+  6045 $179d  1     27.2    31.2  JH: body hit #1
+  6050 $17a2  1     17.2    19.7  JH: body hit #2
+  6055 $17a7  1     22.2    25.4  JH: tripped
+  6060 $17ac  1     47.7    54.7  JH: medium wasted
+  6065 $17b1  1     82.0    94.1  JH: wasted #1
+  6070 $17b6  1     72.8    83.5  JH: wasted #2
+  6075 $17bb  1    172.4   197.8  JH: death
+
+e 6235 $185b  1     22.2    25.4  JH: special owww #4
+
+  7000 $1b58  1     62.8    72.0  Robot Speech #1 (got wasted)
+  7005 $1b5d  1     36.0    41.3  Robot Speech #2 (got medium wasted)
+ 
+Mortal Kombat III (c) 1994 Williams - DWF (03/24/95 03:31:31) page 9
+
+
+Sound Call Table (continued)
+
+  Dec  Hex   Trk  Video  Pinball  Description
+  ---- ----- --- ------- -------  -----------
+  7010 $1b62  1     43.1    49.4  Robot Speech #3 (got medium wasted)
+  7015 $1b67  1     54.0    61.9  Robot Speech #4 (got wasted)
+  7020 $1b6c  1     61.1    70.1  Robot Speech #5 (running attack)
+  7025 $1b71  1     46.9    53.8  New Robot Spark #1
+
+  7035 $1b7b  1     42.7    49.0  New Robot Spark #3
+
+  7055 $1b8f  1     25.1    28.8  New Robot Spark #7
+  7060 $1b94  1     47.7    54.7  New Robot Spark #8
+  7065 $1b99  1     23.0    26.4  New Robot Spark #9
+
+e 9000 $2328  1     94.2   108.0  Shao Kahn: Finish Him!
+e 9005 $232d  1     90.4   103.7  Shao Kahn: Finish Her!
+  9010 $2332  1     79.5    91.2  Shao Kahn: Fatality!
+  9015 $2337  1     90.0   103.2  Shao Kahn: Flawless Victory
+e 9020 $233c  1     68.6    78.7  Shao Kahn: Fight! #1
+  9025 $2341  1     84.5    97.0  Shao Kahn: Round One
+  9030 $2346  1     79.1    90.7  Shao Kahn: Round Two
+  9035 $234b  1     74.1    85.0  Shao Kahn: Round Three
+  9040 $2350  1     71.2    81.6  Shao Kahn: Round Four
+
+e 9060 $2364  1     60.7    69.6  Shao Kahn: Cabal
+  9065 $2369  1     59.0    67.7  Shao Kahn: Jax
+  9070 $236e  1     54.4    62.4  Shao Kahn: Kano
+
+  9080 $2378  1     65.3    74.9  Shao Kahn: Liu Kang
+e 9085 $237d  1     64.9    74.4  Shao Kahn: Motaro
+  9090 $2382  1     74.9    85.9  Shao Kahn: Shang Tsung
+  9095 $2387  1     52.3    60.0  Shao Kahn: Sheeva
+e 9100 $238c  1     50.6    58.1  Shao Kahn: Smoke
+  9105 $2391  1     58.2    66.7  Shao Kahn: Sonya
+e 9110 $2396  1     52.7    60.5  Shao Kahn: Stryker
+  9115 $239b  1     65.3    74.9  Shao Kahn: Sub-Zero
+e 9120 $23a0  1     64.9    74.4  Shao Kahn: Kung Lao
+  9125 $23a5  1     63.6    73.0  Shao Kahn: I win
+  9130 $23aa  1     64.9    74.4  Shao Kahn: Superb
+  9135 $23af  1     66.1    75.8  Shao Kahn: Well Done
+
+  9145 $23b9  1     68.6    78.7  Shao Kahn: ... wins
+  9150 $23be  1    151.5   173.8  Shao Kahn: Laugh #1
+  9155 $23c3  1    126.0   144.5  Shao Kahn: Laugh #2
+  9160 $23c8  1    149.4   171.4  Shao Kahn: Laugh #3
+e 9165 $23cd  1     74.5    85.4  Shao Kahn: ... shows mercy
+
+e 9175 $23d7  1     70.3    80.6  Shao Kahn: Animality
+e 9180 $23dc  1     65.7    75.4  Shao Kahn: Babality
+e 9185 $23e1  1     63.2    72.5  Shao Kahn: Crispy
+e 9190 $23e6  1     66.6    76.3  Shao Kahn: Frosty
+  9195 $23eb  1     56.9    65.3  Shao Kahn: Friendship
+e 9200 $23f0  1     49.4    56.6  Shao Kahn: Friendship!?!
+e 9205 $23f5  1     51.5    59.0  Shao Kahn: Again?
+
+ 
+Mortal Kombat III (c) 1994 Williams - DWF (03/24/95 03:31:31) page 10
+
+e 9215 $23ff  1     66.6    76.3  Shao Kahn: Toasty Low
+e 9220 $2404  1     66.1    75.8  Shao Kahn: Oh maw
+e 9225 $2409  1    110.5   126.7  Shao Kahn: Cabal wins
+  9230 $240e  1    112.6   129.1  Shao Kahn: Jax wins
+  9235 $2413  1    116.8   133.9  Shao Kahn: Kano wins
+
+  9245 $241d  1    123.1   141.1  Shao Kahn: Liu Kang wins
+e 9250 $2422  1    118.9   136.3  Shao Kahn: Motaro wins
+  9255 $2427  1    133.1   152.6  Shao Kahn: Shang Tsung wins
+  9260 $242c  1    112.2   128.6  Shao Kahn: Sheeva wins
+e 9265 $2431  1    118.9   136.3  Shao Kahn: Smoke wins
+  9270 $2436  1    116.8   133.9  Shao Kahn: Sonya wins
+e 9275 $243b  1    118.9   136.3  Shao Kahn: Stryker wins
+  9280 $2440  1    123.1   141.1  Shao Kahn: Sub-Zero wins
+e 9285 $2445  1    121.8   139.7  Shao Kahn: Kung Lao wins
+e 9290 $244a  1    108.0   123.8  Shao Kahn: Cabal shows mercy
+e 9295 $244f  1    116.4   133.4  Shao Kahn: Jax shows mercy
+e 9300 $2454  1    116.4   133.4  Shao Kahn: Kano shows mercy
+
+e 9310 $245e  1    126.8   145.4  Shao Kahn: Liu Kang shows mercy
+e 9315 $2463  1    117.6   134.9  Shao Kahn: Motaro shows mercy
+e 9320 $2468  1    132.3   151.7  Shao Kahn: Shang Tsung shows mercy
+e 9325 $246d  1    113.8   130.6  Shao Kahn: Sheeva shows mercy
+e 9330 $2472  1    124.7   143.0  Shao Kahn: Smoke shows mercy
+e 9335 $2477  1    119.7   137.3  Shao Kahn: Sonya shows mercy
+e 9340 $247c  1    124.7   143.0  Shao Kahn: Stryker shows mercy
+e 9345 $2481  1    139.4   159.8  Shao Kahn: Sub-Zero shows mercy
+e 9350 $2486  1    119.3   136.8  Shao Kahn: Kung Lao shows mercy
+e 9355 $248b  1     68.2    78.2  Shao Kahn: Cyrax
+e 9360 $2490  1     79.1    90.7  Shao Kahn: Night Wolf
+e 9365 $2495  1     61.1    70.1  Shao Kahn: Sector
+e 9370 $249a  1     64.0    73.4  Shao Kahn: Sindel
+e 9375 $249f  1    123.9   142.1  Shao Kahn: Cyrax wins
+e 9380 $24a4  1    126.4   145.0  Shao Kahn: Night Wolf wins
+e 9385 $24a9  1    122.2   140.2  Shao Kahn: Sector wins
+e 9390 $24ae  1    123.9   142.1  Shao Kahn: Sindel wins
+e 9395 $24b3  1    125.6   144.0  Shao Kahn: Cyrax shows mercy
+e 9400 $24b8  1    132.3   151.7  Shao Kahn: Night Wolf shows mercy
+e 9405 $24bd  1    128.1   146.9  Shao Kahn: Sector shows mercy
+e 9410 $24c2  1    125.6   144.0  Shao Kahn: Sindel shows mercy
+e 9415 $24c7  1     67.8    77.8  Shao Kahn: Excellent
+e 9420 $24cc  1     90.0   103.2  Shao Kahn: Outstanding
+e 9425 $24d1  1     56.5    64.8  Shao Kahn: Danger
+e 9430 $24d6  1     83.7    96.0  Shao Kahn: Short Laugh #5 (Danger)
+
+e 9440 $24e0  1    110.5   126.7  Shao Kahn: You will never win
+e 9445 $24e5  1    149.8   171.8  Shao Kahn: It's official you suck
+e 9450 $24ea  1     77.4    88.8  Shao Kahn: You suck
+e 9455 $24ef  1    122.2   140.2  Shao Kahn: That was Pathetic
+e 9460 $24f4  1    118.5   135.8  Shao Kahn: You're still trying to win?
+e 9465 $24f9  1     52.7    60.5  Shao Kahn: Stryker #2
+e 9470 $24fe  1    109.2   125.3  Shao Kahn: Choose your Destiny
+e 9475 $2503  1     86.2    98.9  Shao Kahn: Don't make me laugh
+
+e 9500 $251c  1     81.2    93.1  Motaro Yell #1
+e 9505 $2521  1     97.5   111.8  Motaro Yell #2
+e 9510 $2526  1     62.4    71.5  Motaro Yell #3
+ 
+Mortal Kombat III (c) 1994 Williams - DWF (03/24/95 03:31:31) page 11
+
+
+Sound Call Table (continued)
+
+  Dec  Hex   Trk  Video  Pinball  Description
+  ---- ----- --- ------- -------  -----------
+e 9515 $252b  1     35.6    40.8  Motaro React #1
+e 9520 $2530  1     64.0    73.4  Motaro React #2
+e 9525 $2535  1     76.6    87.8  Motaro Taunt
+
+e 9700 $25e4  1     35.2    40.3  Shao Kahn: Attack #1
+e 9705 $25e9  1     37.7    43.2  Shao Kahn: Attack #2
+e 9710 $25ee  1     26.8    30.7  Shao Kahn: React #1
+e 9715 $25f3  1     31.4    36.0  Shao Kahn: React #2
+e 9720 $25f8  1     38.9    44.6  Shao Kahn: React #3
+e 9725 $25fd  1     49.8    57.1  Shao Kahn: React #4
+e 9730 $2602  1     55.2    63.4  Shao Kahn: Wast #1
+e 9735 $2607  1     61.9    71.0  Shao Kahn: Wast #2
+
+  10000 $2710  1     82.5    94.6  ER: bizness
+
+  10010 $271a  1     49.0    56.2  ER: mmmm buh
+  10015 $271f  1     20.1    23.0  ER: buh #1
+  10020 $2724  1     24.7    28.3  ER: buh #2
+e 10025 $2729  1     12.6    14.4  Catsup self-destruct beep #1
+
+e 10040 $2738  1     72.8    83.5  Catsup self-destruct fx #1
+
+e 10055 $2747  1     33.1    37.9  Catsup self-destruct laugh
+  10060 $274c  1     29.3    33.6  Mustard/Kung Lao slice sound
+e 10065 $2751  1     41.9    48.0  Bloody Crunch #1
+e 10070 $2756  1     23.0    26.4  Bloody Stab
+
+e 10090 $276a  1     76.2    87.4  Kano laser shoot
+e 10095 $276f  1     37.7    43.2  Kano laser shock loop
+e 10100 $2774  1    113.0   129.6  Kano laser shock loop (3x)
+e 10105 $2779  1     56.5    64.8  Body Smashed/Crushed
+e 10110 $277e  1     29.3    33.6  Skeleton falls to ground
+e 10115 $2783  1     19.7    22.6  Cabal fatal bubble #1
+e 10120 $2788  1     22.6    25.9  Cabal fatal bubble #2
+e 10125 $278d  1     23.4    26.9  Cabal fatal bubble #3
+e 10130 $2792  1     26.4    30.2  Sub-Zero fatality freeze body
+e 10135 $2797  1     59.4    68.2  Crusher machine sound
+e 10140 $279c  1     61.1    70.1  Kano Spine Rip
+e 10145 $27a1  1     87.9   100.8  Whirlwind/Tornado sound (1x)
+e 10150 $27a6  1    263.7   302.4  Whirlwind/Tornado sound (3x)
+e 10155 $27ab  1     56.5    64.8  Morph into flame
+e 10160 $27b0  1     28.0    32.2  Flame comes down from abaove
+e 10165 $27b5  1    144.8   166.1  Engulfed by flames
+e 10170 $27ba  1     36.4    41.8  Liu Kang motion blur/skin rip
+e 10175 $27bf  1     36.8    42.2  Turn into stone
+e 10180 $27c4  1    108.4   124.3  Catsup Big Self-Destruct Explosion
+e 10185 $27c9  1     35.6    40.8  Head inflate
+e 10190 $27ce  1     36.4    41.8  Night Wolf Lite Start
+e 10195 $27d3  1     72.4    83.0  Night Wolf Lite Loop
+e 10200 $27d8  1     46.9    53.8  Night Wolf Lite End
+e 10205 $27dd  1    228.1   261.6  Night Wolf Lite Example (2x)
+e 10210 $27e2  1     21.8    25.0  Doggie Yip
+ 
+Mortal Kombat III (c) 1994 Williams - DWF (03/24/95 03:31:31) page 12
+
+
+Sound Call Table (continued)
+
+  Dec  Hex   Trk  Video  Pinball  Description
+  ---- ----- --- ------- -------  -----------
+e 10215 $27e7  1     82.5    94.6  Doggie Whine
+e 10220 $27ec  1     59.4    68.2  Swords from Ground
+e 10225 $27f1  1     34.7    39.8  Scorpion (Smoke) teleport
+e 10230 $27f6  1     95.4   109.4  Scorpion (Smoke) spear
+e 10235 $27fb  1    160.3   183.8  Baby #1
+
+e 10245 $2805  1     69.9    80.2  Final Death Quake Loop
+e 10250 $280a  1    228.1   261.6  Shao Kahn Death Scream
+e 10255 $280f  1    209.7   240.5  Final Death Quake Loop Crescendo (3x)
+e 10260 $2814  1     20.9    24.0  Jax arm morph
+e 10265 $2819  1     41.9    48.0  Stryker bomb fuse start
+e 10270 $281e  1     55.2    63.4  Stryker bomb fuse loop (2x)
+e 10275 $2823  1     40.2    46.1  Pit Fatality Machine Loop (2x)
+e 10280 $2828  1     21.8    25.0  Sindel Skin Rip Scream Start
+e 10285 $282d  1     80.4    92.2  Sindel Skin Rip Scream Loop (8x)
+e 10290 $2832  1     30.1    34.6  Sindel Skin Rip Scream End
+e 10295 $2837  1    131.8   151.2  Sindel Skin Rip Example (8x loop)
+e 10300 $283c  1     66.1    75.8  Sub-Zero Fatality Smash
+e 10305 $2841  1    172.9   198.2  S T/Sonya Energy Cloud Loop
+e 10310 $2846  1     34.3    39.4  S T/Sonya Energy Cloud Loop End
+e 10315 $284b  1     74.9    85.9  Night Wolf Lightning Strike
+e 10320 $2850  1     74.9    85.9  Night Wolf Lightning Build-Up
+e 10325 $2855  1     98.4   112.8  Sonya orb trajectory
+e 10330 $285a  1    565.9   649.0  Pit Fatality Machine Fade-Up and Out
+e 10335 $285f  1     87.9   100.8  Sheeva Plate Spinning (1x)
+e 10340 $2864  1     32.2    37.0  Sonya blows orb
+e 10345 $2869  1     31.8    36.5  Slide Whistle (strength meter/snowman)
+e 10350 $286e  1     61.1    70.1  Friendship: Really loud horn blow
+e 10355 $2873  1     49.0    56.2  Friendship: Stryker crossing guard whistle
+e 10360 $2878  1     10.5    12.0  Friendship: Short whistle
+e 10365 $287d  1     77.4    88.8  Cabal Ugly Face Scream
+  10370 $2882  1     26.8    30.7  Cabal takes off mask
+e 10375 $2887  1     59.4    68.2  Shang Tsung Throw Fire Skulls
+e 10380 $288c  1     47.7    54.7  Acid sizzle Part 1
+  10385 $2891  1     46.0    52.8  Acid sizzle Part 2
+e 10390 $2896  1     33.5    38.4  Shao Kahn Light Puncture #1
+
+e 20005 $4e25  1     42.7    49.0  Animality Wasp Loop
+e 20010 $4e2a  1     39.3    45.1  Animality Wasp Sting
+e 20015 $4e2f  1     83.3    95.5  Animality Hiss (Spider/Snake/Scorpion)
+e 20020 $4e34  1     78.3    89.8  Generic Big Animality Roar
+e 20025 $4e39  1     47.3    54.2  Wolf Maul Growl
+e 20030 $4e3e  1     67.0    76.8  Animality Bird/Bat
+
+Total 2513 Sound Calls
+
+Summary (EPROM and MASKED)
+
+Total Average Bitrate:  47.4 kbits/sec
+Total Time:             11:23.497 minutes
+Total Number of .CMP's: 538
+Total Size of .CMP's:   3.86 megabytes
+

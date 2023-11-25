@@ -1,0 +1,16 @@
+Mortal Kombat III (c) 1994 Williams - DWF (02/28/95 17:57:08) page 1
+
+
+ROM Table
+
+ROM Name      Checksum  Size     Space Remaining
+------------  --------  -------  ---------------
+U2.ROM        $A000     1024 kB  554 kB (54%)
+U3.ROM        $7400     1024 kB  3 kB (0%)
+U4.ROM        $B600     1024 kB  0 kB (0%)
+U5.ROM        $6A00     1024 kB  1 kB (0%)
+
+
+Sound Call Table
+
+  Dec  Hex   Trk  Video  Pinball  Description

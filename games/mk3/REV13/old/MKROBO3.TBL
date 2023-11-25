@@ -1,0 +1,115 @@
+	.DATA
+COMEHERE1:
+	.word   327,18,0,0
+	.long   089831d7H
+	.word   05000H
+	.long   CUM_P
+COMEHERE2:
+	.word   327,18,0,0
+	.long   0898a4cdH
+	.word   05000H
+	.long   CUM_P
+COMEHERE3:
+	.word   317,14,0,0
+	.long   089917c3H
+	.word   05000H
+	.long   CUM_P
+SMBOMB1A:
+	.word   19,32,-125,-6
+	.long   08996e71H
+	.word   05080H
+	.long   SMMCARM_P
+EARTH1A:
+	.word   59,54,29,27
+	.long   08997840H
+	.word   05180H
+	.long   EARTH01P
+EARTH2A:
+	.word   173,156,88,81
+	.long   0899ac95H
+	.word   06e80H
+	.long   EARTH02P
+EARTH3A:
+	.word   105,102,104,0
+	.long   089b3e7dH
+	.word   05380H
+	.long   EARTH03P
+EARTH3B:
+	.word   105,102,-1,0
+	.long   089be9d7H
+	.word   05c80H
+	.long   EARTH03P
+EARTH3C:
+	.word   105,102,104,102
+	.long   089b3e7dH
+	.word   05380H
+	.long   EARTH03P
+EARTH3D:
+	.word   105,102,-1,102
+	.long   089be9d7H
+	.word   05c80H
+	.long   EARTH03P
+SMMECARM1:
+	.word   35,34,7,-1
+	.long   089c956dH
+	.word   05580H
+	.long   SMMCARM_P
+SMMECARM2:
+	.word   71,47,7,12
+	.long   089ca285H
+	.word   05a80H
+SMMECARM3:
+	.word   118,67,7,32
+	.long   089cb5beH
+	.word   05f80H
+SMMECARM4:
+	.word   148,70,7,35
+	.long   089cd2e8H
+	.word   05f80H
+SMMECARM5:
+	.word   148,73,7,38
+	.long   089cfe30H
+	.word   05f80H
+SMMECARM6:
+	.word   148,77,7,42
+	.long   089d2a44H
+	.word   05f80H
+SMMECARM7:
+	.word   135,61,7,26
+	.long   089d5970H
+	.word   05f80H
+SMMECARM8:
+	.word   143,54,7,19
+	.long   089d798fH
+	.word   05f80H
+SMMECARM9:
+	.word   113,53,7,18
+	.long   089d9471H
+	.word   05f80H
+SMMECARM10:
+	.word   66,32,7,-3
+	.long   089da96aH
+	.word   05a80H
+SMMECARM11:
+	.word   30,18,7,-17
+	.long   089db4a6H
+	.word   05580H
+RBPANELITE3:
+	.word   32,27,-2,-14
+	.long   089dba04H
+	.word   05480H
+	.long   PLITE_P
+RBPANELITE4:
+	.word   35,31,-2,-14
+	.long   089dc3b5H
+	.word   05480H
+RBPANELITE5:
+	.word   33,31,-2,-15
+	.long   089dcf66H
+	.word   05480H
+RBPANELITE6:
+	.word   16,11,-19,-31
+	.long   089dda1dH
+	.word   05080H
+	.TEXT
+

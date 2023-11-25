@@ -1,0 +1,45 @@
+	.DATA
+LISIDEFLASH:
+	.word   11,29,-32,0
+	.long   08f786f3H
+	.word   06000H
+	.long   SIDESP_P
+LISIDESPIT1:
+	.word   35,28,-37,-2
+	.long   08f78e6dH
+	.word   06180H
+	.long   SIDESP_P
+LISIDESPIT2:
+	.word   77,26,-38,-5
+	.long   08f79dc9H
+	.word   06280H
+LISIDESPIT3:
+	.word   117,28,-40,-4
+	.long   08f7bcbdH
+	.word   06b80H
+LISIDESPIT4:
+	.word   132,30,-41,-1
+	.long   08f7f3b5H
+	.word   06780H
+LISIDESPIT5:
+	.word   128,29,-45,-2
+	.long   08f83615H
+	.word   06780H
+LISIDESPIT6:
+	.word   133,31,-42,-1
+	.long   08f875fdH
+	.word   06780H
+LISIDESPIT7:
+	.word   81,29,-92,-2
+	.long   08f8bd93H
+	.word   06280H
+LISIDESPIT8:
+	.word   69,35,-107,0
+	.long   08f8e629H
+	.word   06280H
+LISIDESPIT9:
+	.word   58,47,-121,7
+	.long   08f908b9H
+	.word   06280H
+	.TEXT
+

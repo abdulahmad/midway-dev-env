@@ -1,0 +1,47 @@
+	.DATA
+BOTARM02:
+	.word   42,24,21,10
+	.long   06000000H
+	.word   05000H
+BOTARM03:
+	.word   33,37,18,16
+	.long   060013b0H
+	.word   05000H
+BOTARM04:
+	.word   28,46,14,17
+	.long   06002b89H
+	.word   05000H
+BOTARM05:
+	.word   30,44,13,17
+	.long   060044b1H
+	.word   05000H
+BOTARM06:
+	.word   47,35,21,12
+	.long   06005e79H
+	.word   05000H
+BOTARM07:
+	.word   53,18,24,4
+	.long   06007e9aH
+	.word   05000H
+BOTARM08:
+	.word   50,30,20,12
+	.long   0600913cH
+	.word   05000H
+BOTARM09:
+	.word   44,40,13,17
+	.long   0600ae88H
+	.word   05000H
+BOTARM10:
+	.word   60,38,2,21
+	.long   0600d0e8H
+	.word   05000H
+BOTARM11:
+	.word   28,37,13,21
+	.long   0600fd70H
+	.word   05000H
+BOTARM12:
+	.word   40,30,19,17
+	.long   060111acH
+	.word   05000H
+	.TEXT
+

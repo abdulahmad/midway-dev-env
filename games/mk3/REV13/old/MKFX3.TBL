@@ -1,0 +1,153 @@
+	.DATA
+KOMBATZONE1:
+	.word   70,8,0,0
+	.long   08e9a908H
+	.word   04080H
+	.long   DANGER_p
+KOMBATZONE2:
+	.word   78,9,0,0
+	.long   08e9b1bcH
+	.word   04080H
+	.long   DANGER_p
+DANGER:
+	.word   39,9,0,0
+	.long   08e9bc8cH
+	.word   04080H
+	.long   DANGER_p
+N_NAREB:
+	.word   41,8,0,0
+	.long   08e9c1d8H
+	.word   06080H
+FRIEN01:
+	.word   128,58,128,13
+	.long   08e9c968H
+	.word   06780H
+	.long   FRIEN_P
+FRIEN02:
+	.word   126,53,126,11
+	.long   08ea70b0H
+	.word   06b80H
+FRIEN03:
+	.word   123,41,123,5
+	.long   08eb07bcH
+	.word   06080H
+FRIEN04:
+	.word   119,31,120,0
+	.long   08eb7b9aH
+	.word   06380H
+FRIEN05:
+	.word   117,27,119,-2
+	.long   08ebcd86H
+	.word   06380H
+DSHIP01:
+	.word   122,60,0,14
+	.long   08ec14deH
+	.word   06380H
+	.long   DSHIP_P
+DSHIP02:
+	.word   122,54,0,11
+	.long   08ecb5e2H
+	.word   06880H
+DSHIP03:
+	.word   122,43,0,6
+	.long   08ed4918H
+	.word   06780H
+DSHIP04:
+	.word   123,31,0,0
+	.long   08edbb08H
+	.word   06680H
+DSHIP05:
+	.word   126,27,1,-2
+	.long   08ee0efeH
+	.word   06780H
+BABALITY1:
+	.word   41,34,0,0
+	.long   08ee576aH
+	.word   05080H
+	.long   BABYB_P
+BABALITY2:
+	.word   39,34,0,0
+	.long   08ee7242H
+	.word   05080H
+	.long   BABYA_P
+BABALITY3:
+	.word   36,34,0,0
+	.long   08ee8beeH
+	.word   05000H
+	.long   BABYB_P
+BABALITY4:
+	.word   34,34,0,0
+	.long   08eea3d6H
+	.word   05000H
+	.long   BABYA_P
+BABALITY5:
+	.word   35,34,0,0
+	.long   08eeba6aH
+	.word   05000H
+	.long   BABYL_P
+BABALITY6:
+	.word   38,35,0,0
+	.long   08eed1a8H
+	.word   05080H
+	.long   BABYI_P
+BABALITY7:
+	.word   40,34,0,0
+	.long   08eeeb39H
+	.word   05080H
+	.long   BABYT_P
+BABALITY8:
+	.word   42,34,0,0
+	.long   08ef058aH
+	.word   05080H
+	.long   BABYY_P
+ANIMALITY01:
+	.word   60,36,-2,-4
+	.long   08ef20f3H
+	.word   06980H
+	.long   ANIMAL_P
+ANIMALITY02:
+	.word   106,40,-2,0
+	.long   08ef410fH
+	.word   06e80H
+ANIMALITY03:
+	.word   162,40,-2,0
+	.long   08ef84dfH
+	.word   06e80H
+ANIMALITY04:
+	.word   210,40,-2,0
+	.long   08eff18fH
+	.word   06e80H
+ANIMALITY05:
+	.word   249,41,-2,0
+	.long   08f0940fH
+	.word   06f80H
+ANIMALITY06:
+	.word   250,41,-2,0
+	.long   08f1645dH
+	.word   06780H
+ANIMALITY07:
+	.word   250,41,-2,0
+	.long   08f23f25H
+	.word   06780H
+ANIMALITY08:
+	.word   250,41,-2,0
+	.long   08f31ad1H
+	.word   06780H
+ANIMALITY09:
+	.word   250,41,-2,0
+	.long   08f3f689H
+	.word   06780H
+ANIMALITY10:
+	.word   251,41,-1,0
+	.long   08f4d2d1H
+	.word   06780H
+ANIMALITY11:
+	.word   251,41,-1,0
+	.long   08f5b8dfH
+	.word   06780H
+ANIMALITY12:
+	.word   252,41,0,0
+	.long   08f69fadH
+	.word   06480H
+	.TEXT
+

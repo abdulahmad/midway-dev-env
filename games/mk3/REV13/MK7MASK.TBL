@@ -1,0 +1,7 @@
+	.DATA
+ENDMARKER:
+	.word   3,1,0,0
+	.long   05ffe2acH
+	.word   01000H
+	.TEXT
+

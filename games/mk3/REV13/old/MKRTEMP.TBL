@@ -1,0 +1,18 @@
+	.DATA
+COMEHERE1:
+	.word   327,18,0,0
+	.long   07f9f342H
+	.word   05000H
+	.long   CUM_P
+COMEHERE2:
+	.word   327,18,0,0
+	.long   07fa6638H
+	.word   05000H
+	.long   CUM_P
+COMEHERE3:
+	.word   317,14,0,0
+	.long   07fad92eH
+	.word   05000H
+	.long   CUM_P
+	.TEXT
+

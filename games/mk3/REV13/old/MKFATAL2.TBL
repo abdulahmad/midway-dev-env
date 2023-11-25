@@ -1,0 +1,143 @@
+	.DATA
+MK1GAME:
+	.word   106,197,0,0
+	.long   08f92bdfH
+	.word   06580H
+	.long   MK1GAME_P
+MK2GAME:
+	.word   118,197,0,0
+	.long   08fab9cfH
+	.word   06a80H
+	.long   MK2GAME_P
+TRTINYSTUN1A:
+	.word   30,62,10,-10
+	.long   08fc72ebH
+	.word   06080H
+	.long   DUMMY_P
+TRTINYFALL1A:
+	.word   52,32,25,22
+	.long   08fc91d9H
+	.word   06680H
+	.long   DUMMY_P
+LITINYSTUN1A:
+	.word   26,65,8,-7
+	.long   08fcad6dH
+	.word   06080H
+	.long   DUMMY_P
+LITINYFALL1A:
+	.word   53,27,25,19
+	.long   08fcc895H
+	.word   06680H
+	.long   DUMMY_P
+SHTINYSTUN1A:
+	.word   31,70,10,-2
+	.long   08fcdd3bH
+	.word   06080H
+	.long   DUMMY_P
+SHTINYFALL1A:
+	.word   44,60,23,37
+	.long   08fd0575H
+	.word   06580H
+	.long   DUMMY_P
+LKTINYSTUN1A:
+	.word   27,63,8,-9
+	.long   08fd21adH
+	.word   06080H
+	.long   DUMMY_P
+LKTINYFALL1A:
+	.word   44,33,19,21
+	.long   08fd3d73H
+	.word   06180H
+	.long   DUMMY_P
+SZTINYSTUN1A:
+	.word   30,62,11,-10
+	.long   08fd51efH
+	.word   06080H
+	.long   DUMMY_P
+SZTINYFALL1A:
+	.word   58,33,22,20
+	.long   08fd6fe7H
+	.word   06680H
+	.long   DUMMY_P
+INTINYSTUN1A:
+	.word   26,63,7,-9
+	.long   08fd873fH
+	.word   06080H
+	.long   DUMMY_P
+INTINYFALL1A:
+	.word   41,38,19,30
+	.long   08fda449H
+	.word   06180H
+	.long   DUMMY_P
+OBTINYSTUN1A:
+	.word   24,66,6,-5
+	.long   08fdb923H
+	.word   06080H
+	.long   DUMMY_P
+OBTINYFALL1A:
+	.word   60,28,26,20
+	.long   08fdd633H
+	.word   06a80H
+	.long   DUMMY_P
+RBTINYSTUN1A:
+	.word   34,67,12,-5
+	.long   08fdebfbH
+	.word   06080H
+	.long   DUMMY_P
+RBTINYFALL1A:
+	.word   47,42,21,35
+	.long   08fe0ee3H
+	.word   06180H
+	.long   DUMMY_P
+JXTINYSTUN1A:
+	.word   29,67,11,-6
+	.long   08fe2827H
+	.word   06080H
+	.long   DUMMY_P
+JXTINYFALL1A:
+	.word   59,33,25,19
+	.long   08fe4a3dH
+	.word   06a80H
+	.long   DUMMY_P
+TSTINYSTUN1A:
+	.word   22,64,4,-8
+	.long   08fe69cfH
+	.word   06080H
+	.long   DUMMY_P
+TSTINYFALL1A:
+	.word   54,33,25,23
+	.long   08fe845fH
+	.word   06680H
+	.long   DUMMY_P
+KLTINYSTUN1A:
+	.word   30,69,9,-4
+	.long   08fe9b27H
+	.word   06480H
+	.long   DUMMY_P
+KLTINYFALL1A:
+	.word   37,48,21,37
+	.long   08feb669H
+	.word   06180H
+	.long   DUMMY_P
+SBTINYSTUN1A:
+	.word   30,64,8,-9
+	.long   08feccefH
+	.word   06480H
+	.long   DUMMY_P
+SBTINYFALL1A:
+	.word   55,36,30,27
+	.long   08fee9d1H
+	.word   06680H
+	.long   DUMMY_P
+KNTINYSTUN1A:
+	.word   30,65,8,-8
+	.long   08feff61H
+	.word   06080H
+	.long   DUMMY_P
+KNTINYFALL1A:
+	.word   39,41,15,23
+	.long   08ff1ed3H
+	.word   06580H
+	.long   DUMMY_P
+	.TEXT
+

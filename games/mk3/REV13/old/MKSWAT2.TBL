@@ -1,0 +1,8 @@
+	.DATA
+TAZBLAST:
+	.word   73,30,-49,-25
+	.long   0828a888H
+	.word   05880H
+	.long   TBLAST_P
+	.TEXT
+

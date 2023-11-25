@@ -1,0 +1,10 @@
+;**************************************************************
+;
+;  mk3: program area pics
+;
+;**************************************************************
+; stored in zipped_pics table inside unzip.asm
+***> ffd80000
+ASM> MK3ZIP.TBL
+; cheating here.
+FRM> DATA

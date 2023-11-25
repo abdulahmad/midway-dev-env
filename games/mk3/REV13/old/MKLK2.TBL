@@ -1,0 +1,124 @@
+	.DATA
+LUSCARED2A:
+	.word   45,136,30,0
+	.long   084e3254H
+	.word   06580H
+LKREFORM1A:
+	.word   52,102,20,-10
+	.long   084e7378H
+	.word   06680H
+LKREFORM2A:
+	.word   47,95,19,-17
+	.long   084eb41cH
+	.word   06580H
+LKREFORM3A:
+	.word   44,124,18,-9
+	.long   084ee972H
+	.word   06580H
+LKREFORM4A:
+	.word   46,120,20,-6
+	.long   084f2cbeH
+	.word   06180H
+LKREFORM5A:
+	.word   46,128,18,-4
+	.long   084f724eH
+	.word   06580H
+LKREFORM6A:
+	.word   46,128,19,-5
+	.long   084fbd6aH
+	.word   06180H
+LKFIRE1A:
+	.word   3,13,8,-44
+	.long   08500b32H
+	.word   06000H
+	.long   LUFIRE_P
+LKFIRE1B:
+	.word   4,50,-16,-37
+	.long   08500c1cH
+	.word   06000H
+LKFIRE1C:
+	.word   14,8,1,-102
+	.long   085010ccH
+	.word   06080H
+LKFIRE1D:
+	.word   26,11,6,-125
+	.long   08501304H
+	.word   06080H
+LKFIRE2A:
+	.word   6,23,12,-23
+	.long   08501938H
+	.word   06000H
+LKFIRE2B:
+	.word   7,50,-14,-27
+	.long   08501c74H
+	.word   06000H
+LKFIRE2C:
+	.word   43,66,17,-69
+	.long   085024a8H
+	.word   06580H
+LKFIRE3A:
+	.word   5,26,15,-5
+	.long   08504e60H
+	.word   06000H
+LKFIRE3B:
+	.word   10,52,-11,-18
+	.long   0850516cH
+	.word   06000H
+LKFIRE3C:
+	.word   53,74,20,-62
+	.long   08505d9cH
+	.word   06480H
+LKFIRE4A:
+	.word   32,157,29,15
+	.long   08509cfaH
+	.word   06180H
+LKFIRE4B:
+	.word   44,139,-3,-3
+	.long   0850da0aH
+	.word   06580H
+LKFIRE5A:
+	.word   54,41,46,-99
+	.long   08511cd2H
+	.word   06680H
+LKFIRE5B:
+	.word   55,40,-8,-100
+	.long   08513a46H
+	.word   06980H
+LKFIRE5C:
+	.word   47,146,19,46
+	.long   0851569eH
+	.word   06580H
+LKFIRE6A:
+	.word   49,49,60,-92
+	.long   0851c8eaH
+	.word   06980H
+LKFIRE6B:
+	.word   49,49,-32,-92
+	.long   0851d900H
+	.word   06680H
+LKFIRE6C:
+	.word   55,137,23,54
+	.long   0851e952H
+	.word   06580H
+LKFIRE7A:
+	.word   58,108,25,52
+	.long   08526078H
+	.word   06580H
+LKFIRE8A:
+	.word   53,90,24,56
+	.long   0852c2e8H
+	.word   06580H
+LKFIRE9A:
+	.word   42,63,19,56
+	.long   085311fcH
+	.word   06580H
+LKFIRE10A:
+	.word   30,83,8,83
+	.long   08533770H
+	.word   06080H
+LKFIRE11A:
+	.word   24,129,9,150
+	.long   0853599aH
+	.word   06080H
+	.TEXT
+

@@ -1,0 +1,12 @@
+	.DATA
+FL_SUB	.set	03000000h
+FL_CITY	.set	030956a0h
+FL_STRT	.set	030ed4e0h
+FL_BRIDG	.set	03146f40h
+FL_SOUL	.set	0319ed80h
+FL_BELL	.set	031e8ac0h
+FL_TEMP	.set	03270060h
+FL_GRAVE	.set	032cef20h
+FL_BALC	.set	03318c60h
+	.TEXT
+

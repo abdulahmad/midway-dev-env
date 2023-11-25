@@ -1,0 +1,11 @@
+	.DATA
+JXNEWROUND1A:
+	.word   36,139,28,-16
+	.long   07fea9b4H
+	.word   06580H
+JXNEWROUND1B:
+	.word   33,136,-8,-16
+	.long   07fed68cH
+	.word   06480H
+	.TEXT
+

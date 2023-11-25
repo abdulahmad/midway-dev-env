@@ -1,0 +1,180 @@
+	.DATA
+SGBIGPOUND5A:
+	.word   32,180,41,26
+	.long   06cc0cb0H
+	.word   06580H
+SGBIGPOUND5B:
+	.word   52,151,9,1
+	.long   06cc50fcH
+	.word   06980H
+SGBIGPOUND6A:
+	.word   22,126,24,-28
+	.long   06cca1b0H
+	.word   06080H
+SGBIGPOUND6B:
+	.word   33,173,2,25
+	.long   06ccce26H
+	.word   06580H
+SGBIGPOUND7A:
+	.word   27,109,28,-43
+	.long   06cd0f7cH
+	.word   06480H
+SGBIGPOUND7B:
+	.word   53,157,1,9
+	.long   06cd3546H
+	.word   06a80H
+SGBIGPOUND8A:
+	.word   28,126,33,-24
+	.long   06cd8174H
+	.word   06580H
+SGBIGPOUND8B:
+	.word   74,129,5,-19
+	.long   06cdaf40H
+	.word   06980H
+SGBIGPOUND9A:
+	.word   29,148,33,-3
+	.long   06cdf944H
+	.word   06580H
+SGBIGPOUND9B:
+	.word   49,131,4,-17
+	.long   06ce3048H
+	.word   06880H
+SGBIGPOUND10A:
+	.word   29,122,33,-29
+	.long   06ce759aH
+	.word   06580H
+SGBIGPOUND10B:
+	.word   26,167,4,19
+	.long   06ceaa2aH
+	.word   06480H
+SGBIGPOUND11A:
+	.word   34,127,41,-23
+	.long   06cee90aH
+	.word   06180H
+SGBIGPOUND11B:
+	.word   56,154,7,6
+	.long   06cf26ceH
+	.word   06a80H
+SGBIGPOUND12A:
+	.word   32,131,39,-19
+	.long   06cf7ad6H
+	.word   06580H
+SGBIGPOUND12B:
+	.word   74,133,7,-15
+	.long   06cfb3b6H
+	.word   06880H
+SGBIGPOUND13A:
+	.word   39,141,47,-8
+	.long   06d004e2H
+	.word   06580H
+SGBIGPOUND13B:
+	.word   75,128,8,-20
+	.long   06d03fa4H
+	.word   06980H
+SGBIGPOUND14A:
+	.word   25,158,32,9
+	.long   06d09714H
+	.word   06180H
+SGBIGPOUND14B:
+	.word   54,131,7,-17
+	.long   06d0d126H
+	.word   06980H
+SGBIGPOUND15A:
+	.word   25,101,29,-48
+	.long   06d11bfaH
+	.word   06080H
+SGBIGPOUND15B:
+	.word   43,155,4,7
+	.long   06d1436aH
+	.word   06580H
+SGBIGPOUND16A:
+	.word   30,102,30,-49
+	.long   06d18844H
+	.word   06580H
+SGBIGPOUND16B:
+	.word   77,117,0,-31
+	.long   06d1b58cH
+	.word   06880H
+SGBIGPOUND17A:
+	.word   34,92,33,-56
+	.long   06d20014H
+	.word   06580H
+SGBIGPOUND17B:
+	.word   69,122,2,-26
+	.long   06d22accH
+	.word   06880H
+SGRIPFLESH1A:
+	.word   32,147,46,-4
+	.long   06d2836eH
+	.word   06580H
+SGRIPFLESH1B:
+	.word   35,145,14,-3
+	.long   06d2c112H
+	.word   06580H
+SGRIPFLESH2A:
+	.word   46,146,56,-5
+	.long   06d2f840H
+	.word   06580H
+SGRIPFLESH2B:
+	.word   31,135,10,-13
+	.long   06d3456cH
+	.word   06580H
+SGRIPFLESH3A:
+	.word   43,150,45,-1
+	.long   06d377faH
+	.word   06680H
+SGRIPFLESH3B:
+	.word   32,146,2,-2
+	.long   06d3bb92H
+	.word   06480H
+SGRIPFLESH4A:
+	.word   44,118,46,-33
+	.long   06d3f616H
+	.word   06680H
+SGRIPFLESH4B:
+	.word   55,139,2,-9
+	.long   06d41e86H
+	.word   06880H
+SGRIPFLESH5A:
+	.word   46,107,46,-44
+	.long   06d474aaH
+	.word   06680H
+SGRIPFLESH5B:
+	.word   68,132,0,-16
+	.long   06d499aaH
+	.word   06880H
+SGRIPFLESH6A:
+	.word   51,75,46,-76
+	.long   06d4faa0H
+	.word   06680H
+SGRIPFLESH6B:
+	.word   68,111,-5,-37
+	.long   06d52026H
+	.word   06980H
+SGRIPFLESH7A:
+	.word   44,64,44,-87
+	.long   06d57cf6H
+	.word   06680H
+SGRIPFLESH7B:
+	.word   71,97,0,-51
+	.long   06d59c96H
+	.word   06980H
+SGRIPFLESH8A:
+	.word   42,55,43,-96
+	.long   06d5f728H
+	.word   06280H
+SGRIPFLESH8B:
+	.word   61,88,1,-65
+	.long   06d61326H
+	.word   06580H
+SGSCARED2A:
+	.word   67,147,57,-2
+	.long   06d666c2H
+	.word   06a80H
+CRACK3A:
+	.word   85,18,-21,-145
+	.long   06d6d2e0H
+	.word   04a80H
+	.long   CRACKP_P
+	.TEXT
+

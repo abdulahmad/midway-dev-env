@@ -1,0 +1,8 @@
+	.DATA
+THRONEWALL:
+	.word   229,83,0,0
+	.long   07fcec3aH
+	.word   06000H
+	.long   BGHD3_P
+	.TEXT
+

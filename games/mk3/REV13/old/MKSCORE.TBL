@@ -1,0 +1,238 @@
+	.DATA
+KOMBATZONE1:
+	.word   70,8,0,0
+	.long   06d6e908H
+	.word   04080H
+	.long   WHITE_p
+INSERTCOIN:
+	.word   95,13,-1,-1
+	.long   06d6f1bcH
+	.word   06380H
+	.long   SCORE_P
+PUSHSTART:
+	.word   93,14,-1,-1
+	.long   06d70cb2H
+	.word   06580H
+	.long   SCORE_P
+MEDAL1:
+	.word   13,13,0,0
+	.long   06d727daH
+	.word   06000H
+	.long   SCORE_P
+COUNTDOWN_0:
+	.word   12,17,-1,-1
+	.long   06d72bd0H
+	.word   06000H
+	.long   SCORE_P
+damage_s:
+	.word   81,12,0,0
+	.long   06d73098H
+	.word   04580H
+	.long   WHITE_p
+hits_s:
+	.word   33,12,0,0
+	.long   06d73e70H
+	.word   04480H
+	.long   WHITE_p
+COUNTDOWN_1:
+	.word   9,17,-1,-1
+	.long   06d74404H
+	.word   06000H
+COUNTDOWN_2:
+	.word   12,17,-1,-1
+	.long   06d7479aH
+	.word   06080H
+COUNTDOWN_3:
+	.word   12,17,-1,-1
+	.long   06d74c48H
+	.word   06000H
+COUNTDOWN_4:
+	.word   12,17,-1,-1
+	.long   06d75110H
+	.word   06080H
+COUNTDOWN_5:
+	.word   12,17,-1,-1
+	.long   06d755b2H
+	.word   06000H
+COUNTDOWN_6:
+	.word   12,17,-1,-1
+	.long   06d75a7aH
+	.word   06000H
+COUNTDOWN_7:
+	.word   12,17,-1,-1
+	.long   06d75f42H
+	.word   06080H
+COUNTDOWN_8:
+	.word   12,17,-1,-1
+	.long   06d763eaH
+	.word   06000H
+COUNTDOWN_9:
+	.word   12,17,-1,-1
+	.long   06d768b2H
+	.word   06000H
+X_SHADWINS:
+	.word   43,12,45,2
+	.long   06d76d7aH
+	.word   06080H
+X_SHADNUM1:
+	.word   8,12,-1,-1
+	.long   06d77926H
+	.word   06000H
+X_SHADNUM2:
+	.word   12,12,-1,-1
+	.long   06d77b66H
+	.word   06080H
+X_SHADNUM3:
+	.word   11,12,-1,-1
+	.long   06d77e96H
+	.word   06000H
+X_SHADNUM4:
+	.word   11,12,-1,-1
+	.long   06d781aeH
+	.word   06000H
+X_SHADNUM5:
+	.word   11,12,-1,-1
+	.long   06d784c6H
+	.word   06000H
+X_SHADNUM6:
+	.word   11,13,-1,-1
+	.long   06d787deH
+	.word   06000H
+X_SHADNUM7:
+	.word   12,12,-1,-1
+	.long   06d78b38H
+	.word   06080H
+X_SHADNUM8:
+	.word   11,13,-1,-1
+	.long   06d78e68H
+	.word   06000H
+X_SHADNUM9:
+	.word   11,12,-1,-1
+	.long   06d791c2H
+	.word   06000H
+X_SHADNUM0:
+	.word   12,13,-1,-1
+	.long   06d794daH
+	.word   06000H
+PWRBAR_LA:
+	.word   168,15,-1,-1
+	.long   06d79882H
+	.word   05c80H
+PWRBAR_LB:
+	.word   168,15,-1,-1
+	.long   06d7bf42H
+	.word   05c80H
+PWRBAR_RA:
+	.word   168,15,167,0
+	.long   06d7e602H
+	.word   05380H
+PWRBAR_RB:
+	.word   168,15,167,0
+	.long   06d80cc2H
+	.word   05380H
+N_JAX:
+	.word   24,8,0,0
+	.long   06d83382H
+	.word   06080H
+N_KABAL:
+	.word   37,8,0,0
+	.long   06d8378eH
+	.word   06080H
+N_KANO:
+	.word   33,8,0,0
+	.long   06d83e52H
+	.word   06080H
+N_KINTARO:
+	.word   50,8,0,0
+	.long   06d84480H
+	.word   06080H
+N_KUNGLAO:
+	.word   60,8,0,0
+	.long   06d84dccH
+	.word   06080H
+N_LIUKANG:
+	.word   54,8,0,0
+	.long   06d858ceH
+	.word   06080H
+N_MOTARO:
+	.word   49,8,0,0
+	.long   06d862ecH
+	.word   06080H
+N_NIGHTWOLF:
+	.word   66,8,0,0
+	.long   06d86c1aH
+	.word   06080H
+N_SHANGTSUNG:
+	.word   82,8,0,0
+	.long   06d87854H
+	.word   06080H
+N_SHAOKAHN:
+	.word   68,8,0,0
+	.long   06d887a0H
+	.word   06080H
+N_SHEEVA:
+	.word   43,8,0,0
+	.long   06d89434H
+	.word   06080H
+N_SMOKE:
+	.word   40,8,0,0
+	.long   06d89c42H
+	.word   06080H
+N_SONYA:
+	.word   38,8,0,0
+	.long   06d8a3aeH
+	.word   06080H
+N_STRYKER:
+	.word   51,8,0,0
+	.long   06d8aaccH
+	.word   06080H
+N_SUBZERO:
+	.word   55,8,0,0
+	.long   06d8b448H
+	.word   06080H
+N_SINDEL:
+	.word   39,8,0,0
+	.long   06d8cb2aH
+	.word   06080H
+N_SEKTOR:
+	.word   45,8,0,0
+	.long   06d8d24eH
+	.word   06080H
+N_CYRAX:
+	.word   40,8,0,0
+	.long   06d8da92H
+	.word   06080H
+N_NOOBSAIBOT:
+	.word   78,8,0,0
+	.long   06d8e1e6H
+	.word   06080H
+N_BOON:
+	.word   32,8,0,0
+	.long   06d8f01eH
+	.word   06000H
+N_TOBIAS:
+	.word   41,8,0,0
+	.long   06d8f61eH
+	.word   06080H
+N_BERAN:
+	.word   39,8,0,0
+	.long   06d8fd96H
+	.word   06080H
+N_GOSKIE:
+	.word   42,8,0,0
+	.long   06d904ccH
+	.word   06080H
+N_VOGEL:
+	.word   36,8,0,0
+	.long   06d90c62H
+	.word   06080H
+N_MICHICICH:
+	.word   60,8,0,0
+	.long   06d912f0H
+	.word   06080H
+N_FORDEN:
+	.word   46,8,0,0
+	.long   06d91e1cH
+	.word   06080H
+	.TEXT
+

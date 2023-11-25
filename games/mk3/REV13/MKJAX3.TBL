@@ -1,0 +1,127 @@
+	.DATA
+KNBROKEN3A:
+	.word   40,41,54,-75
+	.long   0820e300H
+	.word   06580H
+KNBROKEN3B:
+	.word   54,58,67,-58
+	.long   0820f00cH
+	.word   06680H
+SBBROKEN3B:
+	.word   42,65,40,-39
+	.long   082115b8H
+	.word   06580H
+SBBROKEN3C:
+	.word   46,52,-2,-40
+	.long   08213734H
+	.word   06580H
+JXBROKEN3A:
+	.word   54,18,36,-54
+	.long   082154c4H
+	.word   06680H
+JXBROKEN3B:
+	.word   45,38,49,-43
+	.long   082164b4H
+	.word   06580H
+JXBROKEN3C:
+	.word   78,64,4,-42
+	.long   08217e74H
+	.word   06a80H
+JXBREAKER1ARM:
+	.word   24,49,14,9
+	.long   0821a5dcH
+	.word   06080H
+JXBREAKER2ARM:
+	.word   18,69,4,34
+	.long   0821b52cH
+	.word   06080H
+JXBREAKER3ARM:
+	.word   19,73,-3,3
+	.long   0821c960H
+	.word   06080H
+JXBREAKER4ARM:
+	.word   20,50,1,-44
+	.long   0821dfe8H
+	.word   06080H
+JXBREAKER2A:
+	.word   33,144,24,-8
+	.long   0821f0a2H
+	.word   06580H
+JXBREAKER2B:
+	.word   23,144,-9,-7
+	.long   08221cb2H
+	.word   06080H
+JXBREAKER4A:
+	.word   66,103,27,-55
+	.long   08224df6H
+	.word   06680H
+INBROKEN3A:
+	.word   57,58,54,-36
+	.long   08229a42H
+	.word   06680H
+INBROKEN3B:
+	.word   77,55,-3,-36
+	.long   0822c34eH
+	.word   06a80H
+SZBROKEN3B:
+	.word   54,59,58,-37
+	.long   0822e540H
+	.word   06680H
+SZBROKEN3C:
+	.word   41,57,4,-38
+	.long   08230adcH
+	.word   06180H
+OBBACKBROKEN3B:
+	.word   121,65,34,-58
+	.long   08232840H
+	.word   06e80H
+LIBACKBROKEN3A:
+	.word   45,80,30,-67
+	.long   08239846H
+	.word   06480H
+LIBACKBROKEN3B:
+	.word   57,59,-15,-69
+	.long   0823bee4H
+	.word   06a80H
+RBBACKBREAK3A:
+	.word   55,61,47,-73
+	.long   0823df46H
+	.word   06a80H
+RBBACKBREAK3B:
+	.word   72,58,-8,-72
+	.long   082400f0H
+	.word   06a80H
+KLBACKBROKEN3B:
+	.word   43,60,48,-57
+	.long   08242348H
+	.word   06580H
+KLBACKBROKEN3C:
+	.word   70,54,5,-56
+	.long   08244160H
+	.word   06680H
+TRBACKBREAK3B:
+	.word   127,44,51,-50
+	.long   08246050H
+	.word   06b80H
+SGBACKBREAK3B:
+	.word   78,71,48,-43
+	.long   0824b4d8H
+	.word   06a80H
+SGBACKBREAK3C:
+	.word   36,58,-30,-55
+	.long   0824faccH
+	.word   06580H
+TSBACKBROKEN3B:
+	.word   131,61,29,-51
+	.long   08251004H
+	.word   06e80H
+LUBACKBREAK3B:
+	.word   77,49,65,-58
+	.long   08258656H
+	.word   06a80H
+LUBACKBREAK3C:
+	.word   48,43,-12,-63
+	.long   0825b8d4H
+	.word   06980H
+	.TEXT
+

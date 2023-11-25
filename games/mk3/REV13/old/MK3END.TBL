@@ -1,0 +1,17 @@
+	.DATA
+E_SON	.set	02000000h
+E_LIA	.set	02027660h
+E_JAX	.set	02051520h
+E_COP	.set	020757f0h
+E_LIU	.set	0209f590h
+E_LAO	.set	020c6540h
+E_SHA	.set	020e43f0h
+E_SHE	.set	021078d0h
+E_IND	.set	02131720h
+E_SEK	.set	021548a0h
+E_KAB	.set	02183360h
+E_KAN	.set	021accd0h
+E_SUB	.set	021c52b0h
+E_CYR	.set	021eb840h
+	.TEXT
+

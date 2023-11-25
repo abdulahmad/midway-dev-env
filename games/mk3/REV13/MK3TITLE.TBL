@@ -1,0 +1,8 @@
+	.DATA
+MK3TITLE	.set	05e391e0h
+STORYA	.set	05e77650h
+STORYB	.set	05eb71a0h
+STORYC	.set	05ee76d0h
+STORYD	.set	05f21d00h
+	.TEXT
+

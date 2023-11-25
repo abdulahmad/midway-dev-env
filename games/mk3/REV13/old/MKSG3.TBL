@@ -1,0 +1,55 @@
+	.DATA
+INNAIL1:
+	.word   29,137,-53,-14
+	.long   086186dbH
+	.word   06000H
+JXNAIL1:
+	.word   32,140,-43,-9
+	.long   0861e3f9H
+	.word   06000H
+KLNAIL1:
+	.word   35,139,-47,-10
+	.long   08624cf9H
+	.word   06000H
+KNNAIL1:
+	.word   25,141,-53,-13
+	.long   0862beffH
+	.word   06000H
+LINAIL1:
+	.word   33,132,-46,-14
+	.long   0863119dH
+	.word   06000H
+LUNAIL1:
+	.word   26,136,-52,-12
+	.long   086377b5H
+	.word   06000H
+OBNAIL1:
+	.word   23,142,-51,-8
+	.long   0863ca95H
+	.word   06000H
+RBNAIL1:
+	.word   27,134,-52,-16
+	.long   08641721H
+	.word   06000H
+SBNAIL1:
+	.word   23,129,-53,-20
+	.long   08646bedH
+	.word   06000H
+SGNAIL1:
+	.word   28,148,-52,1
+	.long   0864b177H
+	.word   06000H
+SZNAIL1:
+	.word   29,133,-54,-17
+	.long   08651297H
+	.word   06000H
+TRNAIL1:
+	.word   36,141,-49,-12
+	.long   08656cfdH
+	.word   06000H
+TSNAIL1:
+	.word   27,129,-50,-21
+	.long   0865e3f5H
+	.word   06000H
+	.TEXT
+

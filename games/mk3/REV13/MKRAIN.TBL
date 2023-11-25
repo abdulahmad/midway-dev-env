@@ -1,0 +1,33 @@
+	.DATA
+DROP1:
+	.word   6,16,-1,16
+	.long   06d6e068H
+	.word   03000H
+	.long   DROPS
+DROP2:
+	.word   6,16,-1,17
+	.long   06d6e188H
+	.word   03000H
+	.long   DROPS
+DROP3:
+	.word   6,16,-1,16
+	.long   06d6e2a8H
+	.word   03000H
+	.long   DROPS
+DROP4:
+	.word   6,16,-1,16
+	.long   06d6e3c8H
+	.word   03000H
+	.long   DROPS
+DROPHIT1:
+	.word   12,12,5,11
+	.long   06d6e4e8H
+	.word   03000H
+	.long   DROPS
+DROPHIT2:
+	.word   16,13,6,13
+	.long   06d6e698H
+	.word   03000H
+	.long   DROPS
+	.TEXT
+

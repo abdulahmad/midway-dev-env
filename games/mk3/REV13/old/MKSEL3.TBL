@@ -1,0 +1,28 @@
+	.DATA
+ENDUR_GOLD:
+	.word   48,59,0,0
+	.long   07ff366cH
+	.word   06000H
+	.long   EGOLD_P
+ENDUR_MAG:
+	.word   48,59,0,0
+	.long   07ff366cH
+	.word   06000H
+	.long   EMAG_P
+ENDUR_BLUE:
+	.word   48,59,0,0
+	.long   07ff366cH
+	.word   06000H
+	.long   EBLUE_P
+ENDUR_GREEN:
+	.word   48,59,0,0
+	.long   07ff366cH
+	.word   06000H
+	.long   EGREEN_P
+ENDUR_RED:
+	.word   48,59,0,0
+	.long   07ff366cH
+	.word   06000H
+	.long   ERED_P
+	.TEXT
+

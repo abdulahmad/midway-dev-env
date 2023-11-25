@@ -1,0 +1,209 @@
+	.DATA
+INSERTCOIN:
+	.word   95,13,-1,-1
+	.long   060cdaa0H
+	.word   06380H
+	.long   SCORE_P
+PUSHSTART:
+	.word   93,14,-1,-1
+	.long   060cf596H
+	.word   06580H
+	.long   SCORE_P
+MEDAL1:
+	.word   13,13,0,0
+	.long   060d10beH
+	.word   06000H
+	.long   SCORE_P
+COUNTDOWN_0:
+	.word   12,17,-1,-1
+	.long   060d14b4H
+	.word   06000H
+	.long   SCORE_P
+damage_s:
+	.word   81,12,0,0
+	.long   060d197cH
+	.word   04580H
+	.long   WHITE_p
+damage_m:
+	.word   94,14,0,0
+	.long   060d2754H
+	.word   04480H
+	.long   WHITE_p
+damage_l:
+	.word   115,17,0,0
+	.long   060d3a74H
+	.word   04680H
+	.long   WHITE_p
+hits_s:
+	.word   33,12,0,0
+	.long   060d5698H
+	.word   04480H
+	.long   WHITE_p
+hits_m:
+	.word   40,14,0,0
+	.long   060d5c2cH
+	.word   04480H
+	.long   WHITE_p
+hits_l:
+	.word   52,17,0,0
+	.long   060d63ccH
+	.word   04880H
+	.long   WHITE_p
+COUNTDOWN_1:
+	.word   9,17,-1,-1
+	.long   060d7014H
+	.word   06000H
+COUNTDOWN_2:
+	.word   12,17,-1,-1
+	.long   060d73aaH
+	.word   06080H
+COUNTDOWN_3:
+	.word   12,17,-1,-1
+	.long   060d7858H
+	.word   06000H
+COUNTDOWN_4:
+	.word   12,17,-1,-1
+	.long   060d7d20H
+	.word   06080H
+COUNTDOWN_5:
+	.word   12,17,-1,-1
+	.long   060d81c2H
+	.word   06000H
+COUNTDOWN_6:
+	.word   12,17,-1,-1
+	.long   060d868aH
+	.word   06000H
+COUNTDOWN_7:
+	.word   12,17,-1,-1
+	.long   060d8b52H
+	.word   06080H
+COUNTDOWN_8:
+	.word   12,17,-1,-1
+	.long   060d8ffaH
+	.word   06000H
+COUNTDOWN_9:
+	.word   12,17,-1,-1
+	.long   060d94c2H
+	.word   06000H
+X_SHADWINS:
+	.word   43,12,45,2
+	.long   060d998aH
+	.word   06080H
+X_SHADNUM1:
+	.word   8,12,-1,-1
+	.long   060da536H
+	.word   06000H
+X_SHADNUM2:
+	.word   12,12,-1,-1
+	.long   060da776H
+	.word   06080H
+X_SHADNUM3:
+	.word   11,12,-1,-1
+	.long   060daaa6H
+	.word   06000H
+X_SHADNUM4:
+	.word   11,12,-1,-1
+	.long   060dadbeH
+	.word   06000H
+X_SHADNUM5:
+	.word   11,12,-1,-1
+	.long   060db0d6H
+	.word   06000H
+X_SHADNUM6:
+	.word   11,13,-1,-1
+	.long   060db3eeH
+	.word   06000H
+X_SHADNUM7:
+	.word   12,12,-1,-1
+	.long   060db748H
+	.word   06080H
+X_SHADNUM8:
+	.word   11,13,-1,-1
+	.long   060dba78H
+	.word   06000H
+X_SHADNUM9:
+	.word   11,12,-1,-1
+	.long   060dbdd2H
+	.word   06000H
+X_SHADNUM0:
+	.word   12,13,-1,-1
+	.long   060dc0eaH
+	.word   06000H
+PWRBAR_LA:
+	.word   168,15,-1,-1
+	.long   060dc492H
+	.word   05c80H
+PWRBAR_LB:
+	.word   168,15,-1,-1
+	.long   060deb52H
+	.word   05c80H
+PWRBAR_RA:
+	.word   168,15,167,0
+	.long   060e1212H
+	.word   05380H
+PWRBAR_RB:
+	.word   168,15,167,0
+	.long   060e38d2H
+	.word   05380H
+N_JAX:
+	.word   25,8,0,0
+	.long   060e5f92H
+	.word   06080H
+N_KABAL:
+	.word   38,8,0,0
+	.long   060e63c2H
+	.word   06080H
+N_KANO:
+	.word   33,8,0,0
+	.long   060e6a9eH
+	.word   06000H
+N_KINTARO:
+	.word   50,8,0,0
+	.long   060e70ceH
+	.word   06080H
+N_KUNGLAO:
+	.word   60,8,0,0
+	.long   060e7a2cH
+	.word   06080H
+N_LIUKANG:
+	.word   54,8,0,0
+	.long   060e8558H
+	.word   06000H
+N_MOTARO:
+	.word   49,8,0,0
+	.long   060e8f78H
+	.word   06000H
+N_NIGHTWOLF:
+	.word   67,8,0,0
+	.long   060e98a8H
+	.word   06080H
+N_SHANGTSUNG:
+	.word   83,8,0,0
+	.long   060ea500H
+	.word   06080H
+N_SHAOKAHN:
+	.word   68,8,0,0
+	.long   060eb470H
+	.word   06080H
+N_SHEEVA:
+	.word   44,8,0,0
+	.long   060ec122H
+	.word   06080H
+N_SMOKE:
+	.word   42,8,0,0
+	.long   060ec94eH
+	.word   06080H
+N_SONYA:
+	.word   39,8,0,0
+	.long   060ed0e4H
+	.word   06080H
+N_STRYKER:
+	.word   52,8,0,0
+	.long   060ed820H
+	.word   06080H
+N_SUBZERO:
+	.word   56,8,0,0
+	.long   060ee1c0H
+	.word   06080H
+	.TEXT
+

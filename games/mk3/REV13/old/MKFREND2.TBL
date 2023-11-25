@@ -1,0 +1,237 @@
+	.DATA
+JXJUMPROPE1A:
+	.word   22,53,49,-28
+	.long   089ddd04H
+	.word   06080H
+JXJUMPROPE1B:
+	.word   27,142,27,-12
+	.long   089def32H
+	.word   06180H
+JXJUMPROPE1C:
+	.word   26,44,-29,-52
+	.long   089e21daH
+	.word   06580H
+JXJUMPROPE1D:
+	.word   29,136,0,-13
+	.long   089e30f6H
+	.word   06480H
+JXJUMPROPE2A:
+	.word   16,79,32,-58
+	.long   089e6320H
+	.word   06080H
+JXJUMPROPE2B:
+	.word   18,140,16,-15
+	.long   089e782eH
+	.word   06080H
+JXJUMPROPE2C:
+	.word   18,139,-2,-15
+	.long   089ea50eH
+	.word   06080H
+JXJUMPROPE2D:
+	.word   24,105,-20,-39
+	.long   089ed38aH
+	.word   06580H
+JXJUMPROPE3A:
+	.word   22,60,37,-49
+	.long   089eef86H
+	.word   06580H
+JXJUMPROPE3B:
+	.word   18,141,15,-13
+	.long   089eff9aH
+	.word   06080H
+JXJUMPROPE3C:
+	.word   23,68,-21,-40
+	.long   089f2d2aH
+	.word   06480H
+JXJUMPROPE3D:
+	.word   18,138,-3,-14
+	.long   089f3ff4H
+	.word   06080H
+JXJUMPROPE4A:
+	.word   44,142,43,-12
+	.long   089f6cb8H
+	.word   06280H
+JXJUMPROPE4B:
+	.word   43,140,-1,-13
+	.long   089fabf6H
+	.word   06880H
+JXJUMPROPE5A:
+	.word   46,141,45,-13
+	.long   089fe7e2H
+	.word   06280H
+JXJUMPROPE5B:
+	.word   43,139,-1,-15
+	.long   08a038d0H
+	.word   06480H
+JXJUMPROPE6A:
+	.word   20,59,47,-23
+	.long   08a0802aH
+	.word   06080H
+JXJUMPROPE6B:
+	.word   28,150,27,-4
+	.long   08a09210H
+	.word   06180H
+JXJUMPROPE6C:
+	.word   20,150,-1,-4
+	.long   08a0cbe2H
+	.word   06080H
+JXJUMPROPE6D:
+	.word   27,63,-21,-15
+	.long   08a0fc18H
+	.word   06580H
+JXJUMPROPE7A:
+	.word   47,141,46,-13
+	.long   08a1138eH
+	.word   06280H
+JXJUMPROPE7B:
+	.word   45,139,-1,-15
+	.long   08a15f00H
+	.word   06880H
+JXJUMPROPE8A:
+	.word   44,142,42,-12
+	.long   08a1a6ccH
+	.word   06280H
+JXJUMPROPE8B:
+	.word   42,140,-2,-13
+	.long   08a1ea8aH
+	.word   06880H
+JXJUMPROPE9A:
+	.word   22,77,36,-41
+	.long   08a22784H
+	.word   06580H
+JXJUMPROPE9B:
+	.word   16,141,14,-13
+	.long   08a23c10H
+	.word   06080H
+JXJUMPROPE9C:
+	.word   18,139,-2,-13
+	.long   08a26718H
+	.word   06080H
+JXJUMPROPE9D:
+	.word   23,76,-20,-38
+	.long   08a294b0H
+	.word   06480H
+RNBEAMUP3A:
+	.word   27,66,24,-81
+	.long   08a2a9a6H
+	.word   06180H
+	.long   ELEC_P
+RNBEAMUP3B:
+	.word   36,65,-3,-80
+	.long   08a2c9d4H
+	.word   06480H
+RNBEAMUP4A:
+	.word   31,89,27,-58
+	.long   08a2f264H
+	.word   06180H
+RNBEAMUP4B:
+	.word   35,87,-4,-58
+	.long   08a31d40H
+	.word   06480H
+RNBEAMUP5A:
+	.word   32,103,27,-44
+	.long   08a34db2H
+	.word   06180H
+RNBEAMUP5B:
+	.word   33,101,-5,-44
+	.long   08a37f88H
+	.word   06480H
+RNBEAMUP6A:
+	.word   31,117,27,-30
+	.long   08a3b51aH
+	.word   06180H
+RNBEAMUP6B:
+	.word   33,116,-4,-29
+	.long   08a3eb5cH
+	.word   06480H
+RNBEAMUP7A:
+	.word   29,143,25,-4
+	.long   08a42820H
+	.word   06580H
+RNBEAMUP7B:
+	.word   39,139,-4,-6
+	.long   08a46a12H
+	.word   06480H
+RNVICTORY1A:
+	.word   21,36,46,-50
+	.long   08a4ab4eH
+	.word   06080H
+	.long   RADBLU_P
+RNVICTORY1B:
+	.word   35,122,27,-24
+	.long   08a4b53eH
+	.word   06580H
+RNVICTORY1C:
+	.word   37,33,-25,-43
+	.long   08a4f556H
+	.word   06580H
+RNVICTORY1D:
+	.word   28,122,-8,-23
+	.long   08a5027cH
+	.word   06580H
+RNVICTORY2A:
+	.word   22,37,51,-66
+	.long   08a52dacH
+	.word   06480H
+RNVICTORY2B:
+	.word   30,99,29,-47
+	.long   08a537ceH
+	.word   06580H
+RNVICTORY2C:
+	.word   21,38,-28,-65
+	.long   08a566d2H
+	.word   06580H
+RNVICTORY2D:
+	.word   32,98,-1,-46
+	.long   08a57222H
+	.word   06580H
+RNVICTORY3A:
+	.word   27,85,26,-61
+	.long   08a59cb6H
+	.word   06480H
+RNVICTORY3B:
+	.word   33,83,-1,-61
+	.long   08a5c27aH
+	.word   06180H
+RNVICTORY5A:
+	.word   31,123,28,-23
+	.long   08a5e846H
+	.word   06580H
+RNVICTORY5B:
+	.word   32,122,-3,-23
+	.long   08a625a8H
+	.word   06580H
+RNVICTORY6A:
+	.word   15,43,34,-1
+	.long   08a65ab0H
+	.word   06080H
+RNVICTORY6B:
+	.word   30,136,26,-10
+	.long   08a66670H
+	.word   06580H
+RNVICTORY6C:
+	.word   15,42,-27,-5
+	.long   08a6a044H
+	.word   06080H
+RNVICTORY6D:
+	.word   32,135,-4,-9
+	.long   08a6ac50H
+	.word   06580H
+RNVICTORY7A:
+	.word   31,49,47,10
+	.long   08a6e2b0H
+	.word   06580H
+RNVICTORY7B:
+	.word   31,144,26,-2
+	.long   08a6f1eeH
+	.word   06480H
+RNVICTORY7C:
+	.word   30,58,-22,10
+	.long   08a72c02H
+	.word   06580H
+RNVICTORY7D:
+	.word   31,143,-5,-2
+	.long   08a73d9eH
+	.word   06580H
+	.TEXT
+

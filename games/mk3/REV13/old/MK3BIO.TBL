@@ -1,0 +1,17 @@
+	.DATA
+B_SIN	.set	05c71af0h
+B_SEK	.set	05c93630h
+B_COP	.set	05cb4d90h
+B_SON	.set	05cd4270h
+B_SUB	.set	05cf3b70h
+B_SHA	.set	05d13be0h
+B_JAX	.set	05d33ee0h
+B_LIU	.set	05d539e0h
+B_CYR	.set	05d72540h
+B_KAB	.set	05d936e0h
+B_KAN	.set	05db5470h
+B_IND	.set	05dd4580h
+B_SHE	.set	05df2ba0h
+E_SMK	.set	05e168d0h
+	.TEXT
+

@@ -1,0 +1,3019 @@
+	.DATA
+JXSTANCE1A:
+	.word   30,31,35,-21
+	.long   094d7a8H
+	.word   06180H
+	.long   JAXPRP_P
+JXSTANCE1B:
+	.word   20,134,17,-20
+	.long   094e4d6H
+	.word   06080H
+JXSTANCE1C:
+	.word   9,31,-19,-54
+	.long   0950f88H
+	.word   06000H
+JXSTANCE1D:
+	.word   37,133,-3,-19
+	.long   0951612H
+	.word   06580H
+JXSTANCE2A:
+	.word   31,24,32,-20
+	.long   09544b8H
+	.word   06580H
+JXSTANCE2B:
+	.word   23,134,17,-20
+	.long   0954f98H
+	.word   06080H
+JXSTANCE2C:
+	.word   14,38,-17,-42
+	.long   0957e22H
+	.word   06080H
+JXSTANCE2D:
+	.word   34,132,-6,-20
+	.long   095883aH
+	.word   06580H
+JXSTANCE3A:
+	.word   28,21,32,-22
+	.long   095b4feH
+	.word   06180H
+JXSTANCE3B:
+	.word   30,134,24,-20
+	.long   095be5eH
+	.word   06180H
+JXSTANCE3C:
+	.word   16,49,-18,-44
+	.long   095ee86H
+	.word   06080H
+JXSTANCE3D:
+	.word   34,132,-6,-20
+	.long   095fc9eH
+	.word   06580H
+JXSTANCE4A:
+	.word   38,133,33,-21
+	.long   0962506H
+	.word   06180H
+JXSTANCE4B:
+	.word   14,39,-18,-45
+	.long   0965e2cH
+	.word   06080H
+JXSTANCE4C:
+	.word   35,132,-5,-20
+	.long   0966888H
+	.word   06580H
+JXSTANCE5A:
+	.word   40,134,37,-20
+	.long   0969768H
+	.word   06180H
+JXSTANCE5B:
+	.word   12,38,-17,-46
+	.long   096d156H
+	.word   06080H
+JXSTANCE5C:
+	.word   37,132,-3,-20
+	.long   096db6eH
+	.word   06580H
+JXSTANCE6A:
+	.word   39,133,38,-21
+	.long   0970a42H
+	.word   06180H
+JXSTANCE6B:
+	.word   12,37,-15,-46
+	.long   0974326H
+	.word   06080H
+JXSTANCE6C:
+	.word   39,132,-1,-20
+	.long   0974cfaH
+	.word   06580H
+JXSTANCE7A:
+	.word   30,22,39,-25
+	.long   0977c0aH
+	.word   06080H
+JXSTANCE7B:
+	.word   20,133,20,-21
+	.long   097872eH
+	.word   06080H
+JXSTANCE7C:
+	.word   10,39,-14,-46
+	.long   097b20eH
+	.word   06000H
+JXSTANCE7D:
+	.word   40,131,0,-21
+	.long   097bb32H
+	.word   06580H
+JXSTANCE8A:
+	.word   28,24,37,-22
+	.long   097e6b6H
+	.word   06180H
+JXSTANCE8B:
+	.word   19,133,18,-21
+	.long   097f1b4H
+	.word   06080H
+JXSTANCE8C:
+	.word   13,27,-13,-56
+	.long   0981c52H
+	.word   06080H
+JXSTANCE8D:
+	.word   39,132,-1,-20
+	.long   098238aH
+	.word   06580H
+JXTURN1A:
+	.word   39,138,32,-16
+	.long   09851f2H
+	.word   06580H
+JXTURN1B:
+	.word   19,25,-20,-49
+	.long   0988c5aH
+	.word   06080H
+JXTURN1C:
+	.word   31,135,-7,-16
+	.long   098932eH
+	.word   06480H
+JXTURN2A:
+	.word   32,140,30,-14
+	.long   098bff2H
+	.word   06180H
+JXTURN2B:
+	.word   16,23,-16,-36
+	.long   098f3bcH
+	.word   06080H
+JXTURN2C:
+	.word   36,137,-2,-14
+	.long   098fa50H
+	.word   06580H
+JXWALKLEG1A:
+	.word   26,92,25,-63
+	.long   0992760H
+	.word   06480H
+JXWALKLEG1B:
+	.word   24,91,-1,-63
+	.long   09943b4H
+	.word   06080H
+JXWALKLEG2A:
+	.word   20,91,21,-62
+	.long   0995f5eH
+	.word   06080H
+JXWALKLEG2B:
+	.word   18,92,1,-62
+	.long   09979acH
+	.word   06080H
+JXWALKLEG3A:
+	.word   28,94,13,-64
+	.long   099970eH
+	.word   06080H
+JXWALKLEG4A:
+	.word   18,91,14,-65
+	.long   099c128H
+	.word   06080H
+JXWALKLEG4B:
+	.word   19,92,-4,-65
+	.long   099df12H
+	.word   06080H
+JXWALKLEG5A:
+	.word   23,87,22,-67
+	.long   099f782H
+	.word   06080H
+JXWALKLEG5B:
+	.word   18,91,-1,-67
+	.long   09a122eH
+	.word   06080H
+JXWALKLEG6A:
+	.word   18,86,20,-66
+	.long   09a2ac0H
+	.word   06080H
+JXWALKLEG6B:
+	.word   18,92,2,-66
+	.long   09a437eH
+	.word   06080H
+JXWALKLEG7A:
+	.word   20,76,15,-64
+	.long   09a6242H
+	.word   06080H
+JXWALKLEG7B:
+	.word   28,94,3,-64
+	.long   09a7e52H
+	.word   06580H
+JXWALKLEG8A:
+	.word   22,95,14,-63
+	.long   09a9bb2H
+	.word   06080H
+JXWALKLEG8B:
+	.word   20,78,-8,-70
+	.long   09abf44H
+	.word   06080H
+JXWALKLEG9A:
+	.word   16,94,15,-63
+	.long   09ad714H
+	.word   06080H
+JXWALKLEG9B:
+	.word   39,87,-1,-63
+	.long   09af522H
+	.word   06580H
+JXWALKTORSO1A:
+	.word   27,49,35,-22
+	.long   09b1244H
+	.word   06180H
+JXWALKTORSO1B:
+	.word   21,57,8,-16
+	.long   09b2512H
+	.word   06080H
+JXWALKTORSO1C:
+	.word   25,43,-13,-38
+	.long   09b3ed4H
+	.word   06580H
+JXWALKTORSO2A:
+	.word   27,49,35,-21
+	.long   09b4b66H
+	.word   06180H
+JXWALKTORSO2B:
+	.word   21,57,8,-15
+	.long   09b5e34H
+	.word   06080H
+JXWALKTORSO2C:
+	.word   25,43,-13,-37
+	.long   09b77f6H
+	.word   06580H
+JXWALKTORSO3A:
+	.word   27,49,36,-23
+	.long   09b8488H
+	.word   06180H
+JXWALKTORSO3B:
+	.word   21,57,9,-17
+	.long   09b9756H
+	.word   06080H
+JXWALKTORSO3C:
+	.word   25,43,-12,-39
+	.long   09bb118H
+	.word   06580H
+JXWALKTORSO4A:
+	.word   27,49,37,-24
+	.long   09bbdaaH
+	.word   06180H
+JXWALKTORSO4B:
+	.word   21,57,10,-18
+	.long   09bd078H
+	.word   06080H
+JXWALKTORSO4C:
+	.word   25,43,-11,-40
+	.long   09bea3aH
+	.word   06580H
+JXWALKTORSO5A:
+	.word   27,49,38,-26
+	.long   09bf6ccH
+	.word   06180H
+JXWALKTORSO5B:
+	.word   21,57,11,-20
+	.long   09c099aH
+	.word   06080H
+JXWALKTORSO5C:
+	.word   25,43,-10,-42
+	.long   09c235cH
+	.word   06580H
+JXWALKTORSO6A:
+	.word   27,49,38,-25
+	.long   09c2feeH
+	.word   06180H
+JXWALKTORSO6B:
+	.word   21,57,11,-19
+	.long   09c42bcH
+	.word   06080H
+JXWALKTORSO6C:
+	.word   25,43,-10,-41
+	.long   09c5c7eH
+	.word   06580H
+JXWALKTORSO7A:
+	.word   27,49,38,-23
+	.long   09c6910H
+	.word   06180H
+JXWALKTORSO7B:
+	.word   21,57,11,-17
+	.long   09c7bdeH
+	.word   06080H
+JXWALKTORSO7C:
+	.word   25,43,-10,-39
+	.long   09c95a0H
+	.word   06580H
+JXWALKTORSO8A:
+	.word   27,49,38,-22
+	.long   09ca232H
+	.word   06180H
+JXWALKTORSO8B:
+	.word   21,57,11,-16
+	.long   09cb500H
+	.word   06080H
+JXWALKTORSO8C:
+	.word   25,43,-10,-38
+	.long   09ccec2H
+	.word   06580H
+JXWALKTORSO9A:
+	.word   27,49,39,-22
+	.long   09cdb54H
+	.word   06180H
+JXWALKTORSO9B:
+	.word   21,57,12,-16
+	.long   09cee22H
+	.word   06080H
+JXWALKTORSO9C:
+	.word   25,43,-9,-38
+	.long   09d07e4H
+	.word   06580H
+JXRUN1A:
+	.word   63,135,26,-19
+	.long   09d1476H
+	.word   06980H
+JXRUN2A:
+	.word   35,115,37,-39
+	.long   09d6840H
+	.word   06580H
+JXRUN2B:
+	.word   44,135,2,-17
+	.long   09d8d0eH
+	.word   06480H
+JXRUN3A:
+	.word   49,107,52,-37
+	.long   09dc662H
+	.word   06a80H
+JXRUN3B:
+	.word   44,137,3,-17
+	.long   09dedfcH
+	.word   06480H
+JXRUN4A:
+	.word   56,86,58,-38
+	.long   09e2994H
+	.word   06a80H
+JXRUN4B:
+	.word   39,135,2,-19
+	.long   09e51f4H
+	.word   06480H
+JXRUN5A:
+	.word   82,132,54,-22
+	.long   09e8842H
+	.word   06680H
+JXRUN6A:
+	.word   67,132,41,-22
+	.long   09ee182H
+	.word   06680H
+JXRUN7A:
+	.word   63,136,26,-18
+	.long   09f310eH
+	.word   06980H
+JXRUN8A:
+	.word   74,139,32,-15
+	.long   09f7fb2H
+	.word   06a80H
+JXRUN9A:
+	.word   48,110,48,-41
+	.long   09fe75eH
+	.word   06a80H
+JXRUN9B:
+	.word   40,137,0,-18
+	.long   0a00fd6H
+	.word   06480H
+JXRUN10A:
+	.word   54,97,54,-42
+	.long   0a047a2H
+	.word   06a80H
+JXRUN10B:
+	.word   34,134,0,-21
+	.long   0a06fbeH
+	.word   06480H
+JXRUN11A:
+	.word   74,131,48,-24
+	.long   0a0a286H
+	.word   06280H
+JXRUN12A:
+	.word   58,131,36,-24
+	.long   0a0faf8H
+	.word   06680H
+JXDUCK1A:
+	.word   48,120,28,-35
+	.long   0a148fcH
+	.word   06580H
+JXDUCK1B:
+	.word   23,115,-20,-36
+	.long   0a18a90H
+	.word   06580H
+JXDUCK2A:
+	.word   45,93,23,-62
+	.long   0a1ae56H
+	.word   06680H
+JXDUCK2B:
+	.word   27,95,-22,-56
+	.long   0a1e7e0H
+	.word   06480H
+JXDUCK3A:
+	.word   12,17,21,-138
+	.long   0a208f0H
+	.word   06080H
+JXDUCK3B:
+	.word   31,68,9,-88
+	.long   0a20db6H
+	.word   06080H
+JXDUCK3C:
+	.word   27,68,-22,-85
+	.long   0a236d6H
+	.word   06480H
+JXDUCKBLOCK1A:
+	.word   11,19,20,-136
+	.long   0a254aaH
+	.word   06000H
+JXDUCKBLOCK1B:
+	.word   35,88,9,-70
+	.long   0a25990H
+	.word   06180H
+JXDUCKBLOCK1C:
+	.word   15,26,-42,-72
+	.long   0a2896eH
+	.word   06080H
+JXDUCKBLOCK1D:
+	.word   20,84,-26,-68
+	.long   0a290e0H
+	.word   06080H
+JXDUCKBLOCK2A:
+	.word   12,19,20,-136
+	.long   0a2ad5aH
+	.word   06080H
+JXDUCKBLOCK2B:
+	.word   34,97,8,-61
+	.long   0a2b2aeH
+	.word   06180H
+JXDUCKBLOCK2C:
+	.word   20,89,-26,-63
+	.long   0a2e8c2H
+	.word   06180H
+JXDUCKBLOCK3A:
+	.word   19,47,-27,-105
+	.long   0a3077aH
+	.word   06080H
+JXDUCKBLOCK3B:
+	.word   12,19,20,-136
+	.long   0a316b4H
+	.word   06080H
+JXDUCKBLOCK3C:
+	.word   40,102,12,-56
+	.long   0a31c08H
+	.word   06080H
+JXDUCKHIT1A:
+	.word   12,19,24,-135
+	.long   0a35dfcH
+	.word   06080H
+JXDUCKHIT1B:
+	.word   32,88,12,-69
+	.long   0a36350H
+	.word   06180H
+JXDUCKHIT1C:
+	.word   22,83,-20,-68
+	.long   0a39454H
+	.word   06480H
+JXDUCKHIT2A:
+	.word   11,19,24,-135
+	.long   0a3b07eH
+	.word   06000H
+JXDUCKHIT2B:
+	.word   33,94,13,-63
+	.long   0a3b564H
+	.word   06180H
+JXDUCKHIT2C:
+	.word   22,89,-20,-62
+	.long   0a3e872H
+	.word   06580H
+JXDUCKHIT3A:
+	.word   11,19,24,-135
+	.long   0a4048aH
+	.word   06000H
+JXDUCKHIT3B:
+	.word   35,97,13,-60
+	.long   0a40970H
+	.word   06180H
+JXDUCKHIT3C:
+	.word   20,49,-22,-102
+	.long   0a441a0H
+	.word   06080H
+JXDUCKTURN1A:
+	.word   31,72,23,-79
+	.long   0a451f2H
+	.word   06580H
+JXDUCKTURN1B:
+	.word   40,81,-8,-71
+	.long   0a46e4eH
+	.word   06580H
+JXDUCKTURN2A:
+	.word   31,73,21,-77
+	.long   0a49bbaH
+	.word   06580H
+JXDUCKTURN2B:
+	.word   35,83,-10,-69
+	.long   0a4bc74H
+	.word   06580H
+JXDUCKPUNCH1A:
+	.word   12,17,21,-138
+	.long   0a4e636H
+	.word   06080H
+JXDUCKPUNCH1B:
+	.word   33,79,9,-78
+	.long   0a4eafcH
+	.word   06180H
+JXDUCKPUNCH1C:
+	.word   28,81,-24,-71
+	.long   0a51516H
+	.word   06480H
+JXDUCKPUNCH2A:
+	.word   12,17,21,-138
+	.long   0a536caH
+	.word   06080H
+JXDUCKPUNCH2B:
+	.word   35,88,9,-69
+	.long   0a53b90H
+	.word   06180H
+JXDUCKPUNCH2C:
+	.word   20,29,-51,-87
+	.long   0a56b3eH
+	.word   06080H
+JXDUCKPUNCH2D:
+	.word   25,82,-26,-70
+	.long   0a572f8H
+	.word   06080H
+JXDUCKPUNCH3A:
+	.word   10,18,8,-72
+	.long   0a591e4H
+	.word   06000H
+JXDUCKPUNCH3B:
+	.word   13,17,21,-138
+	.long   0a5961cH
+	.word   06080H
+JXDUCKPUNCH3C:
+	.word   32,88,8,-69
+	.long   0a59b00H
+	.word   06180H
+JXDUCKPUNCH3D:
+	.word   25,83,-24,-69
+	.long   0a5c760H
+	.word   06080H
+JXDUCKPUNCH3E:
+	.word   41,22,-49,-76
+	.long   0a5e6c6H
+	.word   06a80H
+JXDUCKLOKICK1A:
+	.word   10,20,19,-127
+	.long   0a5f142H
+	.word   06000H
+JXDUCKLOKICK1B:
+	.word   29,71,9,-92
+	.long   0a5f5f2H
+	.word   06180H
+JXDUCKLOKICK1C:
+	.word   23,61,-20,-90
+	.long   0a61210H
+	.word   06080H
+JXDUCKLOKICK1D:
+	.word   15,67,-43,-95
+	.long   0a62accH
+	.word   06080H
+JXDUCKLOKICK2A:
+	.word   22,77,-3,-87
+	.long   0a63cd4H
+	.word   06080H
+JXDUCKLOKICK2B:
+	.word   12,56,-25,-86
+	.long   0a65886H
+	.word   06000H
+JXDUCKLOKICK2C:
+	.word   30,70,-37,-92
+	.long   0a66846H
+	.word   06480H
+JXDUCKLOKICK3A:
+	.word   36,76,-3,-88
+	.long   0a68318H
+	.word   06480H
+JXDUCKLOKICK3B:
+	.word   29,38,-55,-104
+	.long   0a6ad6eH
+	.word   06580H
+JXDUCKLOKICK3C:
+	.word   19,68,-39,-94
+	.long   0a6b8e2H
+	.word   06080H
+JXDUCKLOKICK4A:
+	.word   38,66,-3,-98
+	.long   0a6cde0H
+	.word   06480H
+JXDUCKLOKICK4B:
+	.word   51,40,-56,-114
+	.long   0a6f9b4H
+	.word   06a80H
+JXDUCKLOKICK4C:
+	.word   17,62,-41,-100
+	.long   0a70a24H
+	.word   06080H
+JXDUCKHIKICK1A:
+	.word   15,63,23,-98
+	.long   0a71cbeH
+	.word   06080H
+JXDUCKHIKICK1B:
+	.word   26,66,8,-82
+	.long   0a72e10H
+	.word   06080H
+JXDUCKHIKICK1C:
+	.word   18,31,-45,-89
+	.long   0a74fe8H
+	.word   06080H
+JXDUCKHIKICK1D:
+	.word   27,68,-18,-83
+	.long   0a75830H
+	.word   06080H
+JXDUCKHIKICK2A:
+	.word   17,80,27,-84
+	.long   0a7739aH
+	.word   06080H
+JXDUCKHIKICK2B:
+	.word   29,55,10,-78
+	.long   0a78946H
+	.word   06080H
+JXDUCKHIKICK2C:
+	.word   31,66,-19,-85
+	.long   0a7a8f8H
+	.word   06580H
+JXDUCKHIKICK3A:
+	.word   16,82,27,-82
+	.long   0a7c554H
+	.word   06080H
+JXDUCKHIKICK3B:
+	.word   17,62,11,-78
+	.long   0a7db4cH
+	.word   06080H
+JXDUCKHIKICK3C:
+	.word   65,57,-6,-94
+	.long   0a7f18eH
+	.word   06a80H
+JXDUCKHIKICK4A:
+	.word   19,77,27,-87
+	.long   0a819e4H
+	.word   06080H
+JXDUCKHIKICK4B:
+	.word   15,63,8,-82
+	.long   0a830c2H
+	.word   06080H
+JXDUCKHIKICK4C:
+	.word   61,74,-7,-77
+	.long   0a8454aH
+	.word   06a80H
+JXUPPERCUT1A:
+	.word   27,35,35,-92
+	.long   0a86dceH
+	.word   06580H
+JXUPPERCUT1B:
+	.word   37,74,24,-81
+	.long   0a87804H
+	.word   06180H
+JXUPPERCUT1C:
+	.word   15,21,-40,-84
+	.long   0a8a0c4H
+	.word   06080H
+JXUPPERCUT1D:
+	.word   29,82,-13,-69
+	.long   0a8a658H
+	.word   06080H
+JXUPPERCUT2A:
+	.word   22,26,22,-104
+	.long   0a8cbc2H
+	.word   06180H
+JXUPPERCUT2B:
+	.word   46,74,25,-76
+	.long   0a8d2d4H
+	.word   06280H
+JXUPPERCUT2C:
+	.word   44,92,-21,-60
+	.long   0a8fc06H
+	.word   06580H
+JXUPPERCUT3A:
+	.word   48,84,27,-65
+	.long   0a924deH
+	.word   06a80H
+JXUPPERCUT3B:
+	.word   30,103,-21,-49
+	.long   0a94cfeH
+	.word   06480H
+JXUPPERCUT4A:
+	.word   51,100,30,-50
+	.long   0a9781aH
+	.word   06a80H
+JXUPPERCUT4B:
+	.word   46,28,-42,-60
+	.long   0a9a192H
+	.word   06980H
+JXUPPERCUT4C:
+	.word   25,117,-21,-35
+	.long   0a9ae12H
+	.word   06080H
+JXUPPERCUT5A:
+	.word   48,114,28,-40
+	.long   0a9da2eH
+	.word   06a80H
+JXUPPERCUT5B:
+	.word   32,33,-53,-25
+	.long   0aa0656H
+	.word   06580H
+JXUPPERCUT5C:
+	.word   33,127,-20,-24
+	.long   0aa10eeH
+	.word   06480H
+JXUPPERCUT6A:
+	.word   24,44,16,-37
+	.long   0aa4576H
+	.word   06580H
+JXUPPERCUT6B:
+	.word   34,140,13,-17
+	.long   0aa5156H
+	.word   06580H
+JXUPPERCUT6C:
+	.word   32,160,-21,9
+	.long   0aa79aaH
+	.word   06580H
+JXHIBLOCK1A:
+	.word   25,136,19,-18
+	.long   0aab89aH
+	.word   06080H
+JXHIBLOCK1B:
+	.word   23,29,-23,-30
+	.long   0aae2d8H
+	.word   06480H
+JXHIBLOCK1C:
+	.word   34,133,-6,-19
+	.long   0aaec90H
+	.word   06580H
+JXHIBLOCK2A:
+	.word   28,136,19,-18
+	.long   0ab1860H
+	.word   06580H
+JXHIBLOCK2B:
+	.word   31,135,-9,-17
+	.long   0ab4424H
+	.word   06580H
+JXHIBLOCK3A:
+	.word   31,139,19,-15
+	.long   0ab77c6H
+	.word   06580H
+JXHIBLOCK3B:
+	.word   28,133,-12,-19
+	.long   0abb2d8H
+	.word   06580H
+JXLOBLOCK1A:
+	.word   28,140,19,-14
+	.long   0abdba8H
+	.word   06480H
+JXLOBLOCK1B:
+	.word   30,124,-9,-29
+	.long   0ac0b64H
+	.word   06480H
+JXLOBLOCK2A:
+	.word   29,136,21,-18
+	.long   0ac34b8H
+	.word   06480H
+JXLOBLOCK2B:
+	.word   31,115,-8,-38
+	.long   0ac6c1cH
+	.word   06480H
+JXHIPUNCH1A:
+	.word   27,135,15,-21
+	.long   0ac9072H
+	.word   06580H
+JXHIPUNCH1B:
+	.word   13,21,-28,-46
+	.long   0acbe14H
+	.word   06080H
+JXHIPUNCH1C:
+	.word   29,131,-12,-21
+	.long   0acc3a8H
+	.word   06480H
+JXHIPUNCH2A:
+	.word   40,135,22,-21
+	.long   0acf196H
+	.word   06580H
+JXHIPUNCH2B:
+	.word   13,32,-32,-40
+	.long   0ad200aH
+	.word   06080H
+JXHIPUNCH2C:
+	.word   23,130,-18,-22
+	.long   0ad288aH
+	.word   06080H
+JXHIPUNCH3A:
+	.word   44,125,26,-31
+	.long   0ad5100H
+	.word   06580H
+JXHIPUNCH3B:
+	.word   39,22,-42,-28
+	.long   0ad8734H
+	.word   06580H
+JXHIPUNCH3C:
+	.word   24,129,-18,-23
+	.long   0ad9024H
+	.word   06480H
+JXHIPUNCH4A:
+	.word   41,137,25,-19
+	.long   0adbd8aH
+	.word   06680H
+JXHIPUNCH4B:
+	.word   19,19,-36,-45
+	.long   0adef20H
+	.word   06080H
+JXHIPUNCH4C:
+	.word   25,135,-16,-17
+	.long   0adf444H
+	.word   06080H
+JXHIPUNCH5A:
+	.word   37,125,20,-31
+	.long   0ae22dcH
+	.word   06580H
+JXHIPUNCH5B:
+	.word   20,22,-41,-31
+	.long   0ae50eeH
+	.word   06080H
+JXHIPUNCH5C:
+	.word   24,136,-17,-16
+	.long   0ae572cH
+	.word   06080H
+JXHIPUNCH6A:
+	.word   12,25,12,-35
+	.long   0ae8782H
+	.word   06080H
+JXHIPUNCH6B:
+	.word   32,124,18,-32
+	.long   0ae8e56H
+	.word   06580H
+JXHIPUNCH6C:
+	.word   43,21,-39,-27
+	.long   0aeb636H
+	.word   06a80H
+JXHIPUNCH6D:
+	.word   25,133,-14,-19
+	.long   0aebff0H
+	.word   06080H
+JXHIPUNCH7A:
+	.word   31,146,21,-10
+	.long   0aef358H
+	.word   06580H
+JXHIPUNCH7B:
+	.word   40,26,-29,-41
+	.long   0af2698H
+	.word   06980H
+JXHIPUNCH7C:
+	.word   28,134,-10,-18
+	.long   0af317cH
+	.word   06080H
+JXLOPUNCH1A:
+	.word   42,132,27,-23
+	.long   0af6144H
+	.word   06680H
+JXLOPUNCH1B:
+	.word   26,129,-15,-23
+	.long   0af957cH
+	.word   06480H
+JXLOPUNCH2A:
+	.word   46,131,27,-24
+	.long   0afbe32H
+	.word   06680H
+JXLOPUNCH2B:
+	.word   16,29,-35,-42
+	.long   0aff616H
+	.word   06080H
+JXLOPUNCH2C:
+	.word   22,128,-19,-24
+	.long   0affdcaH
+	.word   06480H
+JXLOPUNCH3A:
+	.word   49,126,29,-29
+	.long   0b025f4H
+	.word   06a80H
+JXLOPUNCH3B:
+	.word   37,14,-42,-44
+	.long   0b06860H
+	.word   06580H
+JXLOPUNCH3C:
+	.word   22,125,-20,-27
+	.long   0b07020H
+	.word   06480H
+JXLOPUNCH4A:
+	.word   46,116,30,-39
+	.long   0b09862H
+	.word   06680H
+JXLOPUNCH4B:
+	.word   28,129,-16,-23
+	.long   0b0c39eH
+	.word   06480H
+JXLOPUNCH5A:
+	.word   44,117,29,-38
+	.long   0b0f284H
+	.word   06580H
+JXLOPUNCH5B:
+	.word   17,17,-36,-47
+	.long   0b11f78H
+	.word   06080H
+JXLOPUNCH5C:
+	.word   26,129,-15,-23
+	.long   0b1240eH
+	.word   06080H
+JXLOPUNCH6A:
+	.word   16,43,16,-40
+	.long   0b15378H
+	.word   06080H
+JXLOPUNCH6B:
+	.word   39,119,26,-37
+	.long   0b15f7aH
+	.word   06580H
+JXLOPUNCH6C:
+	.word   67,128,-13,-24
+	.long   0b187ecH
+	.word   06880H
+JXLOPUNCH7A:
+	.word   16,32,27,-16
+	.long   0b1c462H
+	.word   06080H
+JXLOPUNCH7B:
+	.word   31,121,21,-34
+	.long   0b1cda8H
+	.word   06580H
+JXLOPUNCH7C:
+	.word   39,33,-25,-46
+	.long   0b1fab6H
+	.word   06980H
+JXLOPUNCH7D:
+	.word   31,129,-10,-22
+	.long   0b2068cH
+	.word   06480H
+JXHEADBOP1A:
+	.word   20,36,50,-17
+	.long   0b235deH
+	.word   06080H
+JXHEADBOP1B:
+	.word   40,139,30,-15
+	.long   0b23fa4H
+	.word   06580H
+JXHEADBOP1C:
+	.word   21,18,-24,-40
+	.long   0b27c18H
+	.word   06080H
+JXHEADBOP1D:
+	.word   26,115,-10,-35
+	.long   0b2816aH
+	.word   06480H
+JXHEADBOP2A:
+	.word   17,52,20,4
+	.long   0b2a656H
+	.word   06080H
+JXHEADBOP2B:
+	.word   32,143,18,-13
+	.long   0b2b4f8H
+	.word   06580H
+JXHEADBOP2C:
+	.word   30,115,-14,-36
+	.long   0b2e820H
+	.word   06480H
+JXHEADBOP3A:
+	.word   35,158,22,2
+	.long   0b31006H
+	.word   06580H
+JXHEADBOP3B:
+	.word   10,12,-31,-53
+	.long   0b3438eH
+	.word   06000H
+JXHEADBOP3C:
+	.word   27,135,-13,-17
+	.long   0b3465eH
+	.word   06480H
+JXHEADBOP4A:
+	.word   37,140,24,-18
+	.long   0b37094H
+	.word   06580H
+JXHEADBOP4B:
+	.word   12,9,-50,-30
+	.long   0b3a0d4H
+	.word   06000H
+JXHEADBOP4C:
+	.word   37,134,-13,-18
+	.long   0b3a35cH
+	.word   06480H
+JXLOKICK1A:
+	.word   22,29,30,-20
+	.long   0b3d276H
+	.word   06080H
+JXLOKICK1B:
+	.word   36,139,25,-16
+	.long   0b3dd12H
+	.word   06580H
+JXLOKICK1C:
+	.word   17,36,-29,-50
+	.long   0b40ecaH
+	.word   06080H
+JXLOKICK1D:
+	.word   37,135,-11,-16
+	.long   0b4185aH
+	.word   06580H
+JXLOKICK2A:
+	.word   20,29,24,-22
+	.long   0b44998H
+	.word   06080H
+JXLOKICK2B:
+	.word   25,139,4,-12
+	.long   0b4544cH
+	.word   06080H
+JXLOKICK2C:
+	.word   25,31,-34,-38
+	.long   0b489beH
+	.word   06580H
+JXLOKICK2D:
+	.word   27,120,-21,-30
+	.long   0b492f0H
+	.word   06480H
+JXLOKICK3A:
+	.word   23,29,31,-18
+	.long   0b4b9d2H
+	.word   06080H
+JXLOKICK3B:
+	.word   29,23,-30,-35
+	.long   0b4c4ceH
+	.word   06580H
+JXLOKICK3C:
+	.word   42,140,8,-13
+	.long   0b4ccb8H
+	.word   06580H
+JXLOKICK3D:
+	.word   15,77,-34,-68
+	.long   0b513e4H
+	.word   06080H
+JXLOKICK4A:
+	.word   23,31,31,-19
+	.long   0b52930H
+	.word   06080H
+JXLOKICK4B:
+	.word   43,139,8,-15
+	.long   0b53538H
+	.word   06580H
+JXLOKICK4C:
+	.word   25,86,-35,-41
+	.long   0b57cdaH
+	.word   06580H
+JXLOKICK5A:
+	.word   17,29,30,-27
+	.long   0b5995eH
+	.word   06080H
+JXLOKICK5B:
+	.word   65,134,13,-20
+	.long   0b5a2f2H
+	.word   06a80H
+JXLOKICK5C:
+	.word   26,33,-52,-55
+	.long   0b5fa26H
+	.word   06580H
+JXLOKICK6A:
+	.word   12,23,31,-52
+	.long   0b603b6H
+	.word   06080H
+JXLOKICK6B:
+	.word   116,116,19,-38
+	.long   0b609d2H
+	.word   06a80H
+JXLOKICK6C:
+	.word   16,10,-97,-63
+	.long   0b66d8aH
+	.word   06080H
+JXHIKICK1A:
+	.word   14,23,40,-55
+	.long   0b670f8H
+	.word   06080H
+JXHIKICK2B:
+	.word   78,113,29,-36
+	.long   0b67714H
+	.word   06680H
+JXHIKICK3C:
+	.word   53,38,-49,-29
+	.long   0b6d118H
+	.word   06a80H
+JXKNEE1A:
+	.word   32,136,20,-19
+	.long   0b6e334H
+	.word   06580H
+JXKNEE1B:
+	.word   12,17,-31,-40
+	.long   0b70d84H
+	.word   06080H
+JXKNEE1C:
+	.word   33,135,-12,-16
+	.long   0b71208H
+	.word   06480H
+JXKNEE2A:
+	.word   44,141,-6,-10
+	.long   0b740d6H
+	.word   06580H
+JXKNEE3A:
+	.word   22,74,2,-22
+	.long   0b78c5aH
+	.word   06180H
+JXKNEE3B:
+	.word   30,47,-60,-53
+	.long   0b7a3bcH
+	.word   06480H
+JXKNEE3C:
+	.word   18,31,-42,-53
+	.long   0b7b1e8H
+	.word   06080H
+JXKNEE3D:
+	.word   25,133,-20,-19
+	.long   0b7bce2H
+	.word   06080H
+JXSWEEPKICK1A:
+	.word   30,103,26,-51
+	.long   0b7ec5aH
+	.word   06580H
+JXSWEEPKICK1B:
+	.word   39,22,-25,-72
+	.long   0b8131aH
+	.word   06580H
+JXSWEEPKICK1C:
+	.word   38,105,-4,-49
+	.long   0b81bc2H
+	.word   06580H
+JXSWEEPKICK2A:
+	.word   61,76,39,-83
+	.long   0b842aaH
+	.word   06680H
+JXSWEEPKICK2B:
+	.word   19,69,-22,-85
+	.long   0b8771aH
+	.word   06080H
+JXSWEEPKICK3A:
+	.word   23,60,22,-99
+	.long   0b88df4H
+	.word   06080H
+JXSWEEPKICK3B:
+	.word   52,59,-1,-95
+	.long   0b8a1feH
+	.word   06580H
+JXSWEEPKICK4A:
+	.word   24,54,22,-104
+	.long   0b8d496H
+	.word   06080H
+JXSWEEPKICK4B:
+	.word   47,27,-48,-112
+	.long   0b8e540H
+	.word   06a80H
+JXSWEEPKICK4C:
+	.word   46,55,-2,-99
+	.long   0b8f296H
+	.word   06180H
+JXSWEEPKICK5A:
+	.word   30,54,24,-106
+	.long   0b9211eH
+	.word   06180H
+JXSWEEPKICK5B:
+	.word   41,54,-6,-101
+	.long   0b93342H
+	.word   06580H
+JXSWEEPKICK5C:
+	.word   62,46,-47,-116
+	.long   0b95d06H
+	.word   06a80H
+JXSWEEPKICK6A:
+	.word   34,56,23,-99
+	.long   0b9726eH
+	.word   06580H
+JXSWEEPKICK6B:
+	.word   32,56,-11,-99
+	.long   0b9874eH
+	.word   06180H
+JXSWEEPKICK6C:
+	.word   32,61,-43,-118
+	.long   0b9aa56H
+	.word   06580H
+JXSWEEPKICK7A:
+	.word   16,46,-38,-83
+	.long   0b9bcd6H
+	.word   06080H
+JXSWEEPKICK7B:
+	.word   63,85,22,-88
+	.long   0b9cb30H
+	.word   06a80H
+JXSWEEPKICK8A:
+	.word   45,71,30,-80
+	.long   0ba0372H
+	.word   06a80H
+JXSWEEPKICK8B:
+	.word   40,95,-15,-58
+	.long   0ba232cH
+	.word   06580H
+JXROUNDKICK1A:
+	.word   36,139,28,-16
+	.long   0ba5df8H
+	.word   06580H
+JXROUNDKICK1B:
+	.word   33,136,-8,-16
+	.long   0ba8ad0H
+	.word   06480H
+JXROUNDKICK2A:
+	.word   26,28,-29,-14
+	.long   0babebcH
+	.word   06580H
+JXROUNDKICK2B:
+	.word   38,133,18,-14
+	.long   0bac6f8H
+	.word   06580H
+JXROUNDKICK2C:
+	.word   22,129,-20,-23
+	.long   0baf778H
+	.word   06080H
+JXROUNDKICK3A:
+	.word   32,20,-30,-23
+	.long   0bb1e84H
+	.word   06580H
+JXROUNDKICK3B:
+	.word   20,124,-4,-12
+	.long   0bb25a8H
+	.word   06080H
+JXROUNDKICK3C:
+	.word   22,119,-20,-33
+	.long   0bb5058H
+	.word   06080H
+JXROUNDKICK4A:
+	.word   32,20,-29,-22
+	.long   0bb7378H
+	.word   06580H
+JXROUNDKICK4B:
+	.word   44,140,-2,-12
+	.long   0bb7ac0H
+	.word   06580H
+JXROUNDKICK4C:
+	.word   21,29,-46,-75
+	.long   0bbbea4H
+	.word   06480H
+JXROUNDKICK5A:
+	.word   32,42,-57,-7
+	.long   0bbc88cH
+	.word   06580H
+JXROUNDKICK5B:
+	.word   49,143,-8,-8
+	.long   0bbd63cH
+	.word   06580H
+JXROUNDKICK6A:
+	.word   32,140,-8,-12
+	.long   0bc2a0aH
+	.word   06180H
+JXROUNDKICK6B:
+	.word   26,67,-40,-12
+	.long   0bc6bd2H
+	.word   06580H
+JXROUNDKICK7A:
+	.word   12,29,-1,-35
+	.long   0bc83aaH
+	.word   06080H
+JXROUNDKICK7B:
+	.word   41,143,-13,-11
+	.long   0bc8ba0H
+	.word   06580H
+JXROUNDKICK8A:
+	.word   19,19,9,-35
+	.long   0bcd692H
+	.word   06180H
+JXROUNDKICK8B:
+	.word   43,132,25,-20
+	.long   0bcdd3cH
+	.word   06680H
+JXROUNDKICK8C:
+	.word   34,136,-18,-18
+	.long   0bd0a6cH
+	.word   06480H
+JXJUMP1A:
+	.word   26,30,27,-29
+	.long   0bd4404H
+	.word   06180H
+JXJUMP1B:
+	.word   26,122,18,-32
+	.long   0bd4fc8H
+	.word   06580H
+JXJUMP1C:
+	.word   23,39,-24,-55
+	.long   0bd7924H
+	.word   06480H
+JXJUMP1D:
+	.word   37,122,-8,-31
+	.long   0bd84caH
+	.word   06580H
+JXJUMP2A:
+	.word   28,30,29,-4
+	.long   0bdb006H
+	.word   06180H
+JXJUMP2B:
+	.word   19,144,12,-10
+	.long   0bdbbb8H
+	.word   06080H
+JXJUMP2C:
+	.word   26,20,-23,-33
+	.long   0bde840H
+	.word   06480H
+JXJUMP2D:
+	.word   22,144,-7,-9
+	.long   0bdef94H
+	.word   06080H
+JXJUMP3A:
+	.word   28,29,29,-5
+	.long   0be1d36H
+	.word   06180H
+JXJUMP3B:
+	.word   31,114,23,-7
+	.long   0be28daH
+	.word   06580H
+JXJUMP3C:
+	.word   24,22,-24,-32
+	.long   0be53caH
+	.word   06480H
+JXJUMP3D:
+	.word   30,113,-8,-7
+	.long   0be5b4cH
+	.word   06580H
+JXJUMPKICK1A:
+	.word   22,56,-21,-60
+	.long   0be837cH
+	.word   06080H
+JXJUMPKICK1B:
+	.word   49,135,18,-9
+	.long   0be9658H
+	.word   06580H
+JXJUMPKICK2A:
+	.word   35,44,-35,-43
+	.long   0bed912H
+	.word   06480H
+JXJUMPKICK2B:
+	.word   57,126,21,-12
+	.long   0bee79eH
+	.word   06a80H
+JXJUMPKICK3A:
+	.word   41,30,-37,-25
+	.long   0bf3262H
+	.word   06680H
+JXJUMPKICK3B:
+	.word   63,116,26,-14
+	.long   0bf4102H
+	.word   06a80H
+JXJUMPFLIP1A:
+	.word   41,48,-22,-17
+	.long   0bf87f2H
+	.word   06480H
+JXJUMPFLIP1B:
+	.word   45,119,8,-20
+	.long   0bf9cf2H
+	.word   06580H
+JXJUMPFLIP2A:
+	.word   32,50,6,-19
+	.long   0bfe0e8H
+	.word   06080H
+JXJUMPFLIP2B:
+	.word   20,68,-26,-21
+	.long   0bfff70H
+	.word   06080H
+JXJUMPFLIP3A:
+	.word   59,70,9,-24
+	.long   0c01648H
+	.word   06980H
+JXJUMPFLIP4A:
+	.word   18,19,26,-54
+	.long   0c04be4H
+	.word   06080H
+JXJUMPFLIP4B:
+	.word   52,49,8,-21
+	.long   0c0517aH
+	.word   06580H
+JXJUMPFLIP5A:
+	.word   32,33,32,-26
+	.long   0c08086H
+	.word   06180H
+JXJUMPFLIP5B:
+	.word   36,60,0,-16
+	.long   0c08b9cH
+	.word   06080H
+JXJUMPFLIP6A:
+	.word   20,68,14,1
+	.long   0c0b380H
+	.word   06080H
+JXJUMPFLIP6B:
+	.word   33,51,-6,-17
+	.long   0c0c908H
+	.word   06080H
+JXJUMPFLIP7A:
+	.word   60,71,16,7
+	.long   0c0e88eH
+	.word   06680H
+JXJUMPFLIP8A:
+	.word   48,49,6,-20
+	.long   0c11edaH
+	.word   06180H
+JXJUMPFLIP8B:
+	.word   18,19,-42,-18
+	.long   0c14b10H
+	.word   06080H
+JXFLIPUNCH1A:
+	.word   13,70,11,-37
+	.long   0c150caH
+	.word   06080H
+JXFLIPUNCH1B:
+	.word   47,103,-2,-7
+	.long   0c163aaH
+	.word   06580H
+JXFLIPUNCH2A:
+	.word   23,116,14,6
+	.long   0c1aa44H
+	.word   06180H
+JXFLIPUNCH2B:
+	.word   24,49,-37,-7
+	.long   0c1ccf2H
+	.word   06080H
+JXFLIPUNCH2C:
+	.word   37,119,-9,6
+	.long   0c1ddf2H
+	.word   06580H
+JXFLIPUNCH3A:
+	.word   58,55,46,-44
+	.long   0c21c78H
+	.word   06a80H
+JXFLIPUNCH3B:
+	.word   37,64,-59,-11
+	.long   0c233fcH
+	.word   06580H
+JXFLIPUNCH3C:
+	.word   47,105,-12,-5
+	.long   0c247a8H
+	.word   06580H
+JXFLIPKICK1A:
+	.word   24,48,-39,-30
+	.long   0c28f42H
+	.word   06480H
+JXFLIPKICK1B:
+	.word   70,79,11,-10
+	.long   0c29cc8H
+	.word   06980H
+JXFLIPKICK2A:
+	.word   34,41,-43,-35
+	.long   0c2dda4H
+	.word   06480H
+JXFLIPKICK2B:
+	.word   81,85,20,-6
+	.long   0c2eb40H
+	.word   06a80H
+JXFLIPKICK3A:
+	.word   32,26,29,-4
+	.long   0c337ceH
+	.word   06480H
+JXFLIPKICK3B:
+	.word   34,19,-34,-30
+	.long   0c3453aH
+	.word   06580H
+JXFLIPKICK3C:
+	.word   53,43,-44,-49
+	.long   0c34cc2H
+	.word   06a80H
+JXFLIPKICK3D:
+	.word   54,90,10,-1
+	.long   0c3674cH
+	.word   06680H
+JXHIHIT1A:
+	.word   28,29,35,-14
+	.long   0c3a634H
+	.word   06180H
+JXHIHIT1B:
+	.word   21,138,17,-16
+	.long   0c3b27aH
+	.word   06080H
+JXHIHIT1C:
+	.word   34,135,-4,-16
+	.long   0c3e04cH
+	.word   06580H
+JXHIHIT2A:
+	.word   23,38,41,-15
+	.long   0c41874H
+	.word   06180H
+JXHIHIT2B:
+	.word   25,141,18,-13
+	.long   0c4267cH
+	.word   06080H
+JXHIHIT2C:
+	.word   31,115,-7,-36
+	.long   0c45ccaH
+	.word   06480H
+JXHIHIT3A:
+	.word   15,31,47,-30
+	.long   0c48876H
+	.word   06080H
+JXHIHIT3B:
+	.word   40,130,32,-24
+	.long   0c49208H
+	.word   06580H
+JXHIHIT3C:
+	.word   30,106,-8,-45
+	.long   0c4ceacH
+	.word   06480H
+JXLOHIT1A:
+	.word   29,28,30,-15
+	.long   0c4f3bcH
+	.word   06180H
+JXLOHIT1B:
+	.word   25,140,18,-14
+	.long   0c50060H
+	.word   06580H
+JXLOHIT1C:
+	.word   33,137,-7,-14
+	.long   0c52fd4H
+	.word   06580H
+JXLOHIT2A:
+	.word   30,140,23,-14
+	.long   0c5670aH
+	.word   06080H
+JXLOHIT2B:
+	.word   33,112,-7,-39
+	.long   0c59f96H
+	.word   06580H
+JXLOHIT3A:
+	.word   29,139,21,-15
+	.long   0c5c6feH
+	.word   06480H
+JXLOHIT3B:
+	.word   32,90,-8,-61
+	.long   0c5fcb8H
+	.word   06580H
+JXSTUMBLE1A:
+	.word   28,133,23,-21
+	.long   0c61758H
+	.word   06580H
+JXSTUMBLE1B:
+	.word   21,39,-23,-46
+	.long   0c6473cH
+	.word   06080H
+JXSTUMBLE1C:
+	.word   29,133,-5,-18
+	.long   0c65198H
+	.word   06480H
+JXSTUMBLE2A:
+	.word   18,24,23,-17
+	.long   0c6814cH
+	.word   06080H
+JXSTUMBLE2B:
+	.word   35,144,23,-10
+	.long   0c68ad0H
+	.word   06580H
+JXSTUMBLE2C:
+	.word   35,122,-12,-27
+	.long   0c6c4b4H
+	.word   06580H
+JXSTUMBLE3A:
+	.word   30,78,-14,-65
+	.long   0c6eb40H
+	.word   06580H
+JXSTUMBLE3B:
+	.word   37,150,23,-4
+	.long   0c70508H
+	.word   06580H
+JXSTUMBLE4A:
+	.word   17,40,45,-10
+	.long   0c74558H
+	.word   06080H
+JXSTUMBLE4B:
+	.word   54,141,28,-13
+	.long   0c74ff8H
+	.word   06580H
+JXSTUMBLE5A:
+	.word   38,37,52,-42
+	.long   0c79ad4H
+	.word   06680H
+JXSTUMBLE5B:
+	.word   18,27,-21,-62
+	.long   0c7a73cH
+	.word   06080H
+JXSTUMBLE5C:
+	.word   39,136,14,-19
+	.long   0c7ae68H
+	.word   06480H
+JXSTUMBLE6A:
+	.word   31,24,-19,-53
+	.long   0c7f74eH
+	.word   06580H
+JXSTUMBLE6B:
+	.word   40,135,19,-20
+	.long   0c7fefeH
+	.word   06080H
+JXSTUMBLE7A:
+	.word   25,136,21,-19
+	.long   0c8559eH
+	.word   06480H
+JXSTUMBLE7B:
+	.word   17,13,-28,-46
+	.long   0c8870eH
+	.word   06080H
+JXSTUMBLE7C:
+	.word   25,132,-4,-19
+	.long   0c88ac4H
+	.word   06480H
+JXKNOCKDOWN1A:
+	.word   19,56,25,-23
+	.long   0c8b9f2H
+	.word   06080H
+JXKNOCKDOWN1B:
+	.word   58,123,6,-24
+	.long   0c8cdf4H
+	.word   06a80H
+JXKNOCKDOWN2A:
+	.word   11,61,31,-14
+	.long   0c90a90H
+	.word   06000H
+JXKNOCKDOWN2B:
+	.word   97,140,20,-4
+	.long   0c91a4aH
+	.word   06f80H
+JXKNOCKDOWN3A:
+	.word   22,40,62,-26
+	.long   0c970e2H
+	.word   06180H
+JXKNOCKDOWN3B:
+	.word   98,113,40,-8
+	.long   0c97bb2H
+	.word   06f80H
+JXKNOCKDOWN3C:
+	.word   26,30,-58,-101
+	.long   0c9c896H
+	.word   06080H
+JXKNOCKDOWN4A:
+	.word   17,39,59,-57
+	.long   0c9d44eH
+	.word   06080H
+JXKNOCKDOWN4B:
+	.word   99,91,45,-29
+	.long   0c9deb0H
+	.word   06e80H
+JXKNOCKDOWN4C:
+	.word   28,31,-54,-88
+	.long   0ca28b6H
+	.word   06080H
+JXKNOCKDOWN5A:
+	.word   21,73,42,-51
+	.long   0ca38eaH
+	.word   06080H
+JXKNOCKDOWN5B:
+	.word   25,46,21,-82
+	.long   0ca549aH
+	.word   06580H
+JXKNOCKDOWN5C:
+	.word   72,53,-4,-75
+	.long   0ca6882H
+	.word   06a80H
+JXKNOCKDOWN6A:
+	.word   23,52,40,-83
+	.long   0ca91a2H
+	.word   06080H
+JXKNOCKDOWN6B:
+	.word   23,57,17,-78
+	.long   0caa54eH
+	.word   06080H
+JXKNOCKDOWN6C:
+	.word   58,59,-6,-69
+	.long   0cabb1aH
+	.word   06a80H
+JXKNOCKDOWN6D:
+	.word   15,34,-64,-73
+	.long   0cadde6H
+	.word   06080H
+JXKNOCKDOWN7A:
+	.word   57,38,42,-112
+	.long   0cae79cH
+	.word   06680H
+JXKNOCKDOWN7B:
+	.word   25,31,-15,-114
+	.long   0cb0ba0H
+	.word   06080H
+JXKNOCKDOWN7C:
+	.word   44,40,-40,-101
+	.long   0cb1916H
+	.word   06280H
+JXKNOCKDOWN8A:
+	.word   20,19,49,-131
+	.long   0cb33a0H
+	.word   06080H
+JXKNOCKDOWN8B:
+	.word   97,31,29,-128
+	.long   0cb3b82H
+	.word   06a80H
+JXKNOCKDOWN8C:
+	.word   27,29,-68,-126
+	.long   0cb72a4H
+	.word   06080H
+JXGETUP1A:
+	.word   20,24,45,-127
+	.long   0cb7fdaH
+	.word   06080H
+JXGETUP1B:
+	.word   36,39,25,-113
+	.long   0cb86faH
+	.word   06480H
+JXGETUP1C:
+	.word   55,69,-11,-84
+	.long   0cb9f90H
+	.word   06680H
+JXGETUP2A:
+	.word   39,40,46,-114
+	.long   0cbca0eH
+	.word   06580H
+JXGETUP2B:
+	.word   39,86,7,-66
+	.long   0cbe282H
+	.word   06480H
+JXGETUP3A:
+	.word   113,100,50,-53
+	.long   0cc12c2H
+	.word   06f80H
+JXGETUP4A:
+	.word   66,38,70,-93
+	.long   0cc66faH
+	.word   06a80H
+JXGETUP4B:
+	.word   42,64,4,-93
+	.long   0cc89eaH
+	.word   06580H
+JXGETUP5A:
+	.word   30,19,-10,-83
+	.long   0ccae76H
+	.word   06580H
+JXGETUP5B:
+	.word   55,99,23,-59
+	.long   0ccb59eH
+	.word   06580H
+JXGETUP6A:
+	.word   19,95,16,-59
+	.long   0ccf57cH
+	.word   06080H
+JXGETUP6B:
+	.word   32,33,-24,-75
+	.long   0cd16c8H
+	.word   06480H
+JXGETUP6C:
+	.word   35,104,-3,-47
+	.long   0cd23beH
+	.word   06580H
+JXSWEEPFALL1A:
+	.word   24,34,31,-12
+	.long   0cd4eb2H
+	.word   06080H
+JXSWEEPFALL1B:
+	.word   21,131,18,-22
+	.long   0cd5a7eH
+	.word   06180H
+JXSWEEPFALL1C:
+	.word   29,24,-22,-45
+	.long   0cd85baH
+	.word   06480H
+JXSWEEPFALL1D:
+	.word   25,135,-3,-19
+	.long   0cd8f50H
+	.word   06080H
+JXSWEEPFALL2A:
+	.word   28,33,40,-17
+	.long   0cdbe36H
+	.word   06480H
+JXSWEEPFALL2B:
+	.word   21,108,21,-37
+	.long   0cdc910H
+	.word   06080H
+JXSWEEPFALL2C:
+	.word   30,32,-22,-45
+	.long   0cdea76H
+	.word   06580H
+JXSWEEPFALL2D:
+	.word   25,129,0,-23
+	.long   0cdf40aH
+	.word   06080H
+JXSWEEPFALL3A:
+	.word   18,17,41,-69
+	.long   0ce237aH
+	.word   06080H
+JXSWEEPFALL3B:
+	.word   30,71,23,-37
+	.long   0ce27feH
+	.word   06180H
+JXSWEEPFALL3C:
+	.word   26,105,-7,-37
+	.long   0ce4b84H
+	.word   06480H
+JXSWEEPFALL4A:
+	.word   22,82,25,-45
+	.long   0ce7428H
+	.word   06080H
+JXSWEEPFALL4B:
+	.word   19,57,3,-60
+	.long   0ce8de0H
+	.word   06080H
+JXSWEEPFALL4C:
+	.word   22,46,-16,-81
+	.long   0cea4baH
+	.word   06080H
+JXSWEEPFALL5A:
+	.word   25,65,26,-69
+	.long   0ceb4f4H
+	.word   06080H
+JXSWEEPFALL5B:
+	.word   21,45,1,-90
+	.long   0cecaa6H
+	.word   06080H
+JXSWEEPFALL5C:
+	.word   16,46,-20,-86
+	.long   0cedd96H
+	.word   06080H
+JXSWEEPFALL6A:
+	.word   23,32,33,-112
+	.long   0cee9d4H
+	.word   06080H
+JXSWEEPFALL6B:
+	.word   31,30,10,-114
+	.long   0cef626H
+	.word   06480H
+JXSWEEPFALL6C:
+	.word   27,44,-21,-114
+	.long   0cf0856H
+	.word   06480H
+JXSWEEPFALL7A:
+	.word   18,12,34,-129
+	.long   0cf178aH
+	.word   06080H
+JXSWEEPFALL7B:
+	.word   33,50,29,-119
+	.long   0cf1b4aH
+	.word   06580H
+JXSWEEPFALL7C:
+	.word   18,13,-29,-127
+	.long   0cf310eH
+	.word   06080H
+JXSWEEPFALL7D:
+	.word   36,52,-4,-116
+	.long   0cf3506H
+	.word   06580H
+JXSWEEPUP1A:
+	.word   29,60,24,-86
+	.long   0cf4e46H
+	.word   06180H
+JXSWEEPUP1B:
+	.word   25,60,-5,-86
+	.long   0cf67fcH
+	.word   06480H
+JXSWEEPUP2A:
+	.word   20,77,14,-70
+	.long   0cf8224H
+	.word   06080H
+JXSWEEPUP2B:
+	.word   20,87,-6,-60
+	.long   0cf9a76H
+	.word   06080H
+JXSWEEPUP3A:
+	.word   26,103,25,-45
+	.long   0cfb6f0H
+	.word   06480H
+JXSWEEPUP3B:
+	.word   25,104,-1,-44
+	.long   0cfd696H
+	.word   06080H
+JXSWEEPUP4A:
+	.word   24,67,21,-78
+	.long   0cffb54H
+	.word   06080H
+JXSWEEPUP4B:
+	.word   24,63,-3,-82
+	.long   0d0164aH
+	.word   06080H
+JXSWEEPUP5A:
+	.word   19,30,23,-64
+	.long   0d0311aH
+	.word   06080H
+JXSWEEPUP5B:
+	.word   27,71,19,-82
+	.long   0d03a80H
+	.word   06480H
+JXSWEEPUP5C:
+	.word   14,17,-35,-92
+	.long   0d0541cH
+	.word   06080H
+JXSWEEPUP5D:
+	.word   29,78,-8,-75
+	.long   0d058a0H
+	.word   06480H
+JXSWEEPUP6A:
+	.word   19,79,16,-74
+	.long   0d07a2aH
+	.word   06080H
+JXSWEEPUP6B:
+	.word   38,95,-3,-58
+	.long   0d092ceH
+	.word   06480H
+JXSWEEPUP7A:
+	.word   24,101,15,-53
+	.long   0d0c16aH
+	.word   06080H
+JXSWEEPUP7B:
+	.word   31,34,-29,-59
+	.long   0d0e376H
+	.word   06580H
+JXSWEEPUP7C:
+	.word   24,114,-9,-39
+	.long   0d0edb6H
+	.word   06080H
+JXFLIPPED1A:
+	.word   46,133,12,-21
+	.long   0d11636H
+	.word   06580H
+JXFLIPPED2A:
+	.word   40,95,35,-37
+	.long   0d15b6eH
+	.word   06580H
+JXFLIPPED2B:
+	.word   51,54,-5,-37
+	.long   0d18512H
+	.word   06880H
+JXFLIPPED3A:
+	.word   16,24,65,-62
+	.long   0d1a726H
+	.word   06080H
+JXFLIPPED3B:
+	.word   42,33,49,-38
+	.long   0d1aecaH
+	.word   06180H
+JXFLIPPED3C:
+	.word   30,68,7,-34
+	.long   0d1c4eaH
+	.word   06080H
+JXFLIPPED4A:
+	.word   27,109,50,5
+	.long   0d1e8e2H
+	.word   06180H
+JXFLIPPED4B:
+	.word   54,108,23,5
+	.long   0d20a80H
+	.word   06980H
+JXFLIPPED5A:
+	.word   40,35,42,-77
+	.long   0d24a10H
+	.word   06480H
+JXFLIPPED5B:
+	.word   46,87,2,-23
+	.long   0d25ff8H
+	.word   06680H
+JXFLIPPED5C:
+	.word   19,30,-44,-34
+	.long   0d28ed8H
+	.word   06080H
+JXFLIP1A:
+	.word   20,115,17,-38
+	.long   0d29742H
+	.word   06080H
+JXFLIP1B:
+	.word   13,18,-35,-57
+	.long   0d2b9b2H
+	.word   06080H
+JXFLIP1C:
+	.word   36,135,-3,-17
+	.long   0d2be7aH
+	.word   06580H
+JXFLIP2A:
+	.word   24,109,17,-45
+	.long   0d300c2H
+	.word   06580H
+JXFLIP2B:
+	.word   34,23,-33,-64
+	.long   0d32476H
+	.word   06580H
+JXFLIP2C:
+	.word   61,126,-7,-26
+	.long   0d32d56H
+	.word   06980H
+JXFLIP3A:
+	.word   39,18,-30,-49
+	.long   0d37052H
+	.word   06880H
+JXFLIP3B:
+	.word   24,121,17,-33
+	.long   0d37d90H
+	.word   06580H
+JXFLIP3C:
+	.word   44,139,-7,-13
+	.long   0d3a45cH
+	.word   06580H
+JXFLIP4A:
+	.word   24,40,-26,-6
+	.long   0d3e0dcH
+	.word   06180H
+JXFLIP4B:
+	.word   27,153,17,-1
+	.long   0d3ecc6H
+	.word   06480H
+JXFLIP4C:
+	.word   28,156,-10,4
+	.long   0d4269eH
+	.word   06580H
+JXFLIP5A:
+	.word   23,29,1,8
+	.long   0d45806H
+	.word   06080H
+JXFLIP5B:
+	.word   38,150,33,-4
+	.long   0d45fbaH
+	.word   06580H
+JXFLIP5C:
+	.word   33,131,-5,-21
+	.long   0d49c9eH
+	.word   06580H
+JXFLIP6A:
+	.word   10,32,44,-39
+	.long   0d4cc30H
+	.word   06000H
+JXFLIP6B:
+	.word   50,132,40,-22
+	.long   0d4d3b0H
+	.word   06580H
+JXFLIP6C:
+	.word   28,96,-10,-56
+	.long   0d51880H
+	.word   06580H
+JXFLIP7A:
+	.word   35,12,56,-93
+	.long   0d538c0H
+	.word   06180H
+JXFLIP7B:
+	.word   68,97,57,-57
+	.long   0d53fb0H
+	.word   06680H
+JXFLIP7C:
+	.word   26,79,-11,-74
+	.long   0d57edcH
+	.word   06480H
+JXFLIP8A:
+	.word   18,49,48,-74
+	.long   0d59870H
+	.word   06080H
+JXFLIP8B:
+	.word   38,84,30,-70
+	.long   0d5a63aH
+	.word   06480H
+JXFLIP8C:
+	.word   29,76,-8,-78
+	.long   0d5d706H
+	.word   06580H
+JXVICTORY1A:
+	.word   21,29,41,-16
+	.long   0d5ef7aH
+	.word   06080H
+JXVICTORY1B:
+	.word   26,145,20,-9
+	.long   0d5f7a0H
+	.word   06580H
+JXVICTORY1C:
+	.word   34,37,-21,-33
+	.long   0d62bf8H
+	.word   06580H
+JXVICTORY1D:
+	.word   30,143,-6,-9
+	.long   0d63728H
+	.word   06580H
+JXVICTORY2A:
+	.word   23,24,43,-22
+	.long   0d6654cH
+	.word   06080H
+JXVICTORY2B:
+	.word   41,61,20,-11
+	.long   0d66bfaH
+	.word   06180H
+JXVICTORY2C:
+	.word   39,18,-21,-30
+	.long   0d68f8aH
+	.word   06a80H
+JXVICTORY3A:
+	.word   14,14,39,-38
+	.long   0d698f6H
+	.word   06080H
+JXVICTORY3B:
+	.word   46,59,25,-12
+	.long   0d69cdeH
+	.word   06180H
+JXVICTORY3C:
+	.word   31,21,-21,-33
+	.long   0d6c154H
+	.word   06580H
+JXVICTORY4A:
+	.word   14,26,26,-37
+	.long   0d6c9faH
+	.word   06080H
+JXVICTORY4B:
+	.word   46,58,12,-13
+	.long   0d6d16cH
+	.word   06480H
+JXVICTORY5A:
+	.word   38,59,21,-12
+	.long   0d6f74eH
+	.word   06180H
+JXVICTORY5B:
+	.word   12,28,-17,-35
+	.long   0d71b34H
+	.word   06080H
+JXVICTORY6A:
+	.word   30,38,43,-37
+	.long   0d722ecH
+	.word   06580H
+JXVICTORY6B:
+	.word   32,61,13,-10
+	.long   0d72e18H
+	.word   06080H
+JXVICTORY6C:
+	.word   37,31,-19,-35
+	.long   0d74dd0H
+	.word   06580H
+JXVICTORY7A:
+	.word   28,18,57,-26
+	.long   0d758b2H
+	.word   06580H
+JXVICTORY7B:
+	.word   56,61,29,-10
+	.long   0d75f8aH
+	.word   06580H
+JXVICTORY7C:
+	.word   37,21,-27,-22
+	.long   0d786b6H
+	.word   06580H
+JXVICTORY8A:
+	.word   23,40,38,1
+	.long   0d78f80H
+	.word   06080H
+JXVICTORY8B:
+	.word   36,62,15,-9
+	.long   0d79adaH
+	.word   06080H
+JXVICTORY8C:
+	.word   26,41,-21,4
+	.long   0d7bd40H
+	.word   06180H
+JXVICTORY9A:
+	.word   24,71,29,3
+	.long   0d7c920H
+	.word   06180H
+JXVICTORY9B:
+	.word   16,61,5,-10
+	.long   0d7dea8H
+	.word   06080H
+JXVICTORY9C:
+	.word   27,75,-11,5
+	.long   0d7f4e8H
+	.word   06580H
+JXVICTORY10A:
+	.word   26,56,32,-7
+	.long   0d80d06H
+	.word   06180H
+JXVICTORY10B:
+	.word   17,60,6,-11
+	.long   0d82012H
+	.word   06080H
+JXVICTORY10C:
+	.word   29,65,-11,-5
+	.long   0d83680H
+	.word   06580H
+JXVICTORYLEG1A:
+	.word   24,86,18,-68
+	.long   0d84d5eH
+	.word   06480H
+JXVICTORYLEG1B:
+	.word   29,85,-6,-67
+	.long   0d868c8H
+	.word   06180H
+JXSTUNNED1A:
+	.word   14,43,25,-60
+	.long   0d8843cH
+	.word   06080H
+JXSTUNNED1B:
+	.word   30,136,22,-18
+	.long   0d88fa8H
+	.word   06480H
+JXSTUNNED1C:
+	.word   32,123,-8,-29
+	.long   0d8c47eH
+	.word   06580H
+JXSTUNNED2A:
+	.word   10,39,21,-59
+	.long   0d8edcaH
+	.word   06000H
+JXSTUNNED2B:
+	.word   25,138,18,-16
+	.long   0d8f6eeH
+	.word   06080H
+JXSTUNNED2C:
+	.word   33,122,-7,-30
+	.long   0d9299aH
+	.word   06580H
+JXSTUNNED3A:
+	.word   22,141,17,-13
+	.long   0d9516aH
+	.word   06080H
+JXSTUNNED3B:
+	.word   35,123,-5,-29
+	.long   0d9859cH
+	.word   06580H
+JXSTUNNED4A:
+	.word   9,33,24,-53
+	.long   0d9af42H
+	.word   06000H
+JXSTUNNED4B:
+	.word   19,123,17,-31
+	.long   0d9b638H
+	.word   06080H
+JXSTUNNED4C:
+	.word   38,139,-2,-13
+	.long   0d9ddfeH
+	.word   06580H
+JXSTUNNED5A:
+	.word   18,32,32,-47
+	.long   0da12f2H
+	.word   06080H
+JXSTUNNED5B:
+	.word   19,123,17,-31
+	.long   0da1b72H
+	.word   06080H
+JXSTUNNED5C:
+	.word   38,138,-2,-14
+	.long   0da413aH
+	.word   06580H
+JXSTUNNED6A:
+	.word   22,28,32,-44
+	.long   0da7b96H
+	.word   06480H
+JXSTUNNED6B:
+	.word   20,123,17,-31
+	.long   0da831eH
+	.word   06080H
+JXSTUNNED6C:
+	.word   37,135,-3,-17
+	.long   0daa7d8H
+	.word   06180H
+JXSTUNNED7A:
+	.word   14,26,23,-44
+	.long   0dae6d2H
+	.word   06080H
+JXSTUNNED7B:
+	.word   20,123,17,-31
+	.long   0daedbaH
+	.word   06080H
+JXSTUNNED7C:
+	.word   10,44,-26,-62
+	.long   0db1202H
+	.word   06000H
+JXSTUNNED7D:
+	.word   37,133,-3,-19
+	.long   0db1c52H
+	.word   06580H
+JXSTUNNED8A:
+	.word   22,122,17,-32
+	.long   0db559cH
+	.word   06080H
+JXSTUNNED8B:
+	.word   18,56,-28,-44
+	.long   0db7f04H
+	.word   06080H
+JXSTUNNED8C:
+	.word   35,132,-5,-20
+	.long   0db8de4H
+	.word   06580H
+JXSTUNNED9A:
+	.word   24,131,17,-23
+	.long   0dbc108H
+	.word   06580H
+JXSTUNNED9B:
+	.word   17,38,-28,-53
+	.long   0dbf388H
+	.word   06080H
+JXSTUNNED9C:
+	.word   33,133,-7,-19
+	.long   0dbfda0H
+	.word   06580H
+JXSTUNNED10A:
+	.word   10,52,19,-39
+	.long   0dc2f76H
+	.word   06000H
+JXSTUNNED10B:
+	.word   25,135,17,-19
+	.long   0dc3ba6H
+	.word   06080H
+JXSTUNNED10C:
+	.word   32,117,-8,-35
+	.long   0dc686aH
+	.word   06180H
+JXSTUNNED11A:
+	.word   11,60,22,-44
+	.long   0dc9a98H
+	.word   06000H
+JXSTUNNED11B:
+	.word   27,135,19,-19
+	.long   0dcaa10H
+	.word   06480H
+JXSTUNNED11C:
+	.word   32,123,-8,-29
+	.long   0dcdb00H
+	.word   06580H
+JXCANNON1A:
+	.word   31,146,32,-8
+	.long   0dd086cH
+	.word   06180H
+JXCANNON1B:
+	.word   45,137,1,-12
+	.long   0dd3ecaH
+	.word   06480H
+JXCANNON2A:
+	.word   28,146,26,-8
+	.long   0dd7a3eH
+	.word   06080H
+JXCANNON2B:
+	.word   32,135,-2,-14
+	.long   0ddb588H
+	.word   06580H
+JXCANNON3A:
+	.word   38,137,34,-17
+	.long   0dddff4H
+	.word   06180H
+JXCANNON3B:
+	.word   29,135,-4,-16
+	.long   0de224cH
+	.word   06580H
+JXCANNON4A:
+	.word   21,18,-4,-21
+	.long   0de4af6H
+	.word   06080H
+JXCANNON4B:
+	.word   39,138,30,-16
+	.long   0de5018H
+	.word   06180H
+JXCANNON4C:
+	.word   33,65,-9,-83
+	.long   0de93d4H
+	.word   06480H
+JXCANNON5A:
+	.word   46,139,29,-15
+	.long   0dea848H
+	.word   06580H
+JXCANNON6A:
+	.word   31,39,50,-22
+	.long   0def0a4H
+	.word   06180H
+JXCANNON6B:
+	.word   34,135,31,-14
+	.long   0df0196H
+	.word   06580H
+JXCANNON6C:
+	.word   24,103,-3,-51
+	.long   0df357aH
+	.word   06480H
+JXCANNON7A:
+	.word   37,30,-9,-37
+	.long   0df5562H
+	.word   06580H
+JXCANNON7B:
+	.word   56,143,44,-11
+	.long   0df5fa6H
+	.word   06180H
+JXQUAKEPUNCH1A:
+	.word   21,21,47,-44
+	.long   0dfb7faH
+	.word   06080H
+JXQUAKEPUNCH1B:
+	.word   33,139,26,-15
+	.long   0dfbde2H
+	.word   06580H
+JXQUAKEPUNCH1C:
+	.word   29,118,-7,-33
+	.long   0dff6c0H
+	.word   06580H
+JXQUAKEPUNCH2A:
+	.word   44,160,36,5
+	.long   0e022a8H
+	.word   06580H
+JXQUAKEPUNCH2B:
+	.word   37,43,-28,-32
+	.long   0e05a3cH
+	.word   06580H
+JXQUAKEPUNCH2C:
+	.word   32,142,-8,-10
+	.long   0e06746H
+	.word   06580H
+JXQUAKEPUNCH3A:
+	.word   33,51,-33,-49
+	.long   0e09abaH
+	.word   06580H
+JXQUAKEPUNCH3B:
+	.word   45,60,-19,-92
+	.long   0e0abe8H
+	.word   06880H
+JXQUAKEPUNCH3C:
+	.word   64,143,31,-12
+	.long   0e0c268H
+	.word   06a80H
+JXQUAKEPUNCH4A:
+	.word   15,19,24,-137
+	.long   0e10e98H
+	.word   06080H
+JXQUAKEPUNCH4B:
+	.word   32,81,9,-69
+	.long   0e11488H
+	.word   06180H
+JXQUAKEPUNCH4C:
+	.word   23,82,-23,-70
+	.long   0e13e76H
+	.word   06080H
+JXQUAKEPUNCH4D:
+	.word   12,47,-46,-74
+	.long   0e161f4H
+	.word   06080H
+JXQUAKEPUNCH5A:
+	.word   11,16,22,-140
+	.long   0e16e70H
+	.word   06000H
+JXQUAKEPUNCH5B:
+	.word   68,81,11,-81
+	.long   0e17290H
+	.word   06580H
+JXGOTCHA1A:
+	.word   29,32,16,-6
+	.long   0e1c0a8H
+	.word   06180H
+JXGOTCHA1B:
+	.word   25,115,18,-38
+	.long   0e1cdd2H
+	.word   06580H
+JXGOTCHA1C:
+	.word   14,26,-43,-31
+	.long   0e1f21cH
+	.word   06080H
+JXGOTCHA1D:
+	.word   36,138,-7,-14
+	.long   0e1f904H
+	.word   06580H
+JXGOTCHA2A:
+	.word   29,34,4,-1
+	.long   0e2354cH
+	.word   06180H
+JXGOTCHA2B:
+	.word   25,107,16,-46
+	.long   0e24238H
+	.word   06580H
+JXGOTCHA2C:
+	.word   38,13,-58,-31
+	.long   0e26456H
+	.word   06580H
+JXGOTCHA2D:
+	.word   49,137,-9,-15
+	.long   0e26cceH
+	.word   06580H
+JXGOTCHA3A:
+	.word   26,21,-47,-25
+	.long   0e2ad7cH
+	.word   06580H
+JXGOTCHA3B:
+	.word   25,147,18,-7
+	.long   0e2b40cH
+	.word   06580H
+JXGOTCHA3C:
+	.word   40,149,-7,-3
+	.long   0e2e376H
+	.word   06580H
+JXGOTCHA4A:
+	.word   26,30,32,-18
+	.long   0e32076H
+	.word   06080H
+JXGOTCHA4B:
+	.word   25,138,18,-16
+	.long   0e32cbeH
+	.word   06580H
+JXGOTCHA4C:
+	.word   18,23,-32,-34
+	.long   0e35bfeH
+	.word   06080H
+JXGOTCHA4D:
+	.word   32,135,-7,-16
+	.long   0e36226H
+	.word   06580H
+JXGOTCHA5A:
+	.word   21,15,50,-52
+	.long   0e39256H
+	.word   06080H
+JXGOTCHA5B:
+	.word   37,136,29,-18
+	.long   0e39772H
+	.word   06580H
+JXGOTCHA5C:
+	.word   23,19,-28,-36
+	.long   0e3d266H
+	.word   06180H
+JXGOTCHA5D:
+	.word   33,115,-8,-36
+	.long   0e3d874H
+	.word   06580H
+JXGOTCHA6A:
+	.word   10,31,30,-30
+	.long   0e40192H
+	.word   06000H
+JXGOTCHA6B:
+	.word   27,139,20,-15
+	.long   0e408d6H
+	.word   06580H
+JXGOTCHA6C:
+	.word   20,21,-35,-33
+	.long   0e43cc8H
+	.word   06080H
+JXGOTCHA6D:
+	.word   34,136,-7,-15
+	.long   0e44292H
+	.word   06580H
+JXGOTCHA7A:
+	.word   19,24,-37,-29
+	.long   0e4750aH
+	.word   06080H
+JXGOTCHA7B:
+	.word   25,133,18,-21
+	.long   0e47b76H
+	.word   06480H
+JXGOTCHA7C:
+	.word   37,138,-7,-13
+	.long   0e4a620H
+	.word   06580H
+JXSUPERPOW1A:
+	.word   14,42,-27,-44
+	.long   0e4de54H
+	.word   06080H
+JXSUPERPOW1B:
+	.word   32,113,23,-41
+	.long   0e4e99aH
+	.word   06580H
+JXSUPERPOW1C:
+	.word   32,125,-9,-25
+	.long   0e51662H
+	.word   06480H
+JXSUPERPOW2A:
+	.word   18,22,-31,-54
+	.long   0e54c06H
+	.word   06080H
+JXSUPERPOW2B:
+	.word   42,105,36,-48
+	.long   0e5523eH
+	.word   06680H
+JXSUPERPOW2C:
+	.word   34,125,-6,-24
+	.long   0e57e42H
+	.word   06080H
+JXSUPERPOW3A:
+	.word   63,73,71,-52
+	.long   0e5bcdaH
+	.word   06a80H
+JXSUPERPOW3B:
+	.word   36,21,-54,-39
+	.long   0e5e304H
+	.word   06580H
+JXSUPERPOW3C:
+	.word   62,119,8,-30
+	.long   0e5ecf4H
+	.word   06980H
+JXSUPERPOW4A:
+	.word   65,73,71,-52
+	.long   0e64d4cH
+	.word   06a80H
+JXSUPERPOW4B:
+	.word   36,21,-54,-39
+	.long   0e6736aH
+	.word   06580H
+JXSUPERPOW4C:
+	.word   60,119,6,-30
+	.long   0e67cfaH
+	.word   06980H
+JXSUPERPOW5A:
+	.word   63,76,65,-49
+	.long   0e6d67aH
+	.word   06a80H
+JXSUPERPOW5B:
+	.word   36,21,-54,-39
+	.long   0e6fba2H
+	.word   06580H
+JXSUPERPOW5C:
+	.word   56,119,2,-30
+	.long   0e704d2H
+	.word   06a80H
+JXSUPERPOW6A:
+	.word   63,76,60,-49
+	.long   0e75522H
+	.word   06a80H
+JXSUPERPOW6B:
+	.word   36,21,-54,-39
+	.long   0e7783aH
+	.word   06580H
+JXSUPERPOW6C:
+	.word   51,119,-3,-30
+	.long   0e780f2H
+	.word   06980H
+JXQAKPRO1A:
+	.word   33,20,26,-15
+	.long   0e7c4acH
+	.word   06080H
+	.long   JQAK_P
+JXQAKPRO2A:
+	.word   31,31,53,-30
+	.long   0e7d03eH
+	.word   06180H
+JXQAKPRO2B:
+	.word   11,15,22,-40
+	.long   0e7dd96H
+	.word   06000H
+JXQAKPRO3A:
+	.word   28,62,50,11
+	.long   0e7e174H
+	.word   06480H
+JXQAKPRO4A:
+	.word   33,41,52,13
+	.long   0e7f702H
+	.word   06580H
+JXQAKPRO4B:
+	.word   45,44,19,13
+	.long   0e803fcH
+	.word   06580H
+JXQAKPRO5A:
+	.word   53,113,11,10
+	.long   0e818c4H
+	.word   06a80H
+JXQAKPRO5B:
+	.word   11,12,-42,-74
+	.long   0e84382H
+	.word   06000H
+JXQAKPRO6A:
+	.word   41,140,-14,-22
+	.long   0e8469aH
+	.word   06480H
+JXQAKPRO7A:
+	.word   21,49,-2,-118
+	.long   0e87932H
+	.word   06180H
+JXQAKPRO7B:
+	.word   41,61,-23,-106
+	.long   0e887a4H
+	.word   06680H
+JXQAKPRO8A:
+	.word   16,5,-41,-105
+	.long   0e8a162H
+	.word   06080H
+JXQAKPRO8B:
+	.word   93,53,14,-116
+	.long   0e8a2d4H
+	.word   06980H
+JXQAKPRO9A:
+	.word   28,16,29,-160
+	.long   0e8c9baH
+	.word   06580H
+JXQAKPRO9B:
+	.word   45,28,1,-151
+	.long   0e8ced2H
+	.word   06580H
+JXQAKPRO9C:
+	.word   57,19,-44,-156
+	.long   0e8e326H
+	.word   06a80H
+JXQAKPRO10A:
+	.word   40,18,47,-160
+	.long   0e8f0c0H
+	.word   06680H
+JXQAKPRO10B:
+	.word   74,25,7,-154
+	.long   0e8f7b0H
+	.word   06980H
+JXQAKPRO10C:
+	.word   28,17,-67,-158
+	.long   0e91a74H
+	.word   06480H
+JXQAKPRO10D:
+	.word   41,10,-95,-169
+	.long   0e92048H
+	.word   06880H
+JXQAKPRO11A:
+	.word   31,18,47,-160
+	.long   0e92518H
+	.word   06580H
+JXQAKPRO11B:
+	.word   60,31,16,-152
+	.long   0e92b0cH
+	.word   06680H
+JXQAKPRO11C:
+	.word   23,26,-44,-151
+	.long   0e94998H
+	.word   06080H
+JXQAKPRO11D:
+	.word   70,25,-67,-154
+	.long   0e953ceH
+	.word   06a80H
+JXQAKPRO12A:
+	.word   31,19,49,-159
+	.long   0e96222H
+	.word   06580H
+JXQAKPRO12B:
+	.word   51,34,18,-150
+	.long   0e96914H
+	.word   06580H
+JXQAKPRO12C:
+	.word   38,30,-33,-149
+	.long   0e983a4H
+	.word   06580H
+JXQAKPRO12D:
+	.word   20,23,-71,-153
+	.long   0e994d8H
+	.word   06080H
+JXQAKPRO12E:
+	.word   44,19,-91,-160
+	.long   0e99c38H
+	.word   06880H
+JXQAKPRO13A:
+	.word   36,22,48,-156
+	.long   0e9a546H
+	.word   06580H
+JXQAKPRO13B:
+	.word   45,36,12,-148
+	.long   0e9af32H
+	.word   06580H
+JXQAKPRO13C:
+	.word   50,31,-33,-149
+	.long   0e9c912H
+	.word   06680H
+JXQAKPRO13D:
+	.word   15,23,-83,-154
+	.long   0e9e336H
+	.word   06080H
+JXQAKPRO13E:
+	.word   39,21,-98,-158
+	.long   0e9ea36H
+	.word   06480H
+JXQAKPRO14A:
+	.word   27,24,50,-154
+	.long   0e9f504H
+	.word   06180H
+JXQAKPRO14B:
+	.word   59,35,23,-149
+	.long   0e9fe1cH
+	.word   06a80H
+JXQAKPRO14C:
+	.word   53,31,-36,-150
+	.long   0ea1bbaH
+	.word   06680H
+JXQAKPRO14D:
+	.word   50,24,-89,-155
+	.long   0ea347cH
+	.word   06980H
+JXQAKPRO15A:
+	.word   49,27,54,-154
+	.long   0ea464cH
+	.word   06a80H
+JXQAKPRO15B:
+	.word   46,34,5,-150
+	.long   0ea57ceH
+	.word   06a80H
+JXQAKPRO15C:
+	.word   45,34,-41,-150
+	.long   0ea6676H
+	.word   06680H
+JXQAKPRO15D:
+	.word   54,28,-86,-153
+	.long   0ea7a3aH
+	.word   06980H
+JXCOMBO1A:
+	.word   45,120,29,-34
+	.long   0ea8b76H
+	.word   06680H
+JXCOMBO1B:
+	.word   61,129,-16,-23
+	.long   0eabf8aH
+	.word   06880H
+JXCOMBO2A:
+	.word   44,152,28,-2
+	.long   0eafe30H
+	.word   06580H
+JXCOMBO2B:
+	.word   36,133,-16,-19
+	.long   0eb36ecH
+	.word   06480H
+JXCOMBO3A:
+	.word   35,141,23,-13
+	.long   0eb6c4cH
+	.word   06580H
+JXCOMBO3B:
+	.word   28,165,-12,13
+	.long   0eba2beH
+	.word   06080H
+JXCOMBO4A:
+	.word   45,122,35,-32
+	.long   0ebdb58H
+	.word   06580H
+JXCOMBO4B:
+	.word   64,134,-10,-19
+	.long   0ec18c4H
+	.word   06880H
+JXCOMBO5A:
+	.word   55,123,45,-31
+	.long   0ec59ccH
+	.word   06680H
+JXCOMBO5B:
+	.word   63,135,-10,-18
+	.long   0ec949aH
+	.word   06880H
+JXCOMBO6A:
+	.word   31,160,22,6
+	.long   0ecd3f4H
+	.word   06580H
+JXCOMBO6B:
+	.word   52,139,-9,-14
+	.long   0ed0978H
+	.word   06880H
+JXCOMBO7A:
+	.word   32,119,22,-35
+	.long   0ed5390H
+	.word   06580H
+JXCOMBO7B:
+	.word   31,164,-10,11
+	.long   0ed77f4H
+	.word   06480H
+JXCOMBO8A:
+	.word   55,122,43,-32
+	.long   0edb266H
+	.word   06680H
+JXCOMBO8B:
+	.word   35,121,-12,-32
+	.long   0edef1eH
+	.word   06480H
+JXCOMBO9A:
+	.word   40,120,20,-35
+	.long   0ee2accH
+	.word   06580H
+JXCOMBO9B:
+	.word   29,118,-20,-35
+	.long   0ee58a4H
+	.word   06480H
+JXCOMBO10A:
+	.word   42,131,20,-24
+	.long   0ee8324H
+	.word   06580H
+JXCOMBO10B:
+	.word   46,129,-22,-24
+	.long   0eeb118H
+	.word   06880H
+JXCOMBO11A:
+	.word   39,137,18,-18
+	.long   0eeec9aH
+	.word   06580H
+JXCOMBO11B:
+	.word   36,158,-21,5
+	.long   0ef1c50H
+	.word   06580H
+JXCOMBO12A:
+	.word   42,136,22,-19
+	.long   0ef5eb4H
+	.word   06680H
+JXCOMBO12B:
+	.word   44,134,-20,-19
+	.long   0ef91f8H
+	.word   06480H
+JXCOMBO13A:
+	.word   45,131,25,-24
+	.long   0efd2d6H
+	.word   06680H
+JXCOMBO13B:
+	.word   21,130,-20,-23
+	.long   0f00e08H
+	.word   06080H
+JXCOMBO14A:
+	.word   36,114,22,-41
+	.long   0f035dcH
+	.word   06580H
+JXCOMBO14B:
+	.word   30,155,-14,2
+	.long   0f05850H
+	.word   06180H
+JXCOMBO15A:
+	.word   36,115,19,-39
+	.long   0f09280H
+	.word   06580H
+JXCOMBO15B:
+	.word   74,131,-17,-22
+	.long   0f0b9c4H
+	.word   06880H
+JXCOMBO16A:
+	.word   33,115,14,-38
+	.long   0f0fd4eH
+	.word   06580H
+JXCOMBO16B:
+	.word   42,123,-19,-30
+	.long   0f12dbcH
+	.word   06480H
+JXCOMBO17A:
+	.word   46,122,31,-31
+	.long   0f1743cH
+	.word   06680H
+JXCOMBO17B:
+	.word   44,134,-15,-19
+	.long   0f1a6bcH
+	.word   06480H
+ARMSHOOT1:
+	.word   45,69,-23,-28
+	.long   0f1ebfcH
+	.word   06480H
+	.long   JXPROJT_P
+ARMSHOOT2:
+	.word   68,31,3,-46
+	.long   0f2127eH
+	.word   06880H
+ARMSHOOT3:
+	.word   124,15,10,-55
+	.long   0f23206H
+	.word   06380H
+ARMSHOOT4:
+	.word   163,15,49,-55
+	.long   0f253f6H
+	.word   06380H
+ARMPROJ1:
+	.word   88,15,-26,-55
+	.long   0f26f32H
+	.word   06280H
+ARMPROJ2:
+	.word   84,15,-30,-55
+	.long   0f28468H
+	.word   06280H
+ARMPROJ3:
+	.word   88,15,-25,-55
+	.long   0f29986H
+	.word   06280H
+JXIMPACT3A:
+	.word   27,86,-162,-19
+	.long   0f2afc4H
+	.word   06080H
+	.long   JXPREXP_P
+JXIMPACT3B:
+	.word   37,91,-189,-19
+	.long   0f2e1ccH
+	.word   06080H
+JXIMPACT4A:
+	.word   27,92,-161,-14
+	.long   0f32788H
+	.word   06080H
+JXIMPACT4B:
+	.word   38,97,-188,-12
+	.long   0f359e4H
+	.word   06080H
+JXIMPACT5A:
+	.word   31,101,-158,-11
+	.long   0f3a3fcH
+	.word   06080H
+JXIMPACT5B:
+	.word   40,101,-189,-11
+	.long   0f3dab4H
+	.word   06080H
+JXIMPACT6A:
+	.word   37,70,-157,-9
+	.long   0f41df0H
+	.word   06180H
+JXIMPACT6B:
+	.word   35,67,-194,-6
+	.long   0f441c2H
+	.word   06080H
+JXIMPACT6C:
+	.word   30,29,-160,-82
+	.long   0f46768H
+	.word   06080H
+JXIMPACT6D:
+	.word   35,32,-190,-79
+	.long   0f478caH
+	.word   06080H
+JXIMPACT7A:
+	.word   29,47,-165,-3
+	.long   0f48de6H
+	.word   06080H
+JXIMPACT7B:
+	.word   35,63,-194,-5
+	.long   0f4a2aeH
+	.word   06180H
+JXIMPACT7C:
+	.word   31,58,-157,-55
+	.long   0f4be92H
+	.word   06180H
+JXIMPACT7D:
+	.word   34,30,-189,-80
+	.long   0f4d5f8H
+	.word   06180H
+JXIMPACT8A:
+	.word   30,42,-163,0
+	.long   0f4e720H
+	.word   06580H
+JXIMPACT8B:
+	.word   32,60,-200,-3
+	.long   0f4f6f8H
+	.word   06680H
+JXIMPACT8C:
+	.word   28,62,-157,-54
+	.long   0f50e44H
+	.word   06180H
+JXIMPACT8D:
+	.word   30,19,-196,-91
+	.long   0f5223aH
+	.word   06080H
+	.TEXT
+

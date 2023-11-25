@@ -1,0 +1,450 @@
+	.DATA
+SZSCARED2A:
+	.word   42,137,22,1
+	.long   0662c9ddH
+	.word   06580H
+SZICEBREAK1A:
+	.word   22,111,21,-25
+	.long   06630d0dH
+	.word   06080H
+SZICEBREAK1B:
+	.word   47,126,-1,-10
+	.long   06632c87H
+	.word   06580H
+SZICEBREAK2A:
+	.word   26,98,21,-38
+	.long   066367c7H
+	.word   06580H
+SZICEBREAK2B:
+	.word   61,118,-5,-19
+	.long   06638577H
+	.word   06980H
+SZICEBREAK3A:
+	.word   22,117,21,-19
+	.long   0663cb6fH
+	.word   06080H
+SZICEBREAK3B:
+	.word   58,142,-1,5
+	.long   0663ec03H
+	.word   06980H
+SZICEBREAK4A:
+	.word   25,157,22,21
+	.long   0664379bH
+	.word   06080H
+SZICEBREAK4B:
+	.word   30,156,-3,19
+	.long   06646c29H
+	.word   06580H
+SZICEBREAK5A:
+	.word   24,156,21,20
+	.long   0664a481H
+	.word   06080H
+SZICEBREAK5B:
+	.word   30,157,-3,20
+	.long   0664d799H
+	.word   06580H
+SZICEBREAK6A:
+	.word   36,152,27,16
+	.long   06650ef1H
+	.word   06580H
+SZICEBREAK6B:
+	.word   24,157,-9,20
+	.long   066550ddH
+	.word   06480H
+SZICEBREAK7A:
+	.word   60,125,53,-11
+	.long   06657d85H
+	.word   06680H
+SZICEBREAK7B:
+	.word   52,115,-7,-22
+	.long   0665b8a5H
+	.word   06980H
+SZICEBREAK8A:
+	.word   32,116,27,-20
+	.long   0665e889H
+	.word   06080H
+SZICEBREAK8B:
+	.word   34,104,-5,-33
+	.long   06661b75H
+	.word   06580H
+SMALLICE1:
+	.word   11,15,4,7
+	.long   0666477dH
+	.word   06000H
+SMALLICE2:
+	.word   11,15,4,7
+	.long   06664b5bH
+	.word   06000H
+SMALLICE3:
+	.word   13,15,5,7
+	.long   06664f39H
+	.word   06080H
+SMALLICE4:
+	.word   14,14,5,7
+	.long   06665365H
+	.word   06080H
+SMALLICE5:
+	.word   15,15,6,8
+	.long   06665795H
+	.word   06080H
+SMALLICE6:
+	.word   14,12,5,6
+	.long   06665bfdH
+	.word   06080H
+SMALLICE7:
+	.word   12,13,5,6
+	.long   06665f75H
+	.word   06080H
+SMALLICE8:
+	.word   12,14,5,7
+	.long   06666301H
+	.word   06080H
+SMALLICE9:
+	.word   12,13,5,7
+	.long   066666c5H
+	.word   06080H
+SMALLICE10:
+	.word   10,14,4,7
+	.long   06666a39H
+	.word   06000H
+SMALLICE11:
+	.word   9,14,3,7
+	.long   06666d81H
+	.word   06000H
+SMALLICE12:
+	.word   11,14,4,7
+	.long   06667075H
+	.word   06000H
+BIGICE1:
+	.word   19,21,8,11
+	.long   06667411H
+	.word   06080H
+BIGICE2:
+	.word   20,21,9,11
+	.long   06667c39H
+	.word   06080H
+BIGICE3:
+	.word   21,20,9,11
+	.long   0666847fH
+	.word   06080H
+BIGICE4:
+	.word   21,18,8,9
+	.long   06668c8dH
+	.word   06080H
+BIGICE5:
+	.word   21,18,8,8
+	.long   0666937dH
+	.word   06080H
+BIGICE6:
+	.word   21,21,8,10
+	.long   06669aa9H
+	.word   06080H
+BIGICE7:
+	.word   21,22,9,11
+	.long   0666a30dH
+	.word   06080H
+BIGICE8:
+	.word   21,22,9,10
+	.long   0666ac15H
+	.word   06080H
+BIGICE9:
+	.word   21,20,9,8
+	.long   0666b53bH
+	.word   06080H
+BIGICE10:
+	.word   20,18,8,7
+	.long   0666bd85H
+	.word   06080H
+BIGICE11:
+	.word   19,20,8,10
+	.long   0666c4ffH
+	.word   06080H
+BIGICE12:
+	.word   20,20,9,11
+	.long   0666cc83H
+	.word   06080H
+TINYICE1:
+	.word   7,9,3,4
+	.long   0666d41fH
+	.word   06000H
+TINYICE2:
+	.word   8,8,3,4
+	.long   0666d599H
+	.word   06000H
+TINYICE3:
+	.word   8,8,4,4
+	.long   0666d719H
+	.word   06000H
+TINYICE4:
+	.word   9,9,4,5
+	.long   0666d899H
+	.word   06000H
+TINYICE5:
+	.word   8,8,4,4
+	.long   0666da7fH
+	.word   06000H
+TINYICE6:
+	.word   7,8,3,4
+	.long   0666dbffH
+	.word   06000H
+TINYICE7:
+	.word   7,8,4,5
+	.long   0666dd4fH
+	.word   06000H
+TINYICE8:
+	.word   8,8,4,5
+	.long   0666de9fH
+	.word   06000H
+TINYICE9:
+	.word   7,8,4,4
+	.long   0666e01fH
+	.word   06000H
+TINYICE10:
+	.word   6,8,3,5
+	.long   0666e16fH
+	.word   06000H
+TINYICE11:
+	.word   7,8,4,5
+	.long   0666e28fH
+	.word   06000H
+TINYICE12:
+	.word   7,9,4,5
+	.long   0666e3dfH
+	.word   06000H
+ICEMAN1A:
+	.word   167,40,73,44
+	.long   0666e559H
+	.word   06f80H
+	.long   SZICE_P
+ICEMAN2A:
+	.word   188,46,86,39
+	.long   06675b09H
+	.word   06b80H
+ICEMAN3A:
+	.word   76,55,106,5
+	.long   0667f339H
+	.word   06980H
+ICEMAN3B:
+	.word   80,76,-33,11
+	.long   06682599H
+	.word   06a80H
+ICEMAN4A:
+	.word   44,75,110,-41
+	.long   066858b9H
+	.word   06180H
+ICEMAN4B:
+	.word   40,90,-59,-32
+	.long   06688853H
+	.word   06180H
+ICEMANHIT1A:
+	.word   58,76,-59,-58
+	.long   0668ba03H
+	.word   06580H
+ICEMANHIT2A:
+	.word   88,53,-46,-88
+	.long   0668fb27H
+	.word   06a80H
+ICEMANHIT3A:
+	.word   125,32,-28,-114
+	.long   06693e6fH
+	.word   06680H
+ICEMANHIT4A:
+	.word   141,28,-17,-119
+	.long   06697dbbH
+	.word   06b80H
+ICEBLOW1A:
+	.word   39,13,-35,-18
+	.long   0669b963H
+	.word   06180H
+	.long   ICEBLOW_P
+ICEBLOW2A:
+	.word   90,29,-34,-11
+	.long   0669c1f3H
+	.word   06280H
+ICEBLOW3A:
+	.word   160,56,-34,-1
+	.long   0669e7d1H
+	.word   06380H
+ICEBLOW4A:
+	.word   165,77,-45,4
+	.long   066a5dcbH
+	.word   06780H
+ICEBLOW5A:
+	.word   153,106,-74,7
+	.long   066afea9H
+	.word   06780H
+ICEBLOW6A:
+	.word   110,131,-124,10
+	.long   066bcb89H
+	.word   06680H
+ICEBLOW7A:
+	.word   42,165,-132,19
+	.long   066cc115H
+	.word   06180H
+ICEBLOW7B:
+	.word   66,165,-174,19
+	.long   066d2b95H
+	.word   06980H
+ICEBLOW8A:
+	.word   26,38,-187,-32
+	.long   066e049dH
+	.word   06080H
+ICEBLOW8B:
+	.word   57,187,-145,37
+	.long   066e1383H
+	.word   06580H
+ICEBLOW8C:
+	.word   52,174,-202,26
+	.long   066e9f89H
+	.word   06a80H
+ICEBLOW9A:
+	.word   26,30,-199,-37
+	.long   066f1ab9H
+	.word   06580H
+ICEBLOW9B:
+	.word   41,195,-150,47
+	.long   066f26e9H
+	.word   06680H
+ICEBLOW9C:
+	.word   73,191,-191,43
+	.long   066f7b43H
+	.word   06a80H
+ICEBLOW10A:
+	.word   49,192,-156,47
+	.long   066fe555H
+	.word   06680H
+ICEBLOW10B:
+	.word   62,62,-205,48
+	.long   06703541H
+	.word   06680H
+ICEBLOW10C:
+	.word   71,114,-205,-37
+	.long   06705939H
+	.word   06680H
+ICEBLOW11A:
+	.word   34,66,-177,46
+	.long   0670937dH
+	.word   06580H
+ICEBLOW11B:
+	.word   53,50,-219,44
+	.long   0670a805H
+	.word   06680H
+ICEBLOW11C:
+	.word   24,48,-175,-99
+	.long   0670bb41H
+	.word   06580H
+ICEBLOW11D:
+	.word   39,92,-239,-59
+	.long   0670c95dH
+	.word   06680H
+ICETHUD1A:
+	.word   150,30,74,-18
+	.long   0670e5e1H
+	.word   06e80H
+	.long   SZICE_P
+ICETHUD2A:
+	.word   110,36,85,-15
+	.long   067134e9H
+	.word   06a80H
+ICETHUD2B:
+	.word   59,24,-25,-22
+	.long   067171d9H
+	.word   06580H
+ICETHUD3A:
+	.word   138,43,93,-10
+	.long   06718679H
+	.word   06f80H
+ICETHUD3B:
+	.word   37,32,-49,-19
+	.long   0671d0b5H
+	.word   06680H
+ICETHUD4A:
+	.word   142,38,97,-16
+	.long   0671de21H
+	.word   06f80H
+ICETHUD4B:
+	.word   36,29,-51,-23
+	.long   06722469H
+	.word   06580H
+ICETHUD5A:
+	.word   148,33,103,-22
+	.long   06722fe9H
+	.word   06f80H
+ICETHUD5B:
+	.word   36,20,-53,-34
+	.long   067276c9H
+	.word   06180H
+ICETHUD6A:
+	.word   155,31,110,-25
+	.long   06728039H
+	.word   06e80H
+ICETHUD6B:
+	.word   36,18,-54,-37
+	.long   0672c9f7H
+	.word   06480H
+ICETHUD7A:
+	.word   58,27,113,-25
+	.long   0672d309H
+	.word   06680H
+ICETHUD7B:
+	.word   73,30,55,-27
+	.long   0672f0fdH
+	.word   06a80H
+ICETHUD7C:
+	.word   20,13,-25,-33
+	.long   06730f51H
+	.word   06080H
+ICETHUD7D:
+	.word   37,21,-55,-37
+	.long   0673147bH
+	.word   06480H
+ICETHUD8A:
+	.word   57,27,115,-25
+	.long   06731ea7H
+	.word   06a80H
+ICETHUD8B:
+	.word   75,31,58,-27
+	.long   06733cd1H
+	.word   06a80H
+ICETHUD8C:
+	.word   20,13,-25,-33
+	.long   06730f51H
+	.word   06080H
+ICETHUD8D:
+	.word   36,22,-56,-37
+	.long   06735b6fH
+	.word   06480H
+ICETHUD9A:
+	.word   57,28,117,-25
+	.long   06736591H
+	.word   06680H
+ICETHUD9B:
+	.word   76,32,60,-27
+	.long   06738435H
+	.word   06a80H
+ICETHUD9C:
+	.word   20,13,-25,-33
+	.long   06730f51H
+	.word   06080H
+ICETHUD9D:
+	.word   36,22,-56,-37
+	.long   0673a2d5H
+	.word   06480H
+SZBLOWICE1A:
+	.word   33,127,22,-11
+	.long   0673acbbH
+	.word   06580H
+SZBLOWICE1B:
+	.word   30,127,-11,-9
+	.long   0673dd71H
+	.word   06480H
+SZBLOWICE2A:
+	.word   38,111,22,-27
+	.long   06740551H
+	.word   06580H
+SZBLOWICE2B:
+	.word   26,123,-16,-11
+	.long   06742d05H
+	.word   06480H
+	.TEXT
+

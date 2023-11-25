@@ -1,0 +1,13 @@
+	.DATA
+STORY2A	.set	0ffd80000h
+STORY2B	.set	0ffda23e0h
+STORY2C	.set	0ffdd8d50h
+STORY3A	.set	0ffe19d70h
+STORY3B	.set	0ffe4e8a0h
+STORY3C	.set	0ffe86520h
+STORY3D	.set	0ffebfad0h
+MOTBIO	.set	0fff06370h
+MOVIE	.set	0fff66750h
+GODS	.set	0fff9c600h
+	.TEXT
+

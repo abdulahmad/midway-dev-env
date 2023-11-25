@@ -1,0 +1,19 @@
+	.DATA
+FREEZEBODY1A:
+	.word   149,33,67,40
+	.long   0826cceeH
+	.word   06980H
+FREEZEBODY2B:
+	.word   151,38,69,44
+	.long   08272f28H
+	.word   06e80H
+FREEZEBODY3C:
+	.word   152,41,73,44
+	.long   0827a0ccH
+	.word   06e80H
+FREEZEBODY4D:
+	.word   154,45,72,45
+	.long   08281c6cH
+	.word   06a80H
+	.TEXT
+

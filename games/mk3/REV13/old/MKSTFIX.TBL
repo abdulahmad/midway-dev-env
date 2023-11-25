@@ -1,0 +1,7 @@
+	.DATA
+TSHIBLOCK1AF:
+	.word   21,121,17,-7
+	.long   07ff0a78H
+	.word   06080H
+	.TEXT
+

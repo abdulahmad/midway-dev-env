@@ -1,0 +1,5 @@
+	.DATA
+FL_GRAVE	.set	04000000h
+FL_BALC	.set	04049d40h
+	.TEXT
+

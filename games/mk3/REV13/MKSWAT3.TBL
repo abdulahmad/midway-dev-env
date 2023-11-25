@@ -1,0 +1,230 @@
+	.DATA
+OBSCARED3A:
+	.word   61,137,17,-6
+	.long   067452cdH
+	.word   06980H
+OBSETBOMB1A:
+	.word   25,134,16,-9
+	.long   06749f3fH
+	.word   06580H
+OBSETBOMB1B:
+	.word   25,133,-9,-7
+	.long   0674c793H
+	.word   06080H
+OBSETBOMB2A:
+	.word   29,136,8,-4
+	.long   0674fa0bH
+	.word   06080H
+OBSETBOMB2B:
+	.word   34,112,-21,-28
+	.long   0675350bH
+	.word   06580H
+OBSETBOMB3A:
+	.word   30,135,16,-6
+	.long   0675568bH
+	.word   06580H
+OBSETBOMB3B:
+	.word   35,116,-14,-24
+	.long   06758dffH
+	.word   06580H
+OBSETBOMBLEG1A:
+	.word   30,88,16,-53
+	.long   0675b8e7H
+	.word   06480H
+OBSETBOMBLEG1B:
+	.word   30,88,-14,-52
+	.long   0675d737H
+	.word   06180H
+OBSETBOMB4A:
+	.word   49,50,11,-5
+	.long   0675f629H
+	.word   06580H
+OBSETBOMB5A:
+	.word   54,50,9,-5
+	.long   06761805H
+	.word   06580H
+OBSETBOMB6A:
+	.word   52,50,11,-5
+	.long   067638d9H
+	.word   06580H
+OBCOVEREAR1A:
+	.word   34,129,24,-12
+	.long   06765995H
+	.word   06080H
+OBCOVEREAR1B:
+	.word   31,109,-10,-30
+	.long   06769265H
+	.word   06580H
+OBCOVEREAR2A:
+	.word   44,127,37,-14
+	.long   0676b883H
+	.word   06180H
+OBCOVEREAR2B:
+	.word   34,112,-7,-27
+	.long   0676f335H
+	.word   06580H
+OBCOVEREAR3A:
+	.word   46,117,41,-24
+	.long   06771a91H
+	.word   06180H
+OBCOVEREAR3B:
+	.word   36,104,-5,-35
+	.long   067751e1H
+	.word   06580H
+OBCOVEREAR4A:
+	.word   48,104,46,-37
+	.long   06777531H
+	.word   06280H
+OBCOVEREAR4B:
+	.word   39,95,-2,-44
+	.long   0677a93dH
+	.word   06580H
+HUGEXPD01:
+	.word   176,138,87,69
+	.long   0677cacbH
+	.word   06a80H
+	.long   HUGE_P
+WICK1:
+	.word   33,77,47,-14
+	.long   067969ebH
+	.word   04580H
+	.long   WICK_P
+WICK2:
+	.word   29,74,43,-14
+	.long   06797997H
+	.word   04480H
+WICK3:
+	.word   24,76,38,-14
+	.long   067987c7H
+	.word   04480H
+WICK4:
+	.word   22,79,36,-14
+	.long   06799613H
+	.word   04580H
+WICK5:
+	.word   28,79,42,-14
+	.long   0679a4f3H
+	.word   04580H
+WICK6:
+	.word   32,78,46,-14
+	.long   0679b3ebH
+	.word   04580H
+WICK7:
+	.word   24,78,38,-14
+	.long   0679c2c3H
+	.word   04580H
+WICK8:
+	.word   24,78,38,-14
+	.long   0679d173H
+	.word   04580H
+WICK9:
+	.word   25,79,39,-13
+	.long   0679e01bH
+	.word   04580H
+WICK10:
+	.word   24,78,38,-14
+	.long   0679f03fH
+	.word   04580H
+WICK11:
+	.word   10,47,37,-45
+	.long   0679fedfH
+	.word   01000H
+EXPLOSIVES1:
+	.word   43,41,21,15
+	.long   067a00b5H
+	.word   05080H
+	.long   DYNO_P
+OBTAZAR1A:
+	.word   31,127,27,-14
+	.long   067a1f58H
+	.word   06080H
+OBTAZAR1B:
+	.word   35,112,-4,-28
+	.long   067a54a6H
+	.word   06580H
+OBTAZAR2A:
+	.word   31,128,29,-13
+	.long   067a7cf2H
+	.word   06080H
+OBTAZAR2B:
+	.word   37,114,-2,-26
+	.long   067ab35cH
+	.word   06580H
+OBTAZAR3A:
+	.word   28,126,30,-15
+	.long   067ad954H
+	.word   06080H
+OBTAZAR3B:
+	.word   41,103,2,-37
+	.long   067b0a74H
+	.word   06980H
+OBTAZAR4A:
+	.word   27,126,25,-15
+	.long   067b2f1eH
+	.word   06080H
+OBTAZAR4B:
+	.word   37,110,-2,-30
+	.long   067b637aH
+	.word   06580H
+OBTAZAR5A:
+	.word   29,130,24,-11
+	.long   067b8862H
+	.word   06080H
+OBTAZAR5B:
+	.word   34,123,-5,-17
+	.long   067bbf72H
+	.word   06580H
+OBTAZAR6A:
+	.word   25,126,14,-15
+	.long   067bebbeH
+	.word   06480H
+OBTAZAR6B:
+	.word   75,125,-11,-15
+	.long   067c1876H
+	.word   06d80H
+OBTAZAR7A:
+	.word   31,128,15,-13
+	.long   067c60f8H
+	.word   06480H
+OBTAZAR7B:
+	.word   34,101,-16,-39
+	.long   067c93f6H
+	.word   06480H
+OBTAZAR7C:
+	.word   73,30,-50,-25
+	.long   067cb8deH
+	.word   05880H
+OBTAZAR8A:
+	.word   33,129,15,-12
+	.long   067cd7c9H
+	.word   06480H
+OBTAZAR8B:
+	.word   183,107,-18,-33
+	.long   067d0c9dH
+	.word   06c80H
+OBTAZAR10A:
+	.word   25,128,15,-13
+	.long   067de201H
+	.word   06480H
+OBTAZAR10B:
+	.word   138,127,-10,-13
+	.long   067e0ee7H
+	.word   06c80H
+OBTAZAR10C:
+	.word   121,16,-148,-35
+	.long   067e68f5H
+	.word   06380H
+OBTAZAR11A:
+	.word   25,126,15,-15
+	.long   067bebbeH
+	.word   06480H
+OBTAZAR11B:
+	.word   120,125,-10,-15
+	.long   067e7de5H
+	.word   06d80H
+OBTAZAR11C:
+	.word   139,16,-130,-34
+	.long   067ec5a1H
+	.word   06380H
+	.TEXT
+

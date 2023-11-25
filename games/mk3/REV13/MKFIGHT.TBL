@@ -1,0 +1,211 @@
+	.DATA
+FINFITE1:
+	.word   170,46,0,-39
+	.long   0601291cH
+	.word   05000H
+	.long   MKFIGHT_P
+FINHIM1:
+	.word   308,46,0,-80
+	.long   0601c1d8H
+	.word   05000H
+	.long   MKFIGHT_P
+FINHER1:
+	.word   315,47,0,-80
+	.long   0602d690H
+	.word   05000H
+	.long   MKFIGHT_P
+FINFITE2:
+	.word   164,75,-3,-22
+	.long   0603f7b9H
+	.word   05f80H
+	.long   FITEYEL_P
+FINFITE3:
+	.word   152,98,-9,-10
+	.long   0604837dH
+	.word   05f80H
+FINFITE4:
+	.word   132,113,-19,-3
+	.long   0605015dH
+	.word   05f80H
+FINFITE5:
+	.word   109,118,-31,0
+	.long   06056ba1H
+	.word   05b80H
+FINFITE6:
+	.word   83,118,-44,0
+	.long   0605c45bH
+	.word   05a80H
+FINFITE7:
+	.word   67,111,-52,-4
+	.long   06060c0dH
+	.word   05a80H
+FINFITE8:
+	.word   70,99,-50,-10
+	.long   06064df6H
+	.word   05a80H
+FINFITE9:
+	.word   67,91,-52,-14
+	.long   06068ea8H
+	.word   05a80H
+FINFITE10:
+	.word   66,80,-52,-20
+	.long   0606cc45H
+	.word   05a80H
+FINFITE11:
+	.word   61,64,-55,-27
+	.long   060708bdH
+	.word   05a80H
+FINFITE12:
+	.word   55,47,-58,-36
+	.long   06073c6dH
+	.word   05a80H
+FINFITE13:
+	.word   47,34,-62,-42
+	.long   060764d2H
+	.word   05080H
+FINFITE14:
+	.word   38,29,-68,-44
+	.long   06077eecH
+	.word   05080H
+FINFITE15:
+	.word   27,22,-73,-48
+	.long   06078fe2H
+	.word   05180H
+FINFITE16:
+	.word   17,15,-78,-51
+	.long   06079821H
+	.word   05080H
+FINFITE17:
+	.word   6,6,-84,-55
+	.long   06079baaH
+	.word   05000H
+FINHIM2:
+	.word   291,108,-9,-46
+	.long   06079c5eH
+	.word   05f80H
+FINHIM3:
+	.word   261,157,-23,-22
+	.long   0608e36aH
+	.word   05f80H
+FINHIM4:
+	.word   220,186,-44,-7
+	.long   0609fa3fH
+	.word   05f80H
+FINHIM5:
+	.word   174,200,-67,0
+	.long   060ac1a7H
+	.word   05f80H
+FINHIM6:
+	.word   125,200,-90,0
+	.long   060b667fH
+	.word   05f80H
+FINHIM7:
+	.word   112,197,-99,0
+	.long   060bfe0fH
+	.word   05f80H
+FINHIM8:
+	.word   119,180,-95,-10
+	.long   060ca45fH
+	.word   05f80H
+FINHIM9:
+	.word   117,162,-96,-19
+	.long   060d566bH
+	.word   05f80H
+FINHIM10:
+	.word   115,136,-97,-33
+	.long   060e091dH
+	.word   05f80H
+FINHIM11:
+	.word   106,105,-102,-47
+	.long   060eb34dH
+	.word   05f80H
+FINHIM12:
+	.word   95,75,-107,-64
+	.long   060f4597H
+	.word   05980H
+FINHIM13:
+	.word   83,60,-113,-71
+	.long   060fba68H
+	.word   05980H
+FINHIM14:
+	.word   67,50,-121,-76
+	.long   06100478H
+	.word   05980H
+FINHIM15:
+	.word   49,39,-130,-81
+	.long   06103358H
+	.word   05580H
+FINHIM16:
+	.word   31,26,-139,-87
+	.long   06104c19H
+	.word   05480H
+FINHIM17:
+	.word   9,9,-150,-96
+	.long   061055b3H
+	.word   05000H
+FINHER2:
+	.word   298,112,-1,-44
+	.long   06105748H
+	.word   05f80H
+FINHER3:
+	.word   268,160,-17,-20
+	.long   0611baf8H
+	.word   05f80H
+FINHER4:
+	.word   228,188,-36,-6
+	.long   0612ed60H
+	.word   05f80H
+FINHER5:
+	.word   184,200,-58,0
+	.long   0613c608H
+	.word   05f80H
+FINHER6:
+	.word   135,200,-82,0
+	.long   06147b98H
+	.word   05f80H
+FINHER7:
+	.word   112,200,-95,0
+	.long   06151dc8H
+	.word   05f80H
+FINHER8:
+	.word   118,185,-91,-8
+	.long   0615c9f8H
+	.word   05f80H
+FINHER9:
+	.word   118,165,-91,-18
+	.long   06167e16H
+	.word   05f80H
+FINHER10:
+	.word   114,143,-93,-29
+	.long   0617361cH
+	.word   05f80H
+FINHER11:
+	.word   107,115,-97,-43
+	.long   0617e052H
+	.word   05f80H
+FINHER12:
+	.word   95,87,-102,-57
+	.long   0618780fH
+	.word   05f80H
+FINHER13:
+	.word   83,62,-109,-69
+	.long   0618f254H
+	.word   05680H
+FINHER14:
+	.word   67,51,-117,-75
+	.long   06194700H
+	.word   05980H
+FINHER15:
+	.word   51,39,-125,-81
+	.long   06197877H
+	.word   05580H
+FINHER16:
+	.word   32,27,-134,-87
+	.long   0619903eH
+	.word   05480H
+FINHER17:
+	.word   9,11,-146,-95
+	.long   06199a76H
+	.word   05000H
+	.TEXT
+

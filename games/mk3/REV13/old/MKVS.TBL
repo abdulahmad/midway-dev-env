@@ -1,0 +1,299 @@
+	.DATA
+BOX2:
+	.word   147,21,0,0
+	.long   05af36fbH
+	.word   05000H
+	.long   BOX1_P
+BATTLE0:
+	.word   35,18,17,-6
+	.long   05af7346H
+	.word   05080H
+	.long   BATTLE_P
+BATTLE:
+	.word   175,19,0,0
+	.long   05af7f70H
+	.word   05080H
+	.long   BATTLE_P
+MKLIGHT1:
+	.word   79,61,0,0
+	.long   05afc018H
+	.word   05680H
+	.long   mKlIGHT_p
+I_DRAGON:
+	.word   21,17,0,0
+	.long   05b01471H
+	.word   06000H
+	.long   IDRAG_P
+I_GORO:
+	.word   21,17,0,0
+	.long   05b01ccfH
+	.word   06000H
+	.long   IGORO_P
+I_LIGHTNING:
+	.word   21,17,0,0
+	.long   05b0252dH
+	.word   06000H
+	.long   ILIGHT_P
+I_MK:
+	.word   21,17,0,0
+	.long   05b02d8bH
+	.word   06000H
+	.long   IMK_P
+I_QUESTION:
+	.word   21,17,0,0
+	.long   05b035e9H
+	.word   06000H
+	.long   IQ_P
+I_RAIDEN:
+	.word   21,17,0,0
+	.long   05b03e47H
+	.word   06000H
+	.long   IRAID_P
+I_SHOKAHN:
+	.word   21,17,0,0
+	.long   05b046a5H
+	.word   06000H
+	.long   IKAHN_P
+I_SKULL:
+	.word   21,17,0,0
+	.long   05b04f03H
+	.word   06000H
+	.long   ISKULL_P
+I_THREE:
+	.word   21,17,0,0
+	.long   05b05761H
+	.word   06000H
+	.long   ITHREE_P
+I_YINYANG:
+	.word   21,17,0,0
+	.long   05b05fbfH
+	.word   06000H
+	.long   IYIN_P
+MKLIGHT2:
+	.word   79,60,0,0
+	.long   05b0681dH
+	.word   05580H
+MKLIGHT3:
+	.word   79,61,0,0
+	.long   05b0bbfbH
+	.word   05680H
+MKLIGHT4:
+	.word   79,61,0,0
+	.long   05b1104aH
+	.word   05680H
+MKLIGHT5:
+	.word   79,61,0,0
+	.long   05b16471H
+	.word   05680H
+MKLIGHT6:
+	.word   79,60,0,0
+	.long   05b1b898H
+	.word   05680H
+MKLIGHT7:
+	.word   79,60,0,0
+	.long   05b20c4eH
+	.word   05580H
+MKLIGHT8:
+	.word   79,60,0,0
+	.long   05b26018H
+	.word   05580H
+MKLIGHT9:
+	.word   79,61,0,0
+	.long   05b2b3ecH
+	.word   05680H
+MKLIGHT10:
+	.word   79,60,0,0
+	.long   05b30809H
+	.word   05580H
+MKLIGHT11:
+	.word   79,61,0,0
+	.long   05b35be7H
+	.word   05680H
+MKLIGHT12:
+	.word   79,60,0,0
+	.long   05b3b018H
+	.word   05580H
+MKLIGHT13:
+	.word   79,60,0,0
+	.long   05b403f6H
+	.word   05580H
+MKLIGHT14:
+	.word   79,60,0,0
+	.long   05b457d4H
+	.word   05580H
+MKLIGHT15:
+	.word   79,60,0,0
+	.long   05b4ab94H
+	.word   05680H
+MKLIGHT16:
+	.word   79,61,0,0
+	.long   05b4ff54H
+	.word   05680H
+MKLIGHT17:
+	.word   79,60,0,0
+	.long   05b5535dH
+	.word   05580H
+MKLIGHT18:
+	.word   79,61,0,0
+	.long   05b5a73bH
+	.word   05680H
+MKLIGHT19:
+	.word   79,60,0,0
+	.long   05b5fb6cH
+	.word   05580H
+MKLIGHT20:
+	.word   79,61,0,0
+	.long   05b64f40H
+	.word   05680H
+BATTLE1:
+	.word   24,18,14,-6
+	.long   05b6a35dH
+	.word   05080H
+BATTLE2:
+	.word   34,18,17,-6
+	.long   05b6aad2H
+	.word   05480H
+BATTLE3:
+	.word   33,19,17,-6
+	.long   05b6b47cH
+	.word   05180H
+BATTLE4:
+	.word   38,18,18,-6
+	.long   05b6be29H
+	.word   05080H
+BATTLE5:
+	.word   32,18,16,-7
+	.long   05b6c918H
+	.word   05480H
+BATTLE6:
+	.word   35,18,17,-7
+	.long   05b6d31cH
+	.word   05080H
+BATTLE7:
+	.word   31,18,14,-7
+	.long   05b6de74H
+	.word   05080H
+BATTLE8:
+	.word   33,18,17,-7
+	.long   05b6e6fcH
+	.word   05080H
+BATTLE9:
+	.word   36,18,18,-7
+	.long   05b6f20eH
+	.word   05080H
+BURNV1:
+	.word   20,23,-2,-9
+	.long   05b6fe1fH
+	.word   06080H
+	.long   BURNVS_P
+BURNS1:
+	.word   14,19,-26,-1
+	.long   05b705cdH
+	.word   06080H
+	.long   BURNVS_P
+BURNV2:
+	.word   20,26,1,-12
+	.long   05b70b69H
+	.word   06080H
+BURNV3:
+	.word   17,31,0,-12
+	.long   05b7141fH
+	.word   06080H
+BURNV4:
+	.word   16,38,-1,-12
+	.long   05b71dabH
+	.word   06080H
+BURNV5:
+	.word   17,50,-2,-12
+	.long   05b728e3H
+	.word   06080H
+BURNV6:
+	.word   19,48,-4,-12
+	.long   05b737e7H
+	.word   06080H
+BURNV7:
+	.word   24,47,-4,-12
+	.long   05b7472fH
+	.word   06080H
+BURNV8:
+	.word   26,47,-4,-12
+	.long   05b75855H
+	.word   06080H
+BURNV9:
+	.word   28,47,-4,-12
+	.long   05b76bbbH
+	.word   06080H
+BURNV10:
+	.word   36,53,-4,-6
+	.long   05b7817fH
+	.word   06580H
+BURNV11:
+	.word   38,54,-4,-5
+	.long   05b79e57H
+	.word   06580H
+BURNV12:
+	.word   40,59,-4,0
+	.long   05b7bb4fH
+	.word   06580H
+BURNV13:
+	.word   41,60,-4,1
+	.long   05b7d953H
+	.word   06680H
+BURNS2:
+	.word   15,21,-25,1
+	.long   05b7f867H
+	.word   06080H
+BURNS3:
+	.word   21,18,-19,-4
+	.long   05b7fecdH
+	.word   06080H
+BURNS4:
+	.word   23,21,-17,-4
+	.long   05b8061dH
+	.word   06080H
+BURNS5:
+	.word   27,25,-13,-4
+	.long   05b80e4bH
+	.word   06480H
+BURNS6:
+	.word   34,33,-6,-4
+	.long   05b81819H
+	.word   06580H
+BURNS7:
+	.word   29,33,-11,-4
+	.long   05b82425H
+	.word   06180H
+BURNS8:
+	.word   28,33,-12,-4
+	.long   05b830b5H
+	.word   06080H
+BURNS9:
+	.word   29,38,-11,-4
+	.long   05b83ec5H
+	.word   06180H
+BURNS10:
+	.word   29,42,-11,-4
+	.long   05b8500fH
+	.word   06080H
+BURNS11:
+	.word   29,47,-11,-4
+	.long   05b86233H
+	.word   06080H
+BURNS12:
+	.word   29,53,-11,-4
+	.long   05b875e7H
+	.word   06180H
+BURNS13:
+	.word   33,56,-7,-4
+	.long   05b88b45H
+	.word   06580H
+BURNS14:
+	.word   37,58,-3,-4
+	.long   05b8a1d5H
+	.word   06580H
+BURNS15:
+	.word   41,60,1,-4
+	.long   05b8b8c9H
+	.word   06580H
+	.TEXT
+

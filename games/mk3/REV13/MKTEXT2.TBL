@@ -1,0 +1,35 @@
+	.DATA
+SMALLFONT_APOS:
+	.word   5,5,0,0
+	.long   08ff656bH
+	.word   04000H
+SMALLFONT_OPNQ:
+	.word   9,5,0,0
+	.long   08ff65cfH
+	.word   04000H
+SMALLFONT_CLOQ:
+	.word   9,5,0,0
+	.long   08ff6683H
+	.word   04000H
+SMALLFONT_SEMI:
+	.word   7,10,1,-1
+	.long   08ff6737H
+	.word   04000H
+BIGFONT_APOS:
+	.word   7,6,0,-1
+	.long   08ff684fH
+	.word   04000H
+BIGFONT_OPNQ:
+	.word   13,6,0,0
+	.long   08ff68f7H
+	.word   04080H
+BIGFONT_CLOQ:
+	.word   13,6,0,0
+	.long   08ff6a27H
+	.word   04080H
+BIGFONT_SEMI:
+	.word   9,13,1,-2
+	.long   08ff6b5fH
+	.word   04000H
+	.TEXT
+

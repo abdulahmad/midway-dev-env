@@ -1,0 +1,206 @@
+	.DATA
+LIABODY1A:
+	.word   31,72,17,-66
+	.long   08539492H
+	.word   06580H
+LIABODY1B:
+	.word   37,77,-14,-60
+	.long   0853aa2eH
+	.word   06480H
+LIBODYPULL1A:
+	.word   15,50,31,-42
+	.long   0853d204H
+	.word   06080H
+LIBODYPULL1B:
+	.word   28,97,25,-42
+	.long   0853e198H
+	.word   06480H
+LIBODYPULL1C:
+	.word   37,84,-3,-54
+	.long   085402c4H
+	.word   06580H
+LILGHAIR1A:
+	.word   79,37,-50,-49
+	.long   08541e9cH
+	.word   06b80H
+LILGHAIR2A:
+	.word   31,26,-51,-53
+	.long   085449a6H
+	.word   06480H
+LILGHAIR2B:
+	.word   105,82,-82,-53
+	.long   085459a0H
+	.word   06f80H
+LILGHAIR3A:
+	.word   69,20,-117,-119
+	.long   08548fccH
+	.word   06880H
+LILGHAIR4A:
+	.word   74,20,-117,-119
+	.long   0854a428H
+	.word   06580H
+LILGHAIR5A:
+	.word   74,33,-117,-106
+	.long   0854be3cH
+	.word   06580H
+LILGHAIR6A:
+	.word   79,33,-115,-106
+	.long   0854e9d4H
+	.word   06080H
+LILGHAIR7A:
+	.word   79,51,-115,-88
+	.long   08552208H
+	.word   06580H
+LILGHAIR8A:
+	.word   79,70,-115,-69
+	.long   0855730eH
+	.word   06880H
+LILGHAIR9A:
+	.word   79,88,-115,-51
+	.long   0855e5b8H
+	.word   06480H
+LILGHAIR10A:
+	.word   79,104,-115,-35
+	.long   085678e4H
+	.word   06480H
+LILGHAIR11A:
+	.word   79,126,-115,-13
+	.long   085728a4H
+	.word   06480H
+LILGHAIR12A:
+	.word   79,134,-115,-5
+	.long   0857f768H
+	.word   06580H
+LILGHAIR13A:
+	.word   79,146,-115,7
+	.long   0858cda4H
+	.word   06580H
+LILGHAIR14A:
+	.word   32,82,21,-56
+	.long   0859abe4H
+	.word   06580H
+LILGHAIR14B:
+	.word   71,90,-11,-48
+	.long   0859c3c8H
+	.word   06980H
+LILGHAIR14C:
+	.word   112,126,-82,-13
+	.long   0859ffb0H
+	.word   06680H
+LILGHAIR15A:
+	.word   33,120,26,-18
+	.long   085ae3b0H
+	.word   06580H
+LILGHAIR15B:
+	.word   41,126,-7,-12
+	.long   085b1050H
+	.word   06580H
+LILGHAIR15C:
+	.word   146,122,-48,-17
+	.long   085b4674H
+	.word   06f80H
+LILGHAIR16A:
+	.word   44,43,31,1
+	.long   085c111cH
+	.word   06580H
+LILGHAIR16B:
+	.word   181,140,-13,1
+	.long   085c2bf4H
+	.word   06f80H
+LILGHAIR17A:
+	.word   43,77,46,35
+	.long   085cf18cH
+	.word   06480H
+LILGHAIR17B:
+	.word   135,151,3,31
+	.long   085d235eH
+	.word   06f80H
+LILGHAIR17C:
+	.word   74,33,-117,-106
+	.long   085d6c5cH
+	.word   06580H
+LILGHAIR18A:
+	.word   55,90,59,48
+	.long   085d9878H
+	.word   06580H
+LILGHAIR18B:
+	.word   40,43,4,48
+	.long   085dd85cH
+	.word   06680H
+LILGHAIR19A:
+	.word   57,62,62,20
+	.long   085de80cH
+	.word   06980H
+LILGHAIR20A:
+	.word   46,78,68,-24
+	.long   085e0b74H
+	.word   06280H
+LILGHAIR20B:
+	.word   22,99,23,-40
+	.long   085e37aeH
+	.word   06080H
+LILGHAIR20C:
+	.word   35,81,1,-55
+	.long   085e5944H
+	.word   06580H
+RBRIP1A:
+	.word   51,122,41,-21
+	.long   085e72a6H
+	.word   05680H
+	.long   RBRDFLA_P
+RBRIP2A:
+	.word   79,122,67,-21
+	.long   085eb01eH
+	.word   05680H
+	.long   RBRDFLA_P
+RBRIP3A:
+	.word   82,122,71,-21
+	.long   085efbe2H
+	.word   05680H
+	.long   RBRDFLA_P
+RBRIP4A:
+	.word   136,122,127,-21
+	.long   085f5a70H
+	.word   04f80H
+	.long   RBRDFLB_P
+RBRIP5A:
+	.word   156,122,147,-21
+	.long   085fd8a0H
+	.word   04f80H
+	.long   RBRDFLB_P
+RBRIP6A:
+	.word   91,121,151,-21
+	.long   08606690H
+	.word   04f80H
+	.long   RBRDFLB_P
+RBRIP7A:
+	.word   104,121,153,-21
+	.long   0860aa44H
+	.word   04f80H
+	.long   RBRDFLB_P
+RBRIP1B:
+	.word   26,94,-10,-48
+	.long   0860f0acH
+	.word   05480H
+RBRIP2B:
+	.word   24,91,-12,-51
+	.long   08610c38H
+	.word   05480H
+RBRIP3B:
+	.word   25,92,-11,-50
+	.long   086125c7H
+	.word   05480H
+RBRIP4B:
+	.word   25,91,-9,-51
+	.long   086140dfH
+	.word   04180H
+RBRIP5B:
+	.word   23,90,-9,-52
+	.long   086153ffH
+	.word   04180H
+RBRIP6B:
+	.word   72,104,49,-35
+	.long   0861660bH
+	.word   04b80H
+	.TEXT
+
